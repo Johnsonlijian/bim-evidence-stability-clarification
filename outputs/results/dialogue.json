@@ -1,0 +1,99 @@
+{
+ "project": "sixty5",
+ "seed": 75,
+ "median_cost": 351.0,
+ "initial_closed": 379,
+ "total": 1335,
+ "rows": [
+  [
+   1,
+   "Clarify",
+   "Does \\texttt{ArchiCADQuantities.Width} of door type D1 21 denote the leaf or the opening?",
+   "opening",
+   1.0,
+   0,
+   379
+  ],
+  [
+   2,
+   "Value",
+   "Certified clear width of door type D1 21",
+   "874\\,mm",
+   3.0,
+   651,
+   1030
+  ],
+  [
+   3,
+   "Value",
+   "Certified clear width of door type D1 zl1-b 21",
+   "857\\,mm",
+   3.0,
+   43,
+   1073
+  ],
+  [
+   4,
+   "Value",
+   "Certified height of railing type DD staal",
+   "916\\,mm",
+   3.0,
+   1,
+   1074
+  ],
+  [
+   5,
+   "Clarify",
+   "Is railing type DD staal a guard or a handrail?",
+   "handrail",
+   1.0,
+   66,
+   1140
+  ],
+  [
+   6,
+   "Value",
+   "Certified height of railing type DD Aluminium",
+   "1076\\,mm",
+   3.0,
+   0,
+   1140
+  ],
+  [
+   7,
+   "Clarify",
+   "Is railing type DD Aluminium a guard or a handrail?",
+   "handrail",
+   1.0,
+   70,
+   1210
+  ],
+  [
+   8,
+   "Value",
+   "Certified height of railing type DD prefabbeton",
+   "838\\,mm",
+   3.0,
+   13,
+   1223
+  ],
+  [
+   9,
+   "Clarify",
+   "Use category of space kavel nr 1.04?",
+   "occupiable",
+   1.0,
+   0,
+   1223
+  ],
+  [
+   10,
+   "Clarify",
+   "Use category of space kavel nr 1.02?",
+   "occupiable",
+   1.0,
+   0,
+   1223
+  ]
+ ]
+}

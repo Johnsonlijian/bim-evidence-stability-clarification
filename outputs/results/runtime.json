@@ -1,0 +1,162 @@
+{
+ "cpu": "AMD Ryzen 9 5950X, 16 cores, 128 GB RAM",
+ "models": [
+  {
+   "project": "city_house_munich",
+   "set": "dev",
+   "groups": 33,
+   "clusters": 15,
+   "checks": 46,
+   "diag_s": 0.012317400018218905,
+   "max_shared_assignments": 32,
+   "max_hypotheses": 16
+  },
+  {
+   "project": "duplex",
+   "set": "dev",
+   "groups": 31,
+   "clusters": 11,
+   "checks": 43,
+   "diag_s": 0.012035300023853779,
+   "max_shared_assignments": 32,
+   "max_hypotheses": 8
+  },
+  {
+   "project": "fantasy_office_building_1",
+   "set": "dev",
+   "groups": 76,
+   "clusters": 33,
+   "checks": 134,
+   "diag_s": 0.014488799963146448,
+   "max_shared_assignments": 16,
+   "max_hypotheses": 4
+  },
+  {
+   "project": "wbdg_office",
+   "set": "dev",
+   "groups": 116,
+   "clusters": 17,
+   "checks": 219,
+   "diag_s": 0.05557299999054521,
+   "max_shared_assignments": 64,
+   "max_hypotheses": 16
+  },
+  {
+   "project": "fantasy_hotel_1",
+   "set": "heldout",
+   "groups": 44,
+   "clusters": 18,
+   "checks": 70,
+   "diag_s": 0.009832700015977025,
+   "max_shared_assignments": 16,
+   "max_hypotheses": 6
+  },
+  {
+   "project": "fantasy_hotel_2",
+   "set": "heldout",
+   "groups": 64,
+   "clusters": 43,
+   "checks": 156,
+   "diag_s": 0.009930800006259233,
+   "max_shared_assignments": 16,
+   "max_hypotheses": 8
+  },
+  {
+   "project": "fantasy_office_building_2",
+   "set": "heldout",
+   "groups": 73,
+   "clusters": 47,
+   "checks": 157,
+   "diag_s": 0.022583100013434887,
+   "max_shared_assignments": 32,
+   "max_hypotheses": 12
+  },
+  {
+   "project": "fantasy_office_building_3",
+   "set": "heldout",
+   "groups": 131,
+   "clusters": 44,
+   "checks": 218,
+   "diag_s": 0.018744800006970763,
+   "max_shared_assignments": 16,
+   "max_hypotheses": 6
+  },
+  {
+   "project": "fantasy_residential_building_1",
+   "set": "heldout",
+   "groups": 78,
+   "clusters": 20,
+   "checks": 199,
+   "diag_s": 0.008326699957251549,
+   "max_shared_assignments": 16,
+   "max_hypotheses": 6
+  },
+  {
+   "project": "hitos",
+   "set": "heldout",
+   "groups": 285,
+   "clusters": 16,
+   "checks": 447,
+   "diag_s": 0.03674849995877594,
+   "max_shared_assignments": 16,
+   "max_hypotheses": 6
+  },
+  {
+   "project": "molio",
+   "set": "heldout",
+   "groups": 218,
+   "clusters": 8,
+   "checks": 2355,
+   "diag_s": 0.04333399998722598,
+   "max_shared_assignments": 32,
+   "max_hypotheses": 8
+  },
+  {
+   "project": "sixty5",
+   "set": "heldout",
+   "groups": 145,
+   "clusters": 16,
+   "checks": 1335,
+   "diag_s": 0.02993710001464933,
+   "max_shared_assignments": 16,
+   "max_hypotheses": 5
+  },
+  {
+   "project": "west_riverside_hospital",
+   "set": "heldout",
+   "groups": 19,
+   "clusters": 17,
+   "checks": 529,
+   "diag_s": 0.011454100022092462,
+   "max_shared_assignments": 16,
+   "max_hypotheses": 4
+  }
+ ],
+ "planner_run_median_s": {
+  "duplex": 0.015,
+  "city_house_munich": 0.02,
+  "wbdg_office": 0.058,
+  "fantasy_office_building_1": 0.07,
+  "fantasy_hotel_2": 0.027,
+  "west_riverside_hospital": 0.017,
+  "fantasy_hotel_1": 0.018000000000000002,
+  "fantasy_office_building_2": 0.037,
+  "fantasy_residential_building_1": 0.021,
+  "fantasy_office_building_3": 0.041999999999999996,
+  "molio": 0.06,
+  "sixty5": 1.005,
+  "hitos": 0.1375
+ },
+ "planner_per_request_median_s": 0.00475,
+ "extraction_s": {
+  "fantasy_hotel_1": 55.1,
+  "fantasy_hotel_2": 107.2,
+  "fantasy_office_building_2": 103.6,
+  "fantasy_office_building_3": 70.8,
+  "fantasy_residential_building_1": 137.6,
+  "hitos": 77.1,
+  "molio": 192.6,
+  "sixty5": 201.7,
+  "west_riverside_hospital": 179.0
+ }
+}

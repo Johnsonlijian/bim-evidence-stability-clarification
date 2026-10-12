@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this reproducibility package, cite the associated manuscript and this package."
+title: "Reproducibility package for interpretation-invariant BIM code checking"
+type: software
+version: 0.1.0
+date-released: 2026-10-12
+authors:
+  - family-names: Ren
+    given-names: Lijian
+    email: renlijian@imut.edu.cn
+    affiliation: "School of Civil Engineering, Inner Mongolia University of Technology; Inner Mongolia Autonomous Region Key Laboratory of Green Construction and Intelligent Operation and Maintenance of Civil Engineering"
+abstract: "Code and derived records for a study of interpretation-invariant BIM code checking and stability-guided clarification under conflicting IFC evidence."
+keywords:
+  - building information modeling
+  - automated code checking
+  - Industry Foundation Classes
+  - value of information
+  - data quality
+license: other

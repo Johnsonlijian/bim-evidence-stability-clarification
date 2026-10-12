@@ -1,0 +1,8658 @@
+{
+ "project": "fantasy_residential_building_1",
+ "schema": "IFC4",
+ "occupancy": "commercial",
+ "length_scale_m": 1.0,
+ "metric": true,
+ "vars": {
+  "fantasy_residential_building_1|door|0|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_residential_building_1|door|0",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_residential_building_1|door|0|app": {
+   "domain": [
+    "PASSAGE",
+    "NONPASSAGE"
+   ],
+   "scope": "cluster",
+   "kind": "app",
+   "cluster": "fantasy_residential_building_1|door|0",
+   "group": null,
+   "label": "door is a passage door (applicability)"
+  },
+  "fantasy_residential_building_1|door|0|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|0",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_residential_building_1|door|0|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|0",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_residential_building_1|door|1|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_residential_building_1|door|1",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_residential_building_1|door|1|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|1",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_residential_building_1|door|1|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|1",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_residential_building_1|door|2|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_residential_building_1|door|2",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_residential_building_1|door|2|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|2",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_residential_building_1|door|2|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|2",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_residential_building_1|door|3|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_residential_building_1|door|3",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_residential_building_1|door|3|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|3",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_residential_building_1|door|3|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|3",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_residential_building_1|door|4|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_residential_building_1|door|4",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_residential_building_1|door|4|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|4",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_residential_building_1|door|4|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|4",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_residential_building_1|door|5|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_residential_building_1|door|5",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_residential_building_1|door|5|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|5",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_residential_building_1|door|5|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|5",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_residential_building_1|door|6|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_residential_building_1|door|6",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_residential_building_1|door|6|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|6",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_residential_building_1|door|6|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|door|6",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_residential_building_1|rail|0|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "fantasy_residential_building_1|rail|0",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "fantasy_residential_building_1|rail|1|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "fantasy_residential_building_1|rail|1",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "fantasy_residential_building_1|space|sem|RoomHeight": {
+   "domain": [
+    "CLEAR",
+    "GROSS"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": null,
+   "label": "meaning of the room height parameter (finished ceiling vs computational upper limit)"
+  },
+  "fantasy_residential_building_1|space|sem|Body": {
+   "domain": [
+    "CLEAR",
+    "GROSS"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": null,
+   "label": "meaning of space body height (finished ceiling vs upper limit)"
+  },
+  "fantasy_residential_building_1|space|73|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|73",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|102|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|102",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|125|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|125",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|148|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|148",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|171|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|171",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|194|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|194",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|217|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|217",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|240|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|240",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|263|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|263",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|286|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|286",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|311|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|311",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|334|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|334",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|357|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|357",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|380|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|380",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|403|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|403",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|426|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|426",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|449|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|449",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|472|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|472",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|495|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|495",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|518|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|518",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|541|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|541",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|564|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|564",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|587|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|587",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|610|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|610",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|633|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|633",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|656|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|656",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|679|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|679",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|702|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|702",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|725|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|725",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|748|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|748",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|771|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|771",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|794|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|794",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|817|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|817",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|840|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|840",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|863|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|863",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|886|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|886",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|909|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|909",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|932|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|932",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|955|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|955",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|978|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|978",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1001|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1001",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1024|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1024",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1047|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1047",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1070|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1070",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1093|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1093",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1116|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1116",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1139|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1139",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1162|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1162",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1185|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1185",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1208|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1208",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1231|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1231",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1254|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1254",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1277|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1277",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1300|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1300",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1323|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1323",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1346|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1346",
+   "label": "space category (applicability)"
+  },
+  "fantasy_residential_building_1|space|1369|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_residential_building_1|space",
+   "group": "fantasy_residential_building_1|space|1369",
+   "label": "space category (applicability)"
+  }
+ },
+ "clusters": {
+  "fantasy_residential_building_1|door|0": {
+   "family": "door",
+   "label": "ASSA_ABLOY_SemiTransparent_NonHosted:Semi Transparent non hosted",
+   "groups": [
+    "fantasy_residential_building_1|door|0|g0"
+   ]
+  },
+  "fantasy_residential_building_1|door|1": {
+   "family": "door",
+   "label": "Door-Solar_Innovations-Multi_Track_Sliding_Glass_Door_XO:SI8200",
+   "groups": [
+    "fantasy_residential_building_1|door|1|g0"
+   ]
+  },
+  "fantasy_residential_building_1|door|2": {
+   "family": "door",
+   "label": "Doors_Interior_WUNDERWERK-est-1964_All-glass-door-Burgos_GER:Standard - Bitte laden Sie die Revit Family Type Catalog",
+   "groups": [
+    "fantasy_residential_building_1|door|2|g0"
+   ]
+  },
+  "fantasy_residential_building_1|door|3": {
+   "family": "door",
+   "label": "Drehflügel 1-flg - Stahlzarge:88.5 x 2.26",
+   "groups": [
+    "fantasy_residential_building_1|door|3|g0"
+   ]
+  },
+  "fantasy_residential_building_1|door|4": {
+   "family": "door",
+   "label": "Drehflügel 1-flg - Variabel:Drehflügel 1-flg - Variabel",
+   "groups": [
+    "fantasy_residential_building_1|door|4|g0"
+   ]
+  },
+  "fantasy_residential_building_1|door|5": {
+   "family": "door",
+   "label": "TU DF 1 - Haustüre:Front Door",
+   "groups": [
+    "fantasy_residential_building_1|door|5|g0"
+   ]
+  },
+  "fantasy_residential_building_1|door|6": {
+   "family": "door",
+   "label": "TU SF 2 - Lift Zentral:DL - 705 x 2100",
+   "groups": [
+    "fantasy_residential_building_1|door|6|g0"
+   ]
+  },
+  "fantasy_residential_building_1|stair_riser|2327": {
+   "family": "stair",
+   "label": "Betonfertigteil-Treppe:Treppe:482287 Run 1",
+   "groups": [
+    "fantasy_residential_building_1|stair_riser|2327|g0"
+   ]
+  },
+  "fantasy_residential_building_1|stair_tread|2327": {
+   "family": "stair",
+   "label": "Betonfertigteil-Treppe:Treppe:482287 Run 1",
+   "groups": [
+    "fantasy_residential_building_1|stair_tread|2327|g0"
+   ]
+  },
+  "fantasy_residential_building_1|stair_riser|125362": {
+   "family": "stair",
+   "label": "Betonfertigteil-Treppe:Treppe:813742 Run 1",
+   "groups": [
+    "fantasy_residential_building_1|stair_riser|125362|g0"
+   ]
+  },
+  "fantasy_residential_building_1|stair_tread|125362": {
+   "family": "stair",
+   "label": "Betonfertigteil-Treppe:Treppe:813742 Run 1",
+   "groups": [
+    "fantasy_residential_building_1|stair_tread|125362|g0"
+   ]
+  },
+  "fantasy_residential_building_1|stair_riser|134372": {
+   "family": "stair",
+   "label": "Ortbetontreppe:Treppe:840025 Run 1",
+   "groups": [
+    "fantasy_residential_building_1|stair_riser|134372|g0"
+   ]
+  },
+  "fantasy_residential_building_1|stair_tread|134372": {
+   "family": "stair",
+   "label": "Ortbetontreppe:Treppe:840025 Run 1",
+   "groups": [
+    "fantasy_residential_building_1|stair_tread|134372|g0"
+   ]
+  },
+  "fantasy_residential_building_1|stair_riser|172312": {
+   "family": "stair",
+   "label": "Ortbetontreppe:Treppe:991197 Run 1",
+   "groups": [
+    "fantasy_residential_building_1|stair_riser|172312|g0"
+   ]
+  },
+  "fantasy_residential_building_1|stair_tread|172312": {
+   "family": "stair",
+   "label": "Ortbetontreppe:Treppe:991197 Run 1",
+   "groups": [
+    "fantasy_residential_building_1|stair_tread|172312|g0"
+   ]
+  },
+  "fantasy_residential_building_1|stair_riser|177632": {
+   "family": "stair",
+   "label": "Zusammengebaute Treppe:Treppe:1046027 Run 1",
+   "groups": [
+    "fantasy_residential_building_1|stair_riser|177632|g0"
+   ]
+  },
+  "fantasy_residential_building_1|stair_tread|177632": {
+   "family": "stair",
+   "label": "Zusammengebaute Treppe:Treppe:1046027 Run 1",
+   "groups": [
+    "fantasy_residential_building_1|stair_tread|177632|g0"
+   ]
+  },
+  "fantasy_residential_building_1|rail|0": {
+   "family": "railing",
+   "label": "Geländer:Glas - Ohne Pfosten",
+   "groups": [
+    "fantasy_residential_building_1|rail|0|g0",
+    "fantasy_residential_building_1|rail|0|g1",
+    "fantasy_residential_building_1|rail|0|g2"
+   ]
+  },
+  "fantasy_residential_building_1|rail|1": {
+   "family": "railing",
+   "label": "Geländer:Holzhandlauf",
+   "groups": [
+    "fantasy_residential_building_1|rail|1|g0"
+   ]
+  },
+  "fantasy_residential_building_1|space": {
+   "family": "space",
+   "label": "all spaces",
+   "groups": [
+    "fantasy_residential_building_1|space|73",
+    "fantasy_residential_building_1|space|102",
+    "fantasy_residential_building_1|space|125",
+    "fantasy_residential_building_1|space|148",
+    "fantasy_residential_building_1|space|171",
+    "fantasy_residential_building_1|space|194",
+    "fantasy_residential_building_1|space|217",
+    "fantasy_residential_building_1|space|240",
+    "fantasy_residential_building_1|space|263",
+    "fantasy_residential_building_1|space|286",
+    "fantasy_residential_building_1|space|311",
+    "fantasy_residential_building_1|space|334",
+    "fantasy_residential_building_1|space|357",
+    "fantasy_residential_building_1|space|380",
+    "fantasy_residential_building_1|space|403",
+    "fantasy_residential_building_1|space|426",
+    "fantasy_residential_building_1|space|449",
+    "fantasy_residential_building_1|space|472",
+    "fantasy_residential_building_1|space|495",
+    "fantasy_residential_building_1|space|518",
+    "fantasy_residential_building_1|space|541",
+    "fantasy_residential_building_1|space|564",
+    "fantasy_residential_building_1|space|587",
+    "fantasy_residential_building_1|space|610",
+    "fantasy_residential_building_1|space|633",
+    "fantasy_residential_building_1|space|656",
+    "fantasy_residential_building_1|space|679",
+    "fantasy_residential_building_1|space|702",
+    "fantasy_residential_building_1|space|725",
+    "fantasy_residential_building_1|space|748",
+    "fantasy_residential_building_1|space|771",
+    "fantasy_residential_building_1|space|794",
+    "fantasy_residential_building_1|space|817",
+    "fantasy_residential_building_1|space|840",
+    "fantasy_residential_building_1|space|863",
+    "fantasy_residential_building_1|space|886",
+    "fantasy_residential_building_1|space|909",
+    "fantasy_residential_building_1|space|932",
+    "fantasy_residential_building_1|space|955",
+    "fantasy_residential_building_1|space|978",
+    "fantasy_residential_building_1|space|1001",
+    "fantasy_residential_building_1|space|1024",
+    "fantasy_residential_building_1|space|1047",
+    "fantasy_residential_building_1|space|1070",
+    "fantasy_residential_building_1|space|1093",
+    "fantasy_residential_building_1|space|1116",
+    "fantasy_residential_building_1|space|1139",
+    "fantasy_residential_building_1|space|1162",
+    "fantasy_residential_building_1|space|1185",
+    "fantasy_residential_building_1|space|1208",
+    "fantasy_residential_building_1|space|1231",
+    "fantasy_residential_building_1|space|1254",
+    "fantasy_residential_building_1|space|1277",
+    "fantasy_residential_building_1|space|1300",
+    "fantasy_residential_building_1|space|1323",
+    "fantasy_residential_building_1|space|1346",
+    "fantasy_residential_building_1|space|1369"
+   ]
+  }
+ },
+ "groups": {
+  "fantasy_residential_building_1|door|0|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_residential_building_1|door|0",
+   "elements": [
+    170603
+   ],
+   "names": [
+    "ASSA_ABLOY_SemiTransparent_NonHosted:Semi Transparent non hosted:981400"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|door|0|cfg",
+    "fantasy_residential_building_1|door|0|app"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|0|sem|IfcDoor.OverallWidth",
+      "fantasy_residential_building_1|door|0|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        5331.499999999984,
+        5651.499999999984
+       ],
+       "u:ft": [
+        1416.4811999999952,
+        1736.4811999999952
+       ],
+       "u:in": [
+        -156.9599000000004,
+        163.0400999999996
+       ],
+       "u:mm": [
+        -294.36850000000004,
+        25.631499999999985
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        1599.4499999999953,
+        5086.349999999986
+       ],
+       "u:ft": [
+        424.9443599999986,
+        1562.8330799999958
+       ],
+       "u:in": [
+        -47.087970000000126,
+        146.73608999999965
+       ],
+       "u:mm": [
+        -88.31055000000002,
+        23.068349999999988
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        5501.499999999984,
+        5621.499999999984
+       ],
+       "u:ft": [
+        1586.4811999999952,
+        1706.4811999999952
+       ],
+       "u:in": [
+        13.040099999999597,
+        133.0400999999996
+       ],
+       "u:mm": [
+        -124.36850000000001,
+        -4.368500000000016
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        1650.4499999999953,
+        5059.349999999986
+       ],
+       "u:ft": [
+        475.9443599999986,
+        1535.8330799999958
+       ],
+       "u:in": [
+        3.9120299999998798,
+        119.73608999999963
+       ],
+       "u:mm": [
+        -37.310550000000006,
+        -3.9316500000000145
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 5.631499999999984,
+     "value_mm": 5631.499999999984,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|0|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        4380.999999999999,
+        4900.999999999999
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        1314.3,
+        4410.9
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 4830.999999999999,
+     "value_mm": 4830.999999999999,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 5631.499999999984,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_residential_building_1|door|1|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_residential_building_1|door|1",
+   "elements": [
+    25009,
+    25028,
+    25043,
+    25058,
+    25073,
+    25088,
+    25103,
+    25118,
+    77396,
+    77414,
+    77429,
+    77444,
+    77459,
+    77474,
+    77489,
+    77504,
+    128822,
+    128837,
+    128852,
+    128966,
+    128981,
+    128996,
+    129177,
+    129192,
+    157205,
+    157220,
+    157235,
+    157349,
+    157364,
+    157379,
+    157560,
+    157575,
+    163015,
+    163030,
+    163045,
+    163060,
+    163075,
+    163090,
+    163188,
+    163203,
+    163552,
+    163567,
+    163582,
+    163597,
+    163612,
+    163627,
+    163642,
+    163657,
+    164913,
+    164928,
+    164943
+   ],
+   "names": [
+    "Door-Solar_Innovations-Multi_Track_Sliding_Glass_Door_XO:SI8200:580951",
+    "Door-Solar_Innovations-Multi_Track_Sliding_Glass_Door_XO:SI8200:581041",
+    "Door-Solar_Innovations-Multi_Track_Sliding_Glass_Door_XO:SI8200:581273"
+   ],
+   "multiplicity": 51,
+   "category_vars": [
+    "fantasy_residential_building_1|door|1|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|door|1|cfg",
+     "allowed": [
+      "SLIDING"
+     ],
+     "raw": "Door-Solar_Innovations-Multi_Track_Sliding_Glass_Door_XO:SI8200",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|1|sem|IfcDoor.OverallWidth",
+      "fantasy_residential_building_1|door|1|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1528.824256473685,
+        1848.824256473685
+       ],
+       "u:ft": [
+        257.42563337317915,
+        577.4256333731792
+       ],
+       "u:in": [
+        -253.5478638855684,
+        66.4521361144316
+       ],
+       "u:mm": [
+        -298.1711757435263,
+        21.828824256473684
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        458.6472769421056,
+        1663.9418308263164
+       ],
+       "u:ft": [
+        77.22769001195375,
+        519.6830700358613
+       ],
+       "u:in": [
+        -76.06435916567054,
+        59.806922502988435
+       ],
+       "u:mm": [
+        -89.45135272305791,
+        19.645941830826317
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1528.824256473685,
+        1848.824256473685
+       ],
+       "u:ft": [
+        257.42563337317915,
+        577.4256333731792
+       ],
+       "u:in": [
+        -253.5478638855684,
+        66.4521361144316
+       ],
+       "u:mm": [
+        -298.1711757435263,
+        21.828824256473684
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1698.824256473685,
+        1818.824256473685
+       ],
+       "u:ft": [
+        427.42563337317915,
+        547.4256333731792
+       ],
+       "u:in": [
+        -83.5478638855684,
+        36.452136114431596
+       ],
+       "u:mm": [
+        -128.1711757435263,
+        -8.171175743526316
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        509.6472769421056,
+        1636.9418308263164
+       ],
+       "u:ft": [
+        128.22769001195377,
+        492.68307003586125
+       ],
+       "u:in": [
+        -25.064359165670524,
+        32.806922502988435
+       ],
+       "u:mm": [
+        -38.451352723057894,
+        -7.354058169173684
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1698.824256473685,
+        1818.824256473685
+       ],
+       "u:ft": [
+        427.42563337317915,
+        547.4256333731792
+       ],
+       "u:in": [
+        -83.5478638855684,
+        36.452136114431596
+       ],
+       "u:mm": [
+        -128.1711757435263,
+        -8.171175743526316
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.828824256473685,
+     "value_mm": 1828.824256473685,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|1|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1378.8000335849483,
+        1898.8000335849483
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        413.64001007548455,
+        1708.9200302264535
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1378.8000335849483,
+        1898.8000335849483
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1828.8000335849483,
+     "value_mm": 1828.8000335849483,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1828.824256473685,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_residential_building_1|door|2|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_residential_building_1|door|2",
+   "elements": [
+    162183,
+    162203,
+    163233,
+    164894,
+    172804,
+    172820
+   ],
+   "names": [
+    "Doors_Interior_WUNDERWERK-est-1964_All-glass-door-Burgos_GER:Standard - Bitte laden Sie die Revit Family Type Catalog:939221",
+    "Doors_Interior_WUNDERWERK-est-1964_All-glass-door-Burgos_GER:Standard - Bitte laden Sie die Revit Family Type Catalog:939584",
+    "Doors_Interior_WUNDERWERK-est-1964_All-glass-door-Burgos_GER:Standard - Bitte laden Sie die Revit Family Type Catalog:946098"
+   ],
+   "multiplicity": 6,
+   "category_vars": [
+    "fantasy_residential_building_1|door|2|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|2|sem|IfcDoor.OverallWidth",
+      "fantasy_residential_building_1|door|2|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        742.0000000000002,
+        1062.0000000000002
+       ],
+       "u:ft": [
+        17.601600000000076,
+        337.6016000000001
+       ],
+       "u:in": [
+        -273.53319999999997,
+        46.466800000000006
+       ],
+       "u:mm": [
+        -298.958,
+        21.042
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        222.6000000000001,
+        955.8000000000002
+       ],
+       "u:ft": [
+        5.280480000000024,
+        303.8414400000001
+       ],
+       "u:in": [
+        -82.05996,
+        41.82012000000001
+       ],
+       "u:mm": [
+        -89.68740000000003,
+        18.937800000000003
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        912.0000000000002,
+        1032.0000000000002
+       ],
+       "u:ft": [
+        187.60160000000008,
+        307.6016000000001
+       ],
+       "u:in": [
+        -103.5332,
+        16.466800000000006
+       ],
+       "u:mm": [
+        -128.958,
+        -8.958
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        273.60000000000014,
+        928.8000000000002
+       ],
+       "u:ft": [
+        56.28048000000003,
+        276.8414400000001
+       ],
+       "u:in": [
+        -31.059960000000004,
+        14.820120000000006
+       ],
+       "u:mm": [
+        -38.687400000000004,
+        -8.0622
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.0420000000000003,
+     "value_mm": 1042.0000000000002,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|2|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        665.9999999999948,
+        1185.9999999999948
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        199.79999999999845,
+        1067.3999999999953
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1115.9999999999948,
+     "value_mm": 1115.9999999999948,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1042.0000000000002,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_residential_building_1|door|3|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_residential_building_1|door|3",
+   "elements": [
+    2968,
+    22677,
+    22962,
+    75361,
+    125824,
+    125998,
+    135229,
+    135550,
+    160639,
+    160785,
+    162692,
+    162941,
+    164190,
+    164439,
+    172721,
+    172789,
+    179863,
+    179878,
+    179893
+   ],
+   "names": [
+    "Drehflügel 1-flg - Stahlzarge:88.5 x 2.26:487449",
+    "Drehflügel 1-flg - Stahlzarge:88.5 x 2.26:533775",
+    "Drehflügel 1-flg - Stahlzarge:88.5 x 2.26:548991"
+   ],
+   "multiplicity": 19,
+   "category_vars": [
+    "fantasy_residential_building_1|door|3|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|door|3|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|door|3|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "Drehflügel 1-flg - Stahlzarge:88.5 x 2.26",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|3|sem|IfcDoor.OverallWidth",
+      "fantasy_residential_building_1|door|3|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        585.0000000000002,
+        905.0000000000002
+       ],
+       "u:ft": [
+        -30.251999999999896,
+        289.7480000000001
+       ],
+       "u:in": [
+        -277.521,
+        42.479000000000006
+       ],
+       "u:mm": [
+        -299.115,
+        20.885
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        175.50000000000009,
+        814.5000000000002
+       ],
+       "u:ft": [
+        -9.07559999999997,
+        260.7732000000001
+       ],
+       "u:in": [
+        -83.25630000000001,
+        38.231100000000005
+       ],
+       "u:mm": [
+        -89.73450000000001,
+        18.7965
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        585.0000000000002,
+        905.0000000000002
+       ],
+       "u:ft": [
+        -30.251999999999896,
+        289.7480000000001
+       ],
+       "u:in": [
+        -277.521,
+        42.479000000000006
+       ],
+       "u:mm": [
+        -299.115,
+        20.885
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        755.0000000000002,
+        875.0000000000002
+       ],
+       "u:ft": [
+        139.7480000000001,
+        259.7480000000001
+       ],
+       "u:in": [
+        -107.52099999999999,
+        12.479000000000006
+       ],
+       "u:mm": [
+        -129.115,
+        -9.115
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        226.5000000000001,
+        787.5000000000002
+       ],
+       "u:ft": [
+        41.924400000000034,
+        233.7732000000001
+       ],
+       "u:in": [
+        -32.2563,
+        11.231100000000007
+       ],
+       "u:mm": [
+        -38.73450000000001,
+        -8.2035
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        755.0000000000002,
+        875.0000000000002
+       ],
+       "u:ft": [
+        139.7480000000001,
+        259.7480000000001
+       ],
+       "u:in": [
+        -107.52099999999999,
+        12.479000000000006
+       ],
+       "u:mm": [
+        -129.115,
+        -9.115
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8850000000000002,
+     "value_mm": 885.0000000000002,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|3|sem|Name",
+      "fantasy_residential_building_1|door|3|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        755.0,
+        875.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        226.50000000000003,
+        787.5
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        755.0,
+        875.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        585.0,
+        905.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        175.50000000000003,
+        814.5
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        585.0,
+        905.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "Drehflügel 1-flg - Stahlzarge:88.5 x 2.26",
+     "value_mm": 885.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|3|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        483.9206414023299,
+        1003.9206414023299
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        145.176192420699,
+        903.528577262097
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        483.9206414023299,
+        1003.9206414023299
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 933.9206414023299,
+     "value_mm": 933.9206414023299,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 885.0000000000002,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_residential_building_1|door|4|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_residential_building_1|door|4",
+   "elements": [
+    62128,
+    62271,
+    114263,
+    114405,
+    126057,
+    129097,
+    135610,
+    157480,
+    163000,
+    163173,
+    164498,
+    164581
+   ],
+   "names": [
+    "Drehflügel 1-flg - Variabel:Drehflügel 1-flg - Variabel:666113",
+    "Drehflügel 1-flg - Variabel:Drehflügel 1-flg - Variabel:666256",
+    "Drehflügel 1-flg - Variabel:Drehflügel 1-flg - Variabel:803754"
+   ],
+   "multiplicity": 12,
+   "category_vars": [
+    "fantasy_residential_building_1|door|4|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|door|4|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_RIGHT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|door|4|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "Drehflügel 1-flg - Variabel:Drehflügel 1-flg - Variabel",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|4|sem|IfcDoor.OverallWidth",
+      "fantasy_residential_building_1|door|4|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        700.0,
+        1020.0
+       ],
+       "u:ft": [
+        4.800000000000011,
+        324.8
+       ],
+       "u:in": [
+        -274.6,
+        45.4
+       ],
+       "u:mm": [
+        -299.0,
+        21.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        210.00000000000003,
+        918.0
+       ],
+       "u:ft": [
+        1.4400000000000037,
+        292.32
+       ],
+       "u:in": [
+        -82.38000000000002,
+        40.86
+       ],
+       "u:mm": [
+        -89.70000000000002,
+        18.900000000000002
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        700.0,
+        1020.0
+       ],
+       "u:ft": [
+        4.800000000000011,
+        324.8
+       ],
+       "u:in": [
+        -274.6,
+        45.4
+       ],
+       "u:mm": [
+        -299.0,
+        21.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        870.0,
+        990.0
+       ],
+       "u:ft": [
+        174.8,
+        294.8
+       ],
+       "u:in": [
+        -104.6,
+        15.399999999999999
+       ],
+       "u:mm": [
+        -129.0,
+        -9.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        261.00000000000006,
+        891.0
+       ],
+       "u:ft": [
+        52.44000000000001,
+        265.32
+       ],
+       "u:in": [
+        -31.380000000000003,
+        13.86
+       ],
+       "u:mm": [
+        -38.7,
+        -8.1
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        870.0,
+        990.0
+       ],
+       "u:ft": [
+        174.8,
+        294.8
+       ],
+       "u:in": [
+        -104.6,
+        15.399999999999999
+       ],
+       "u:mm": [
+        -129.0,
+        -9.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.0,
+     "value_mm": 1000.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|4|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        598.9206414023299,
+        1118.92064140233
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        179.676192420699,
+        1007.028577262097
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        598.9206414023299,
+        1118.92064140233
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1048.92064140233,
+     "value_mm": 1048.92064140233,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1000.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_residential_building_1|door|5|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_residential_building_1|door|5",
+   "elements": [
+    161391,
+    161408,
+    161777,
+    161793,
+    163218,
+    164596
+   ],
+   "names": [
+    "TU DF 1 - Haustüre:Front Door:933984",
+    "TU DF 1 - Haustüre:Front Door:934174",
+    "TU DF 1 - Haustüre:Front Door:934279"
+   ],
+   "multiplicity": 6,
+   "category_vars": [
+    "fantasy_residential_building_1|door|5|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|door|5|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_RIGHT",
+     "weight": 2.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|5|sem|IfcDoor.OverallWidth",
+      "fantasy_residential_building_1|door|5|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        835.0000000000084,
+        1155.0000000000084
+       ],
+       "u:ft": [
+        45.948000000002594,
+        365.9480000000026
+       ],
+       "u:in": [
+        -271.17099999999976,
+        48.829000000000214
+       ],
+       "u:mm": [
+        -298.865,
+        21.13500000000001
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        250.50000000000256,
+        1039.5000000000075
+       ],
+       "u:ft": [
+        13.78440000000078,
+        329.35320000000235
+       ],
+       "u:in": [
+        -81.35129999999994,
+        43.94610000000019
+       ],
+       "u:mm": [
+        -89.65950000000002,
+        19.021500000000007
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        835.0000000000084,
+        1155.0000000000084
+       ],
+       "u:ft": [
+        45.948000000002594,
+        365.9480000000026
+       ],
+       "u:in": [
+        -271.17099999999976,
+        48.829000000000214
+       ],
+       "u:mm": [
+        -298.865,
+        21.13500000000001
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1005.0000000000084,
+        1125.0000000000084
+       ],
+       "u:ft": [
+        215.9480000000026,
+        335.9480000000026
+       ],
+       "u:in": [
+        -101.1709999999998,
+        18.829000000000214
+       ],
+       "u:mm": [
+        -128.86499999999998,
+        -8.864999999999991
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        301.50000000000256,
+        1012.5000000000076
+       ],
+       "u:ft": [
+        64.78440000000079,
+        302.35320000000235
+       ],
+       "u:in": [
+        -30.35129999999994,
+        16.946100000000193
+       ],
+       "u:mm": [
+        -38.6595,
+        -7.978499999999992
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1005.0000000000084,
+        1125.0000000000084
+       ],
+       "u:ft": [
+        215.9480000000026,
+        335.9480000000026
+       ],
+       "u:in": [
+        -101.1709999999998,
+        18.829000000000214
+       ],
+       "u:mm": [
+        -128.86499999999998,
+        -8.864999999999991
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.1350000000000084,
+     "value_mm": 1135.0000000000084,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|5|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        684.9999999999989,
+        1204.9999999999989
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        205.4999999999997,
+        1084.499999999999
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        684.9999999999989,
+        1204.9999999999989
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1134.9999999999989,
+     "value_mm": 1134.9999999999989,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1135.0000000000084,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_residential_building_1|door|6|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_residential_building_1|door|6",
+   "elements": [
+    170851,
+    170866,
+    171087,
+    171102,
+    172544,
+    172558
+   ],
+   "names": [
+    "TU SF 2 - Lift Zentral:DL - 705 x 2100:986886",
+    "TU SF 2 - Lift Zentral:DL - 705 x 2100:987009",
+    "TU SF 2 - Lift Zentral:DL - 705 x 2100:987389"
+   ],
+   "multiplicity": 6,
+   "category_vars": [
+    "fantasy_residential_building_1|door|6|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|door|6|cfg",
+     "allowed": [
+      "SLIDING"
+     ],
+     "raw": "DOUBLE_DOOR_SLIDING",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|door|6|cfg",
+     "allowed": [
+      "OTHER"
+     ],
+     "raw": "TU SF 2 - Lift Zentral:DL - 705 x 2100",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|6|sem|IfcDoor.OverallWidth",
+      "fantasy_residential_building_1|door|6|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        645.0000000000017,
+        965.0000000000017
+       ],
+       "u:ft": [
+        -11.963999999999487,
+        308.0360000000005
+       ],
+       "u:in": [
+        -275.99699999999996,
+        44.00300000000004
+       ],
+       "u:mm": [
+        -299.055,
+        20.945
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        193.50000000000054,
+        868.5000000000016
+       ],
+       "u:ft": [
+        -3.5891999999998467,
+        277.2324000000005
+       ],
+       "u:in": [
+        -82.7991,
+        39.60270000000004
+       ],
+       "u:mm": [
+        -89.71650000000001,
+        18.8505
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        645.0000000000017,
+        965.0000000000017
+       ],
+       "u:ft": [
+        -11.963999999999487,
+        308.0360000000005
+       ],
+       "u:in": [
+        -275.99699999999996,
+        44.00300000000004
+       ],
+       "u:mm": [
+        -299.055,
+        20.945
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        815.0000000000017,
+        935.0000000000017
+       ],
+       "u:ft": [
+        158.0360000000005,
+        278.0360000000005
+       ],
+       "u:in": [
+        -105.99699999999996,
+        14.003000000000043
+       ],
+       "u:mm": [
+        -129.055,
+        -9.054999999999998
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        244.50000000000054,
+        841.5000000000016
+       ],
+       "u:ft": [
+        47.41080000000016,
+        250.23240000000047
+       ],
+       "u:in": [
+        -31.799099999999992,
+        12.60270000000004
+       ],
+       "u:mm": [
+        -38.71650000000001,
+        -8.149499999999998
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        815.0000000000017,
+        935.0000000000017
+       ],
+       "u:ft": [
+        158.0360000000005,
+        278.0360000000005
+       ],
+       "u:in": [
+        -105.99699999999996,
+        14.003000000000043
+       ],
+       "u:mm": [
+        -129.055,
+        -9.054999999999998
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.9450000000000017,
+     "value_mm": 945.0000000000017,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|6|sem|Name",
+      "fantasy_residential_building_1|door|6|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        575.0,
+        695.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        172.50000000000003,
+        625.5
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        575.0,
+        695.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        405.0,
+        725.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        121.50000000000001,
+        652.5
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        405.0,
+        725.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "TU SF 2 - Lift Zentral:DL - 705 x 2100",
+     "value_mm": 705.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|door|6|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        960.0000000000248,
+        1480.0000000000248
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        288.0000000000075,
+        1332.0000000000223
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        960.0000000000248,
+        1480.0000000000248
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1410.0000000000248,
+     "value_mm": 1410.0000000000248,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 945.0000000000017,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_residential_building_1|stair_riser|2327|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "fantasy_residential_building_1|stair_riser|2327",
+   "elements": [
+    2327
+   ],
+   "names": [
+    "Betonfertigteil-Treppe:Treppe:482287 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        199.79999999999998,
+        200.19999999999996
+       ],
+       "u:ft": [
+        60.76,
+        61.160000000000004
+       ],
+       "u:in": [
+        4.879999999999999,
+        5.279999999999999
+       ],
+       "u:mm": [
+        -2.7755575615628914e-17,
+        0.4
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.19999999999999998,
+     "value_mm": 199.99999999999997,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        199.79999999999998,
+        200.19999999999996
+       ],
+       "u:ft": [
+        60.76,
+        61.160000000000004
+       ],
+       "u:in": [
+        4.879999999999999,
+        5.279999999999999
+       ],
+       "u:mm": [
+        -2.7755575615628914e-17,
+        0.4
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.19999999999999998,
+     "value_mm": 199.99999999999997,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=17, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        168.23529411764707,
+        340.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3400.0,
+     "value_mm": null,
+     "note": "N=17",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 199.99999999999997,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 199.99999999999997,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3400.0
+  },
+  "fantasy_residential_building_1|stair_tread|2327|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "fantasy_residential_building_1|stair_tread|2327",
+   "elements": [
+    2327
+   ],
+   "names": [
+    "Betonfertigteil-Treppe:Treppe:482287 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "t:Pset_StairFlightCommon.TreadLength",
+     "label": "Pset_StairFlightCommon.TreadLength (type)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        304.6,
+        305.0
+       ],
+       "u:ft": [
+        92.70304,
+        93.10304000000001
+       ],
+       "u:in": [
+        7.54192,
+        7.9419200000000005
+       ],
+       "u:mm": [
+        0.1048,
+        0.5048
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 0.3048,
+     "value_mm": 304.8,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 270.0,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 270.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3400.0
+  },
+  "fantasy_residential_building_1|stair_riser|125362|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "fantasy_residential_building_1|stair_riser|125362",
+   "elements": [
+    125362
+   ],
+   "names": [
+    "Betonfertigteil-Treppe:Treppe:813742 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        199.79999999999998,
+        200.19999999999996
+       ],
+       "u:ft": [
+        60.76,
+        61.160000000000004
+       ],
+       "u:in": [
+        4.879999999999999,
+        5.279999999999999
+       ],
+       "u:mm": [
+        -2.7755575615628914e-17,
+        0.4
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.19999999999999998,
+     "value_mm": 199.99999999999997,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        199.79999999999998,
+        200.19999999999996
+       ],
+       "u:ft": [
+        60.76,
+        61.160000000000004
+       ],
+       "u:in": [
+        4.879999999999999,
+        5.279999999999999
+       ],
+       "u:mm": [
+        -2.7755575615628914e-17,
+        0.4
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.19999999999999998,
+     "value_mm": 199.99999999999997,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=17, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        168.23529411764707,
+        340.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3400.0,
+     "value_mm": null,
+     "note": "N=17",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 199.99999999999997,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 199.99999999999997,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3400.0
+  },
+  "fantasy_residential_building_1|stair_tread|125362|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "fantasy_residential_building_1|stair_tread|125362",
+   "elements": [
+    125362
+   ],
+   "names": [
+    "Betonfertigteil-Treppe:Treppe:813742 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "t:Pset_StairFlightCommon.TreadLength",
+     "label": "Pset_StairFlightCommon.TreadLength (type)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        304.6,
+        305.0
+       ],
+       "u:ft": [
+        92.70304,
+        93.10304000000001
+       ],
+       "u:in": [
+        7.54192,
+        7.9419200000000005
+       ],
+       "u:mm": [
+        0.1048,
+        0.5048
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 0.3048,
+     "value_mm": 304.8,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 270.0,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 270.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3400.0
+  },
+  "fantasy_residential_building_1|stair_riser|134372|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "fantasy_residential_building_1|stair_riser|134372",
+   "elements": [
+    134372
+   ],
+   "names": [
+    "Ortbetontreppe:Treppe:840025 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        199.79999999999998,
+        200.19999999999996
+       ],
+       "u:ft": [
+        60.76,
+        61.160000000000004
+       ],
+       "u:in": [
+        4.879999999999999,
+        5.279999999999999
+       ],
+       "u:mm": [
+        -2.7755575615628914e-17,
+        0.4
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.19999999999999998,
+     "value_mm": 199.99999999999997,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "t:Pset_StairFlightCommon.RiserHeight",
+     "label": "Pset_StairFlightCommon.RiserHeight (type)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        304.6,
+        305.0
+       ],
+       "u:ft": [
+        92.70304,
+        93.10304000000001
+       ],
+       "u:in": [
+        7.54192,
+        7.9419200000000005
+       ],
+       "u:mm": [
+        0.1048,
+        0.5048
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 0.3048,
+     "value_mm": 304.8,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        199.79999999999998,
+        200.19999999999996
+       ],
+       "u:ft": [
+        60.76,
+        61.160000000000004
+       ],
+       "u:in": [
+        4.879999999999999,
+        5.279999999999999
+       ],
+       "u:mm": [
+        -2.7755575615628914e-17,
+        0.4
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.19999999999999998,
+     "value_mm": 199.99999999999997,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=17, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        168.23529411764707,
+        340.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3400.0,
+     "value_mm": null,
+     "note": "N=17",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 199.99999999999997,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 199.99999999999997,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3400.0
+  },
+  "fantasy_residential_building_1|stair_tread|134372|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "fantasy_residential_building_1|stair_tread|134372",
+   "elements": [
+    134372
+   ],
+   "names": [
+    "Ortbetontreppe:Treppe:840025 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "t:Pset_StairFlightCommon.TreadLength",
+     "label": "Pset_StairFlightCommon.TreadLength (type)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        304.6,
+        305.0
+       ],
+       "u:ft": [
+        92.70304,
+        93.10304000000001
+       ],
+       "u:in": [
+        7.54192,
+        7.9419200000000005
+       ],
+       "u:mm": [
+        0.1048,
+        0.5048
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 0.3048,
+     "value_mm": 304.8,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 270.0,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 270.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3400.0
+  },
+  "fantasy_residential_building_1|stair_riser|172312|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "fantasy_residential_building_1|stair_riser|172312",
+   "elements": [
+    172312
+   ],
+   "names": [
+    "Ortbetontreppe:Treppe:991197 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        199.79999999999998,
+        200.19999999999996
+       ],
+       "u:ft": [
+        60.76,
+        61.160000000000004
+       ],
+       "u:in": [
+        4.879999999999999,
+        5.279999999999999
+       ],
+       "u:mm": [
+        -2.7755575615628914e-17,
+        0.4
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.19999999999999998,
+     "value_mm": 199.99999999999997,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "t:Pset_StairFlightCommon.RiserHeight",
+     "label": "Pset_StairFlightCommon.RiserHeight (type)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        304.6,
+        305.0
+       ],
+       "u:ft": [
+        92.70304,
+        93.10304000000001
+       ],
+       "u:in": [
+        7.54192,
+        7.9419200000000005
+       ],
+       "u:mm": [
+        0.1048,
+        0.5048
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 0.3048,
+     "value_mm": 304.8,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        199.79999999999998,
+        200.19999999999996
+       ],
+       "u:ft": [
+        60.76,
+        61.160000000000004
+       ],
+       "u:in": [
+        4.879999999999999,
+        5.279999999999999
+       ],
+       "u:mm": [
+        -2.7755575615628914e-17,
+        0.4
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.19999999999999998,
+     "value_mm": 199.99999999999997,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=17, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        168.23529411764707,
+        340.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3400.0,
+     "value_mm": null,
+     "note": "N=17",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 199.99999999999997,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 199.99999999999997,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3400.0
+  },
+  "fantasy_residential_building_1|stair_tread|172312|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "fantasy_residential_building_1|stair_tread|172312",
+   "elements": [
+    172312
+   ],
+   "names": [
+    "Ortbetontreppe:Treppe:991197 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "t:Pset_StairFlightCommon.TreadLength",
+     "label": "Pset_StairFlightCommon.TreadLength (type)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        304.6,
+        305.0
+       ],
+       "u:ft": [
+        92.70304,
+        93.10304000000001
+       ],
+       "u:in": [
+        7.54192,
+        7.9419200000000005
+       ],
+       "u:mm": [
+        0.1048,
+        0.5048
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 0.3048,
+     "value_mm": 304.8,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        269.8,
+        270.2
+       ],
+       "u:ft": [
+        82.096,
+        82.49600000000001
+       ],
+       "u:in": [
+        6.658,
+        7.058000000000001
+       ],
+       "u:mm": [
+        0.07,
+        0.47000000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27,
+     "value_mm": 270.0,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 270.0,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 270.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3400.0
+  },
+  "fantasy_residential_building_1|stair_riser|177632|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "fantasy_residential_building_1|stair_riser|177632",
+   "elements": [
+    177632
+   ],
+   "names": [
+    "Zusammengebaute Treppe:Treppe:1046027 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        133.13333333333344,
+        133.53333333333342
+       ],
+       "u:ft": [
+        40.440000000000026,
+        40.84000000000003
+       ],
+       "u:in": [
+        3.1866666666666683,
+        3.5866666666666687
+       ],
+       "u:mm": [
+        -0.0666666666666666,
+        0.3333333333333334
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.13333333333333341,
+     "value_mm": 133.33333333333343,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        133.13333333333344,
+        133.53333333333342
+       ],
+       "u:ft": [
+        40.440000000000026,
+        40.84000000000003
+       ],
+       "u:in": [
+        3.1866666666666683,
+        3.5866666666666687
+       ],
+       "u:mm": [
+        -0.0666666666666666,
+        0.3333333333333334
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.13333333333333341,
+     "value_mm": 133.33333333333343,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=51, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        120.32679738562099,
+        204.38775510204096
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 6676.666666666671,
+     "value_mm": null,
+     "note": "N=51",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 133.33333333333343,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 133.33333333333343,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 6676.666666666671
+  },
+  "fantasy_residential_building_1|stair_tread|177632|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "fantasy_residential_building_1|stair_tread|177632",
+   "elements": [
+    177632
+   ],
+   "names": [
+    "Zusammengebaute Treppe:Treppe:1046027 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        368.133333333333,
+        368.53333333333296
+       ],
+       "u:ft": [
+        112.0679999999999,
+        112.4679999999999
+       ],
+       "u:in": [
+        9.155666666666656,
+        9.555666666666655
+       ],
+       "u:mm": [
+        0.16833333333333295,
+        0.5683333333333329
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.36833333333333296,
+     "value_mm": 368.333333333333,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        368.133333333333,
+        368.53333333333296
+       ],
+       "u:ft": [
+        112.0679999999999,
+        112.4679999999999
+       ],
+       "u:in": [
+        9.155666666666656,
+        9.555666666666655
+       ],
+       "u:mm": [
+        0.16833333333333295,
+        0.5683333333333329
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.36833333333333296,
+     "value_mm": 368.333333333333,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "t:Pset_StairFlightCommon.TreadLength",
+     "label": "Pset_StairFlightCommon.TreadLength (type)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        304.6,
+        305.0
+       ],
+       "u:ft": [
+        92.70304,
+        93.10304000000001
+       ],
+       "u:in": [
+        7.54192,
+        7.9419200000000005
+       ],
+       "u:mm": [
+        0.1048,
+        0.5048
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 0.3048,
+     "value_mm": 304.8,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        368.133333333333,
+        368.53333333333296
+       ],
+       "u:ft": [
+        112.0679999999999,
+        112.4679999999999
+       ],
+       "u:in": [
+        9.155666666666656,
+        9.555666666666655
+       ],
+       "u:mm": [
+        0.16833333333333295,
+        0.5683333333333329
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.36833333333333296,
+     "value_mm": 368.333333333333,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 368.333333333333,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 368.333333333333,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 6676.666666666671
+  },
+  "fantasy_residential_building_1|rail|0|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "fantasy_residential_building_1|rail|0",
+   "elements": [
+    180359,
+    180750,
+    180978,
+    181054,
+    181085,
+    181116,
+    181147,
+    181178,
+    181309,
+    181340,
+    181371,
+    181402,
+    181433,
+    181464,
+    181495,
+    181526,
+    181557,
+    181588,
+    181619
+   ],
+   "names": [
+    "Geländer:Glas - Ohne Pfosten:834588",
+    "Geländer:Glas - Ohne Pfosten:964456",
+    "Geländer:Glas - Ohne Pfosten:964832"
+   ],
+   "multiplicity": 19,
+   "category_vars": [
+    "fantasy_residential_building_1|rail|0|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1218.2,
+        1220.2
+       ],
+       "u:ft": [
+        370.61216,
+        372.61216
+       ],
+       "u:in": [
+        29.96768,
+        31.96768
+       ],
+       "u:mm": [
+        0.21920000000000006,
+        2.2192
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 1.2192,
+     "value_mm": 1219.2,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body height extent (level railing)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        549.8177218524525,
+        1149.8177218524525
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 999.8177218524525,
+     "value_mm": 999.8177218524525,
+     "note": "UB",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|rail|0|g1": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "fantasy_residential_building_1|rail|0",
+   "elements": [
+    180464,
+    180522,
+    181228,
+    181278,
+    195874,
+    195932
+   ],
+   "names": [
+    "Geländer:Glas - Ohne Pfosten:963804",
+    "Geländer:Glas - Ohne Pfosten:964110",
+    "Geländer:Glas - Ohne Pfosten:1003792"
+   ],
+   "multiplicity": 6,
+   "category_vars": [
+    "fantasy_residential_building_1|rail|0|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1218.2,
+        1220.2
+       ],
+       "u:ft": [
+        370.61216,
+        372.61216
+       ],
+       "u:in": [
+        29.96768,
+        31.96768
+       ],
+       "u:mm": [
+        0.21920000000000006,
+        2.2192
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 1.2192,
+     "value_mm": 1219.2,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body height extent (level railing)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        546.6506350946129,
+        1146.6506350946129
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 996.6506350946129,
+     "value_mm": 996.6506350946129,
+     "note": "UB",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|rail|0|g2": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "fantasy_residential_building_1|rail|0",
+   "elements": [
+    189527,
+    195824
+   ],
+   "names": [
+    "Geländer:Glas - Ohne Pfosten:1046126",
+    "Geländer:Glas - Ohne Pfosten:1046130"
+   ],
+   "multiplicity": 2,
+   "category_vars": [
+    "fantasy_residential_building_1|rail|0|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1218.2,
+        1220.2
+       ],
+       "u:ft": [
+        370.61216,
+        372.61216
+       ],
+       "u:in": [
+        29.96768,
+        31.96768
+       ],
+       "u:mm": [
+        0.21920000000000006,
+        2.2192
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 1.2192,
+     "value_mm": 1219.2,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|rail|1|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "fantasy_residential_building_1|rail|1",
+   "elements": [
+    180288,
+    180335,
+    180413,
+    181030
+   ],
+   "names": [
+    "Geländer:Holzhandlauf:482769",
+    "Geländer:Holzhandlauf:813745",
+    "Geländer:Holzhandlauf:840029"
+   ],
+   "multiplicity": 4,
+   "category_vars": [
+    "fantasy_residential_building_1|rail|1|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm_fn",
+     "label": "Type-name function tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|rail|1|fn",
+     "allowed": [
+      "HANDRAIL"
+     ],
+     "raw": "Holzhandlauf",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1218.2,
+        1220.2
+       ],
+       "u:ft": [
+        370.61216,
+        372.61216
+       ],
+       "u:in": [
+        29.96768,
+        31.96768
+       ],
+       "u:mm": [
+        0.21920000000000006,
+        2.2192
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 1.2192,
+     "value_mm": 1219.2,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|73": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    73
+   ],
+   "names": [
+    "Lobby 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|73|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|73|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Lobby 1",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        6129.999999999998,
+        6169.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        6169.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 6149.999999999998,
+     "value_mm": 6149.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|102": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    102
+   ],
+   "names": [
+    "Stairwell 1 2"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|102|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|102|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "Stairwell 1 2",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        9530.000000000004,
+        9570.000000000004
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        9570.000000000004
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 9550.000000000004,
+     "value_mm": 9550.000000000004,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|125": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    125
+   ],
+   "names": [
+    "Wardrobe 3"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|125|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|148": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    148
+   ],
+   "names": [
+    "Toilet 4"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|148|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|148|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Toilet 4",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|171": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    171
+   ],
+   "names": [
+    "Kitchen and Dining room 5"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|171|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|171|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Kitchen and Dining room 5",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|194": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    194
+   ],
+   "names": [
+    "Living room 6"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|194|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|194|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Living room 6",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|217": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    217
+   ],
+   "names": [
+    "Bedroom 7"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|217|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|217|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom 7",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|240": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    240
+   ],
+   "names": [
+    "Office 8"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|240|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|240|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Office 8",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|263": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    263
+   ],
+   "names": [
+    "Bathroom 9"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|263|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|263|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom 9",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|286": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    286
+   ],
+   "names": [
+    "Utility room 10"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|286|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|286|cat",
+     "allowed": [
+      "NONOCC",
+      "OCCUPIABLE"
+     ],
+     "raw": "Utility room 10",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE",
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|311": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    311
+   ],
+   "names": [
+    "Stairwell 2 11"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|311|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|311|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "Stairwell 2 11",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        9530.000000000004,
+        9570.000000000004
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        9570.000000000004
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 9550.000000000004,
+     "value_mm": 9550.000000000004,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|334": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    334
+   ],
+   "names": [
+    "Wardrobe 12"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|334|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|357": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    357
+   ],
+   "names": [
+    "Toilet 13"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|357|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|357|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Toilet 13",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|380": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    380
+   ],
+   "names": [
+    "Kitchen and Dining room 14"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|380|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|380|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Kitchen and Dining room 14",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|403": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    403
+   ],
+   "names": [
+    "Living room 15"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|403|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|403|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Living room 15",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|426": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    426
+   ],
+   "names": [
+    "Bedroom 16"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|426|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|426|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom 16",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|449": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    449
+   ],
+   "names": [
+    "Office 17"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|449|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|449|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Office 17",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|472": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    472
+   ],
+   "names": [
+    "Bathroom 18"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|472|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|472|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom 18",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|495": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    495
+   ],
+   "names": [
+    "Utility room 19"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|495|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|495|cat",
+     "allowed": [
+      "NONOCC",
+      "OCCUPIABLE"
+     ],
+     "raw": "Utility room 19",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.9999999999995,
+        2769.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.9999999999995,
+     "value_mm": 2749.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE",
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|518": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    518
+   ],
+   "names": [
+    "Wardrobe 20"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|518|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|541": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    541
+   ],
+   "names": [
+    "Toilet 21"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|541|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|541|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Toilet 21",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|564": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    564
+   ],
+   "names": [
+    "Kitchen and Dining room 22"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|564|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|564|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Kitchen and Dining room 22",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|587": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    587
+   ],
+   "names": [
+    "Living room 23"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|587|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|587|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Living room 23",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|610": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    610
+   ],
+   "names": [
+    "Bedroom 24"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|610|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|610|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom 24",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|633": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    633
+   ],
+   "names": [
+    "Office 25"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|633|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|633|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Office 25",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|656": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    656
+   ],
+   "names": [
+    "Bathroom 26"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|656|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|656|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom 26",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|679": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    679
+   ],
+   "names": [
+    "Utility room 27"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|679|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|679|cat",
+     "allowed": [
+      "NONOCC",
+      "OCCUPIABLE"
+     ],
+     "raw": "Utility room 27",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE",
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|702": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    702
+   ],
+   "names": [
+    "Wardrobe 28"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|702|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|725": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    725
+   ],
+   "names": [
+    "Toilet 29"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|725|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|725|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Toilet 29",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|748": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    748
+   ],
+   "names": [
+    "Kitchen and Dining room 30"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|748|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|748|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Kitchen and Dining room 30",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|771": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    771
+   ],
+   "names": [
+    "Living room 31"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|771|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|771|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Living room 31",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|794": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    794
+   ],
+   "names": [
+    "Bedroom 32"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|794|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|794|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom 32",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|817": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    817
+   ],
+   "names": [
+    "Office 33"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|817|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|817|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Office 33",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|840": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    840
+   ],
+   "names": [
+    "Bathroom 34"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|840|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|840|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom 34",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|863": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    863
+   ],
+   "names": [
+    "Utility room 35"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|863|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|863|cat",
+     "allowed": [
+      "NONOCC",
+      "OCCUPIABLE"
+     ],
+     "raw": "Utility room 35",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE",
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|886": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    886
+   ],
+   "names": [
+    "Wardrobe 36"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|886|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|909": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    909
+   ],
+   "names": [
+    "Toilet 37"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|909|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|909|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Toilet 37",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|932": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    932
+   ],
+   "names": [
+    "Kitchen and Dining room 38"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|932|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|932|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Kitchen and Dining room 38",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|955": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    955
+   ],
+   "names": [
+    "Living room 39"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|955|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|955|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Living room 39",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|978": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    978
+   ],
+   "names": [
+    "Bedroom 40"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|978|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|978|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom 40",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1001": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1001
+   ],
+   "names": [
+    "Office 41"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1001|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|1001|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Office 41",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1024": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1024
+   ],
+   "names": [
+    "Bathroom 42"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1024|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|1024|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom 42",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1047": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1047
+   ],
+   "names": [
+    "Wardrobe 43"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1047|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1070": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1070
+   ],
+   "names": [
+    "Toilet 44"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1070|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|1070|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Toilet 44",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1093": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1093
+   ],
+   "names": [
+    "Kitchen and Dining room 45"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1093|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|1093|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Kitchen and Dining room 45",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1116": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1116
+   ],
+   "names": [
+    "Living room 46"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1116|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|1116|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Living room 46",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1139": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1139
+   ],
+   "names": [
+    "Bedroom 47"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1139|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|1139|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom 47",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1162": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1162
+   ],
+   "names": [
+    "Office 48"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1162|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|1162|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Office 48",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1185": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1185
+   ],
+   "names": [
+    "Bathroom 49"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1185|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_residential_building_1|space|1185|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom 49",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1208": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1208
+   ],
+   "names": [
+    "Balcony 1 50"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1208|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1231": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1231
+   ],
+   "names": [
+    "Balcony 2 51"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1231|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1254": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1254
+   ],
+   "names": [
+    "Balcony 3 52"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1254|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1277": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1277
+   ],
+   "names": [
+    "Balcony 4 53"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1277|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1300": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1300
+   ],
+   "names": [
+    "Balcony 5 54"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1300|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1323": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1323
+   ],
+   "names": [
+    "Balcony 6 55"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1323|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1346": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1346
+   ],
+   "names": [
+    "Balcony 7 56"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1346|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_residential_building_1|space|1369": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_residential_building_1|space",
+   "elements": [
+    1369
+   ],
+   "names": [
+    "Balcony 8 (shared balcony) 57"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_residential_building_1|space|1369|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_residential_building_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2729.999999999998,
+        2769.999999999998
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2769.999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2749.999999999998,
+     "value_mm": 2749.999999999998,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  }
+ }
+}

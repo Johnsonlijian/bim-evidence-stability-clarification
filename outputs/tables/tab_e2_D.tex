@@ -1,0 +1,23 @@
+\begin{tabular}{@{}lrrrrrrrr@{}}
+\toprule
+ & \multicolumn{2}{c}{\emph{min} level} & \multicolumn{2}{c}{\emph{std} level} & \multicolumn{4}{c}{\emph{full} level} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(l){6-9}
+Policy & Effort & Wrong (\%) & Effort & Wrong (\%) & Effort & Wrong (\%) & Questions & Values \\
+\midrule
+Single-source (no requests) & 0 & 15.74 & 0 & 24.26 & 0 & 24.26 & -- & -- \\
+Completeness-first (IDS-style) & 817 & 0.19 & 655 & 0.38 & 649 & 0.33 & 52 & 199 \\
+\addlinespace
+Confidence-gated, $\tau=0.90$ & 254 & 0.35 & 116 & 0.36 & 96 & 1.82 & 8 & 29 \\
+Confidence-gated, $\tau=0.95$ & 265 & 0.03 & 127 & 0.03 & 107 & 0.04 & 10 & 32 \\
+\addlinespace
+\multicolumn{9}{@{}l}{\emph{Stability-gated policies}} \\
+\quad Value requests first & 354 & 0.02 & 228 & 0.02 & 223 & 0.00 & 7 & 72 \\
+\quad Random request & 314 & 0.01 & 191 & 0.01 & 177 & 0.00 & 17 & 53 \\
+\quad Model order, cheapest first & 279 & 0.01 & 153 & 0.01 & 135 & 0.00 & 26 & 36 \\
+\quad Residual degree & 279 & 0.01 & 153 & 0.01 & 135 & 0.00 & 26 & 36 \\
+\quad EC$^2$ ambiguity reduction & 275 & 0.01 & 149 & 0.01 & 131 & 0.00 & 22 & 36 \\
+\quad \textbf{Stability VOI (proposed)} & 267 & 0.02 & 141 & 0.02 & 123 & 0.00 & 14 & 36 \\
+\addlinespace
+Hindsight reference (clairvoyant) & 258 & -- & 132 & -- & 115 & -- & 9 & 35 \\
+\bottomrule
+\end{tabular}

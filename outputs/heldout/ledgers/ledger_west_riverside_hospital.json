@@ -1,0 +1,7167 @@
+{
+ "project": "west_riverside_hospital",
+ "schema": "IFC4",
+ "occupancy": "commercial",
+ "length_scale_m": 0.001,
+ "metric": true,
+ "vars": {
+  "west_riverside_hospital|door|0|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|0",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|0|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|0",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|0|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|0",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|1|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|1",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|1|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|1",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|1|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|1",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|2|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|2",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|2|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|2",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|2|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|2",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|3|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|3",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|3|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|3",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|3|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|3",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|4|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|4",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|4|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|4",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|4|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|4",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|5|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|5",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|5|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|5",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|5|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|5",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|6|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|6",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|6|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|6",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|6|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|6",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|7|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|7",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|7|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|7",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|7|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|7",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|8|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|8",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|8|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|8",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|8|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|8",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|9|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|9",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|9|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|9",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|9|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|9",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|10|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|10",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|10|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|10",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|10|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|10",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|11|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|11",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|11|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|11",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|11|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|11",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|12|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|12",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|12|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|12",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|12|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|12",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|door|13|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "west_riverside_hospital|door|13",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "west_riverside_hospital|door|13|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|13",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "west_riverside_hospital|door|13|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|door|13",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "west_riverside_hospital|rail|0|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "west_riverside_hospital|rail|0",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "west_riverside_hospital|rail|1|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "west_riverside_hospital|rail|1",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "west_riverside_hospital|rail|2|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "west_riverside_hospital|rail|2",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "west_riverside_hospital|space|sem|RoomHeight": {
+   "domain": [
+    "CLEAR",
+    "GROSS"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|space",
+   "group": null,
+   "label": "meaning of the room height parameter (finished ceiling vs computational upper limit)"
+  },
+  "west_riverside_hospital|space|sem|Body": {
+   "domain": [
+    "CLEAR",
+    "GROSS"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "west_riverside_hospital|space",
+   "group": null,
+   "label": "meaning of space body height (finished ceiling vs upper limit)"
+  }
+ },
+ "clusters": {
+  "west_riverside_hospital|door|0": {
+   "family": "door",
+   "label": "0813 x 2134mm",
+   "groups": [
+    "west_riverside_hospital|door|0|g0"
+   ]
+  },
+  "west_riverside_hospital|door|1": {
+   "family": "door",
+   "label": "0915 x 2032mm_Metal",
+   "groups": [
+    "west_riverside_hospital|door|1|g0"
+   ]
+  },
+  "west_riverside_hospital|door|2": {
+   "family": "door",
+   "label": "0915 x 2032mm_Wood",
+   "groups": [
+    "west_riverside_hospital|door|2|g0"
+   ]
+  },
+  "west_riverside_hospital|door|3": {
+   "family": "door",
+   "label": "0915 x 2134mm_Metal",
+   "groups": [
+    "west_riverside_hospital|door|3|g0"
+   ]
+  },
+  "west_riverside_hospital|door|4": {
+   "family": "door",
+   "label": "0915 x 2134mm_Wood",
+   "groups": [
+    "west_riverside_hospital|door|4|g0"
+   ]
+  },
+  "west_riverside_hospital|door|5": {
+   "family": "door",
+   "label": "1730 x 2032mm",
+   "groups": [
+    "west_riverside_hospital|door|5|g0"
+   ]
+  },
+  "west_riverside_hospital|door|6": {
+   "family": "door",
+   "label": "1730 x 2134mm",
+   "groups": [
+    "west_riverside_hospital|door|6|g0"
+   ]
+  },
+  "west_riverside_hospital|door|7": {
+   "family": "door",
+   "label": "1830 x 1981mm",
+   "groups": [
+    "west_riverside_hospital|door|7|g0"
+   ]
+  },
+  "west_riverside_hospital|door|8": {
+   "family": "door",
+   "label": "1830 x 2134mm",
+   "groups": [
+    "west_riverside_hospital|door|8|g0"
+   ]
+  },
+  "west_riverside_hospital|door|9": {
+   "family": "door",
+   "label": "1830 x 2134mm_Metal",
+   "groups": [
+    "west_riverside_hospital|door|9|g0"
+   ]
+  },
+  "west_riverside_hospital|door|10": {
+   "family": "door",
+   "label": "1830 x 2134mm_Wood",
+   "groups": [
+    "west_riverside_hospital|door|10|g0"
+   ]
+  },
+  "west_riverside_hospital|door|11": {
+   "family": "door",
+   "label": "2400 x 3100mm",
+   "groups": [
+    "west_riverside_hospital|door|11|g0"
+   ]
+  },
+  "west_riverside_hospital|door|12": {
+   "family": "door",
+   "label": "Curtain Wall Dbl Glass",
+   "groups": [
+    "west_riverside_hospital|door|12|g0",
+    "west_riverside_hospital|door|12|g1"
+   ]
+  },
+  "west_riverside_hospital|door|13": {
+   "family": "door",
+   "label": "M_Curtain Wall Sgl Glass",
+   "groups": [
+    "west_riverside_hospital|door|13|g0",
+    "west_riverside_hospital|door|13|g1"
+   ]
+  },
+  "west_riverside_hospital|rail|0": {
+   "family": "railing",
+   "label": "Railing:1100mm Pipe",
+   "groups": [
+    "west_riverside_hospital|rail|0|g0"
+   ]
+  },
+  "west_riverside_hospital|rail|1": {
+   "family": "railing",
+   "label": "Railing:HAS – 42”- Series 200 cable railing – fascia mounted w/ 100 top rail",
+   "groups": [
+    "west_riverside_hospital|rail|1|g0"
+   ]
+  },
+  "west_riverside_hospital|rail|2": {
+   "family": "railing",
+   "label": "Railing:HAS – 42”- Series 200 cable railing – stringer mounted w/ 100 top rail",
+   "groups": [
+    "west_riverside_hospital|rail|2|g0"
+   ]
+  },
+  "west_riverside_hospital|space": {
+   "family": "space",
+   "label": "all spaces",
+   "groups": []
+  }
+ },
+ "groups": {
+  "west_riverside_hospital|door|0|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|0",
+   "elements": [
+    331716,
+    331828,
+    549153,
+    549184,
+    564566,
+    564597,
+    578018,
+    578185,
+    578590,
+    578901,
+    579317,
+    581992,
+    582023,
+    582102,
+    582671,
+    582702,
+    582781,
+    583348,
+    583379,
+    583458,
+    584995,
+    585026,
+    585822,
+    585853,
+    586443,
+    586474,
+    587625,
+    587656,
+    588123,
+    588736,
+    588767,
+    588973,
+    769248,
+    769279,
+    773034,
+    773065,
+    776571,
+    776602,
+    785708,
+    811507,
+    811536,
+    811567,
+    1163784,
+    1163815,
+    1163846,
+    1163875,
+    1163906,
+    1165029,
+    1166010,
+    1166041,
+    1166072,
+    1166103,
+    1166132,
+    1166163,
+    1166194,
+    1166223,
+    1188155,
+    1188758,
+    1188835,
+    1321645
+   ],
+   "names": [
+    "M_Single-Flush:0813 x 2134mm:512307",
+    "M_Single-Flush:0813 x 2134mm:512376",
+    "M_Single-Flush:0813 x 2134mm:564604"
+   ],
+   "multiplicity": 60,
+   "category_vars": [
+    "west_riverside_hospital|door|0|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|0|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|0|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "0813 x 2134mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|0|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|0|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        593.0,
+        753.0
+       ],
+       "u:ft": [
+        247582.4,
+        247742.4
+       ],
+       "u:in": [
+        20430.199999999997,
+        20590.199999999997
+       ],
+       "u:m": [
+        812780.0,
+        812940.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        266.85,
+        564.75
+       ],
+       "u:ft": [
+        111412.08,
+        185806.8
+       ],
+       "u:in": [
+        9193.589999999998,
+        15442.649999999998
+       ],
+       "u:m": [
+        365751.0,
+        609705.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        593.0,
+        753.0
+       ],
+       "u:ft": [
+        247582.4,
+        247742.4
+       ],
+       "u:in": [
+        20430.199999999997,
+        20590.199999999997
+       ],
+       "u:m": [
+        812780.0,
+        812940.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        713.0,
+        773.0
+       ],
+       "u:ft": [
+        247702.4,
+        247762.4
+       ],
+       "u:in": [
+        20550.199999999997,
+        20610.199999999997
+       ],
+       "u:m": [
+        812900.0,
+        812960.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        320.85,
+        579.75
+       ],
+       "u:ft": [
+        111466.08,
+        185821.8
+       ],
+       "u:in": [
+        9247.589999999998,
+        15457.649999999998
+       ],
+       "u:m": [
+        365805.0,
+        609720.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        713.0,
+        773.0
+       ],
+       "u:ft": [
+        247702.4,
+        247762.4
+       ],
+       "u:in": [
+        20550.199999999997,
+        20610.199999999997
+       ],
+       "u:m": [
+        812900.0,
+        812960.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 813.0,
+     "value_mm": 813.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|0|sem|Name",
+      "west_riverside_hospital|door|0|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        713.0,
+        773.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        320.85,
+        579.75
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        713.0,
+        773.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        593.0,
+        753.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        266.85,
+        564.75
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        593.0,
+        753.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "0813 x 2134mm",
+     "value_mm": 813.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|0|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        593.0,
+        753.0
+       ],
+       "u:ft": [
+        247582.4,
+        247742.4
+       ],
+       "u:in": [
+        20430.199999999997,
+        20590.199999999997
+       ],
+       "u:m": [
+        812780.0,
+        812940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        266.85,
+        564.75
+       ],
+       "u:ft": [
+        111412.08,
+        185806.8
+       ],
+       "u:in": [
+        9193.589999999998,
+        15442.649999999998
+       ],
+       "u:m": [
+        365751.0,
+        609705.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        593.0,
+        753.0
+       ],
+       "u:ft": [
+        247582.4,
+        247742.4
+       ],
+       "u:in": [
+        20430.199999999997,
+        20590.199999999997
+       ],
+       "u:m": [
+        812780.0,
+        812940.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 813.0,
+     "value_mm": 813.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|0|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        645.0000000000011,
+        905.0000000000011
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        290.2500000000005,
+        678.7500000000009
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        645.0000000000011,
+        905.0000000000011
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 965.0000000000011,
+     "value_mm": 965.0000000000011,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 813.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|1|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|1",
+   "elements": [
+    362169,
+    874184,
+    1129069,
+    1129100,
+    1129131
+   ],
+   "names": [
+    "M_Single-Flush:0915 x 2032mm_Metal:519974",
+    "M_Single-Flush:0915 x 2032mm_Metal:688047",
+    "M_Single-Flush:0915 x 2032mm_Metal:766840"
+   ],
+   "multiplicity": 5,
+   "category_vars": [
+    "west_riverside_hospital|door|1|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|1|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|1|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "0915 x 2032mm_Metal",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|1|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|1|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        695.000000000001,
+        855.000000000001
+       ],
+       "u:ft": [
+        278672.00000000035,
+        278832.00000000035
+       ],
+       "u:in": [
+        23021.000000000025,
+        23181.000000000025
+       ],
+       "u:m": [
+        914780.000000001,
+        914940.000000001
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        312.75000000000045,
+        641.2500000000008
+       ],
+       "u:ft": [
+        125402.40000000015,
+        209124.00000000026
+       ],
+       "u:in": [
+        10359.450000000012,
+        17385.75000000002
+       ],
+       "u:m": [
+        411651.00000000047,
+        686205.0000000008
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        695.000000000001,
+        855.000000000001
+       ],
+       "u:ft": [
+        278672.00000000035,
+        278832.00000000035
+       ],
+       "u:in": [
+        23021.000000000025,
+        23181.000000000025
+       ],
+       "u:m": [
+        914780.000000001,
+        914940.000000001
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        815.000000000001,
+        875.000000000001
+       ],
+       "u:ft": [
+        278792.00000000035,
+        278852.00000000035
+       ],
+       "u:in": [
+        23141.000000000025,
+        23201.000000000025
+       ],
+       "u:m": [
+        914900.000000001,
+        914960.000000001
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        366.75000000000045,
+        656.2500000000008
+       ],
+       "u:ft": [
+        125456.40000000015,
+        209139.00000000026
+       ],
+       "u:in": [
+        10413.450000000012,
+        17400.75000000002
+       ],
+       "u:m": [
+        411705.00000000047,
+        686220.0000000008
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        815.000000000001,
+        875.000000000001
+       ],
+       "u:ft": [
+        278792.00000000035,
+        278852.00000000035
+       ],
+       "u:in": [
+        23141.000000000025,
+        23201.000000000025
+       ],
+       "u:m": [
+        914900.000000001,
+        914960.000000001
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 915.000000000001,
+     "value_mm": 915.000000000001,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|1|sem|Name",
+      "west_riverside_hospital|door|1|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        815.0,
+        875.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        366.75,
+        656.25
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        815.0,
+        875.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        695.0,
+        855.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        312.75,
+        641.25
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        695.0,
+        855.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "0915 x 2032mm_Metal",
+     "value_mm": 915.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|1|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        312.75,
+        641.25
+       ],
+       "u:ft": [
+        125402.40000000001,
+        209124.0
+       ],
+       "u:in": [
+        10359.45,
+        17385.75
+       ],
+       "u:m": [
+        411651.0,
+        686205.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 915.0,
+     "value_mm": 915.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|1|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        747.0,
+        1007.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        336.15000000000003,
+        755.25
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        747.0,
+        1007.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1067.0,
+     "value_mm": 1067.0,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 915.000000000001,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|2|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|2",
+   "elements": [
+    178757,
+    178789,
+    327540,
+    327814,
+    327845,
+    328258,
+    328289,
+    328606,
+    328637,
+    328668,
+    362025,
+    366442,
+    366474,
+    366503,
+    366774,
+    366805,
+    367307,
+    367566,
+    367595,
+    368309,
+    368340,
+    369082,
+    369113,
+    369855,
+    369886,
+    370813,
+    370842,
+    371556,
+    371587,
+    372329,
+    372360,
+    373794,
+    373823,
+    374537,
+    374568,
+    375310,
+    375341,
+    376083,
+    376114,
+    410603,
+    448576,
+    486697,
+    523159,
+    548330,
+    548359,
+    548519,
+    548791,
+    548822,
+    549091,
+    549122,
+    550848,
+    550877,
+    551148,
+    551179,
+    551681,
+    551940,
+    551969,
+    552683,
+    552714,
+    553456,
+    553487,
+    554229,
+    554260,
+    555185,
+    555214,
+    555928,
+    555959,
+    556701,
+    556732,
+    558079,
+    558108,
+    558822,
+    558853,
+    559595,
+    559626,
+    560368,
+    560399,
+    563316,
+    563345,
+    563505,
+    563777,
+    563808,
+    564221,
+    564252,
+    564473,
+    564504,
+    564535,
+    566353,
+    566384,
+    566413,
+    566684,
+    566715,
+    567217,
+    567476,
+    567505,
+    568219,
+    568250,
+    568992,
+    569023,
+    569765,
+    569796,
+    570713,
+    570742,
+    571456,
+    571487,
+    572229,
+    572260,
+    574323,
+    574354,
+    574856,
+    574887,
+    574916,
+    574947,
+    574978,
+    575009,
+    575040,
+    575071,
+    575100,
+    575131,
+    575162,
+    575191,
+    575220,
+    575251,
+    575282,
+    575313,
+    575344,
+    575373,
+    575492,
+    575523,
+    575552,
+    578621,
+    581367,
+    581398,
+    584046,
+    584075,
+    584106,
+    584137,
+    584168,
+    584199,
+    584230,
+    584261,
+    586675,
+    586706,
+    586737,
+    586768,
+    586797,
+    586826,
+    586857,
+    586888,
+    586919,
+    586950,
+    586981,
+    587012,
+    590118,
+    590148,
+    767595,
+    767626,
+    768294,
+    768325,
+    768354,
+    768875,
+    768906,
+    769617,
+    769648,
+    770150,
+    770181,
+    770851,
+    770880,
+    771594,
+    771625,
+    772437,
+    772468,
+    772497,
+    772972,
+    773003,
+    773399,
+    773430,
+    773932,
+    773963,
+    774607,
+    774636,
+    775350,
+    775381,
+    776003,
+    776034,
+    776509,
+    776540,
+    776940,
+    776971,
+    777473,
+    777504,
+    1188864,
+    1707464
+   ],
+   "names": [
+    "M_Single-Flush:0915 x 2032mm_Wood:439207",
+    "M_Single-Flush:0915 x 2032mm_Wood:439243",
+    "M_Single-Flush:0915 x 2032mm_Wood:468036"
+   ],
+   "multiplicity": 193,
+   "category_vars": [
+    "west_riverside_hospital|door|2|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|2|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|2|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "0915 x 2032mm_Wood",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|2|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|2|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        312.75,
+        641.25
+       ],
+       "u:ft": [
+        125402.40000000001,
+        209124.0
+       ],
+       "u:in": [
+        10359.45,
+        17385.75
+       ],
+       "u:m": [
+        411651.0,
+        686205.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        815.0,
+        875.0
+       ],
+       "u:ft": [
+        278792.0,
+        278852.0
+       ],
+       "u:in": [
+        23141.0,
+        23201.0
+       ],
+       "u:m": [
+        914900.0,
+        914960.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        366.75,
+        656.25
+       ],
+       "u:ft": [
+        125456.40000000001,
+        209139.0
+       ],
+       "u:in": [
+        10413.45,
+        17400.75
+       ],
+       "u:m": [
+        411705.0,
+        686220.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        815.0,
+        875.0
+       ],
+       "u:ft": [
+        278792.0,
+        278852.0
+       ],
+       "u:in": [
+        23141.0,
+        23201.0
+       ],
+       "u:m": [
+        914900.0,
+        914960.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 915.0,
+     "value_mm": 915.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|2|sem|Name",
+      "west_riverside_hospital|door|2|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        815.0,
+        875.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        366.75,
+        656.25
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        815.0,
+        875.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        695.0,
+        855.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        312.75,
+        641.25
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        695.0,
+        855.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "0915 x 2032mm_Wood",
+     "value_mm": 915.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|2|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        312.75,
+        641.25
+       ],
+       "u:ft": [
+        125402.40000000001,
+        209124.0
+       ],
+       "u:in": [
+        10359.45,
+        17385.75
+       ],
+       "u:m": [
+        411651.0,
+        686205.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 915.0,
+     "value_mm": 915.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|2|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        747.0000000000009,
+        1007.0000000000009
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        336.15000000000043,
+        755.2500000000007
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        747.0000000000009,
+        1007.0000000000009
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1067.000000000001,
+     "value_mm": 1067.000000000001,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 915.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|3|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|3",
+   "elements": [
+    873515,
+    873625,
+    1414460
+   ],
+   "names": [
+    "M_Single-Flush:0915 x 2134mm_Metal:686646",
+    "M_Single-Flush:0915 x 2134mm_Metal:686647",
+    "M_Single-Flush:0915 x 2134mm_Metal:843388"
+   ],
+   "multiplicity": 3,
+   "category_vars": [
+    "west_riverside_hospital|door|3|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|3|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|3|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "0915 x 2134mm_Metal",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|3|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|3|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        312.75,
+        641.25
+       ],
+       "u:ft": [
+        125402.40000000001,
+        209124.0
+       ],
+       "u:in": [
+        10359.45,
+        17385.75
+       ],
+       "u:m": [
+        411651.0,
+        686205.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        815.0,
+        875.0
+       ],
+       "u:ft": [
+        278792.0,
+        278852.0
+       ],
+       "u:in": [
+        23141.0,
+        23201.0
+       ],
+       "u:m": [
+        914900.0,
+        914960.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        366.75,
+        656.25
+       ],
+       "u:ft": [
+        125456.40000000001,
+        209139.0
+       ],
+       "u:in": [
+        10413.45,
+        17400.75
+       ],
+       "u:m": [
+        411705.0,
+        686220.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        815.0,
+        875.0
+       ],
+       "u:ft": [
+        278792.0,
+        278852.0
+       ],
+       "u:in": [
+        23141.0,
+        23201.0
+       ],
+       "u:m": [
+        914900.0,
+        914960.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 915.0,
+     "value_mm": 915.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|3|sem|Name",
+      "west_riverside_hospital|door|3|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        815.0,
+        875.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        366.75,
+        656.25
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        815.0,
+        875.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        695.0,
+        855.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        312.75,
+        641.25
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        695.0,
+        855.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "0915 x 2134mm_Metal",
+     "value_mm": 915.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|3|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        312.75,
+        641.25
+       ],
+       "u:ft": [
+        125402.40000000001,
+        209124.0
+       ],
+       "u:in": [
+        10359.45,
+        17385.75
+       ],
+       "u:m": [
+        411651.0,
+        686205.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 915.0,
+     "value_mm": 915.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|3|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        747.0000000000009,
+        1007.0000000000009
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        336.15000000000043,
+        755.2500000000007
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        747.0000000000009,
+        1007.0000000000009
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1067.000000000001,
+     "value_mm": 1067.000000000001,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 915.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|4|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|4",
+   "elements": [
+    828567,
+    861245,
+    864616,
+    864645,
+    864674,
+    864703,
+    864732,
+    864761,
+    864790,
+    864821,
+    864850,
+    864879,
+    864908,
+    864937,
+    864966,
+    864995,
+    865024,
+    865053,
+    865082,
+    865221,
+    866227,
+    866256,
+    866285,
+    866314,
+    866343,
+    866372,
+    866833,
+    866862,
+    866891,
+    866920,
+    866949,
+    866978,
+    867168,
+    867197,
+    867226,
+    867255,
+    867360,
+    867389,
+    867418,
+    870034,
+    870537,
+    870568,
+    870597,
+    870626,
+    870657,
+    870833,
+    870862,
+    870891,
+    871166,
+    871197,
+    871228,
+    871259,
+    871290,
+    871435,
+    871466,
+    871497,
+    871528,
+    871559,
+    871846,
+    871877,
+    871908,
+    871939,
+    872133,
+    872272,
+    872303,
+    872332,
+    872522,
+    872857,
+    872888,
+    872919,
+    874243,
+    874272,
+    874301,
+    874330,
+    874451,
+    874480,
+    874707,
+    874737,
+    879437,
+    879649,
+    879820,
+    879930,
+    879962,
+    879993,
+    880024,
+    880055,
+    880182,
+    881389,
+    881418,
+    881587,
+    881618,
+    882395,
+    882424,
+    882453,
+    882540,
+    882569,
+    882598,
+    882656,
+    882685,
+    882714,
+    882979,
+    883010,
+    883041,
+    883721,
+    1029661,
+    1029692,
+    1077173,
+    1077563,
+    1077592,
+    1081375,
+    1081633,
+    1092520
+   ],
+   "names": [
+    "M_Single-Flush:0915 x 2134mm_Wood:658272",
+    "M_Single-Flush:0915 x 2134mm_Wood:664826",
+    "M_Single-Flush:0915 x 2134mm_Wood:668441"
+   ],
+   "multiplicity": 112,
+   "category_vars": [
+    "west_riverside_hospital|door|4|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|4|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_RIGHT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|4|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "0915 x 2134mm_Wood",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|4|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|4|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        312.75,
+        641.25
+       ],
+       "u:ft": [
+        125402.40000000001,
+        209124.0
+       ],
+       "u:in": [
+        10359.45,
+        17385.75
+       ],
+       "u:m": [
+        411651.0,
+        686205.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        815.0,
+        875.0
+       ],
+       "u:ft": [
+        278792.0,
+        278852.0
+       ],
+       "u:in": [
+        23141.0,
+        23201.0
+       ],
+       "u:m": [
+        914900.0,
+        914960.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        366.75,
+        656.25
+       ],
+       "u:ft": [
+        125456.40000000001,
+        209139.0
+       ],
+       "u:in": [
+        10413.45,
+        17400.75
+       ],
+       "u:m": [
+        411705.0,
+        686220.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        815.0,
+        875.0
+       ],
+       "u:ft": [
+        278792.0,
+        278852.0
+       ],
+       "u:in": [
+        23141.0,
+        23201.0
+       ],
+       "u:m": [
+        914900.0,
+        914960.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 915.0,
+     "value_mm": 915.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|4|sem|Name",
+      "west_riverside_hospital|door|4|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        815.0,
+        875.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        366.75,
+        656.25
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        815.0,
+        875.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        695.0,
+        855.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        312.75,
+        641.25
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        695.0,
+        855.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "0915 x 2134mm_Wood",
+     "value_mm": 915.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|4|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        312.75,
+        641.25
+       ],
+       "u:ft": [
+        125402.40000000001,
+        209124.0
+       ],
+       "u:in": [
+        10359.45,
+        17385.75
+       ],
+       "u:m": [
+        411651.0,
+        686205.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        695.0,
+        855.0
+       ],
+       "u:ft": [
+        278672.0,
+        278832.0
+       ],
+       "u:in": [
+        23021.0,
+        23181.0
+       ],
+       "u:m": [
+        914780.0,
+        914940.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 915.0,
+     "value_mm": 915.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|4|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        747.0000000000009,
+        1007.0000000000009
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        336.15000000000043,
+        755.2500000000007
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        747.0000000000009,
+        1007.0000000000009
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1067.000000000001,
+     "value_mm": 1067.000000000001,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 915.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|5|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|5",
+   "elements": [
+    813621
+   ],
+   "names": [
+    "M_Double-Flush-Dbl Acting:1730 x 2032mm:651187"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "west_riverside_hospital|door|5|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|5|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "1730 x 2032mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|5|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|5|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ],
+       "u:ft": [
+        527084.0,
+        527244.0
+       ],
+       "u:in": [
+        43722.0,
+        43882.0
+       ],
+       "u:m": [
+        1729780.0,
+        1729940.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        679.5,
+        1252.5
+       ],
+       "u:ft": [
+        237187.80000000002,
+        395433.0
+       ],
+       "u:in": [
+        19674.9,
+        32911.5
+       ],
+       "u:m": [
+        778401.0,
+        1297455.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ],
+       "u:ft": [
+        527084.0,
+        527244.0
+       ],
+       "u:in": [
+        43722.0,
+        43882.0
+       ],
+       "u:m": [
+        1729780.0,
+        1729940.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1630.0,
+        1690.0
+       ],
+       "u:ft": [
+        527204.0,
+        527264.0
+       ],
+       "u:in": [
+        43842.0,
+        43902.0
+       ],
+       "u:m": [
+        1729900.0,
+        1729960.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        733.5,
+        1267.5
+       ],
+       "u:ft": [
+        237241.80000000002,
+        395448.0
+       ],
+       "u:in": [
+        19728.9,
+        32926.5
+       ],
+       "u:m": [
+        778455.0,
+        1297470.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1630.0,
+        1690.0
+       ],
+       "u:ft": [
+        527204.0,
+        527264.0
+       ],
+       "u:in": [
+        43842.0,
+        43902.0
+       ],
+       "u:m": [
+        1729900.0,
+        1729960.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1730.0,
+     "value_mm": 1730.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|5|sem|Name",
+      "west_riverside_hospital|door|5|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1630.0,
+        1690.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        733.5,
+        1267.5
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1630.0,
+        1690.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        679.5,
+        1252.5
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "1730 x 2032mm",
+     "value_mm": 1730.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|5|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ],
+       "u:ft": [
+        527084.0,
+        527244.0
+       ],
+       "u:in": [
+        43722.0,
+        43882.0
+       ],
+       "u:m": [
+        1729780.0,
+        1729940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        679.5,
+        1252.5
+       ],
+       "u:ft": [
+        237187.80000000002,
+        395433.0
+       ],
+       "u:in": [
+        19674.9,
+        32911.5
+       ],
+       "u:m": [
+        778401.0,
+        1297455.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ],
+       "u:ft": [
+        527084.0,
+        527244.0
+       ],
+       "u:in": [
+        43722.0,
+        43882.0
+       ],
+       "u:m": [
+        1729780.0,
+        1729940.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1730.0,
+     "value_mm": 1730.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|5|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1562.0,
+        1822.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        702.9,
+        1366.5
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1562.0,
+        1822.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1882.0,
+     "value_mm": 1882.0,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1730.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|6|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|6",
+   "elements": [
+    871132
+   ],
+   "names": [
+    "M_Double-Panel 1:1730 x 2134mm:682972"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "west_riverside_hospital|door|6|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|6|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "DOUBLE_DOOR_SINGLE_SWING",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|6|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "1730 x 2134mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|6|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|6|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ],
+       "u:ft": [
+        527084.0,
+        527244.0
+       ],
+       "u:in": [
+        43722.0,
+        43882.0
+       ],
+       "u:m": [
+        1729780.0,
+        1729940.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        679.5,
+        1252.5
+       ],
+       "u:ft": [
+        237187.80000000002,
+        395433.0
+       ],
+       "u:in": [
+        19674.9,
+        32911.5
+       ],
+       "u:m": [
+        778401.0,
+        1297455.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ],
+       "u:ft": [
+        527084.0,
+        527244.0
+       ],
+       "u:in": [
+        43722.0,
+        43882.0
+       ],
+       "u:m": [
+        1729780.0,
+        1729940.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1630.0,
+        1690.0
+       ],
+       "u:ft": [
+        527204.0,
+        527264.0
+       ],
+       "u:in": [
+        43842.0,
+        43902.0
+       ],
+       "u:m": [
+        1729900.0,
+        1729960.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        733.5,
+        1267.5
+       ],
+       "u:ft": [
+        237241.80000000002,
+        395448.0
+       ],
+       "u:in": [
+        19728.9,
+        32926.5
+       ],
+       "u:m": [
+        778455.0,
+        1297470.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1630.0,
+        1690.0
+       ],
+       "u:ft": [
+        527204.0,
+        527264.0
+       ],
+       "u:in": [
+        43842.0,
+        43902.0
+       ],
+       "u:m": [
+        1729900.0,
+        1729960.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1730.0,
+     "value_mm": 1730.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|6|sem|Name",
+      "west_riverside_hospital|door|6|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1630.0,
+        1690.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        733.5,
+        1267.5
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1630.0,
+        1690.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        679.5,
+        1252.5
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "1730 x 2134mm",
+     "value_mm": 1730.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|6|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ],
+       "u:ft": [
+        527084.0,
+        527244.0
+       ],
+       "u:in": [
+        43722.0,
+        43882.0
+       ],
+       "u:m": [
+        1729780.0,
+        1729940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        679.5,
+        1252.5
+       ],
+       "u:ft": [
+        237187.80000000002,
+        395433.0
+       ],
+       "u:in": [
+        19674.9,
+        32911.5
+       ],
+       "u:m": [
+        778401.0,
+        1297455.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1510.0,
+        1670.0
+       ],
+       "u:ft": [
+        527084.0,
+        527244.0
+       ],
+       "u:in": [
+        43722.0,
+        43882.0
+       ],
+       "u:m": [
+        1729780.0,
+        1729940.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1730.0,
+     "value_mm": 1730.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|6|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1562.0,
+        1822.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        702.9,
+        1366.5
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1562.0,
+        1822.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1882.0,
+     "value_mm": 1882.0,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1730.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|7|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|7",
+   "elements": [
+    332072,
+    549215,
+    564628,
+    582133,
+    582812,
+    583489,
+    587947,
+    588846,
+    768798,
+    772895,
+    776432,
+    828455
+   ],
+   "names": [
+    "M_Double-Panel 1:1830 x 1981mm:512401",
+    "M_Double-Panel 1:1830 x 1981mm:564606",
+    "M_Double-Panel 1:1830 x 1981mm:565136"
+   ],
+   "multiplicity": 12,
+   "category_vars": [
+    "west_riverside_hospital|door|7|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|7|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "DOUBLE_DOOR_SINGLE_SWING",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|7|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "1830 x 1981mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|7|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|7|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ],
+       "u:ft": [
+        250903.80000000002,
+        418293.0
+       ],
+       "u:in": [
+        20817.9,
+        34816.5
+       ],
+       "u:m": [
+        823401.0,
+        1372455.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ],
+       "u:ft": [
+        557684.0,
+        557744.0
+       ],
+       "u:in": [
+        46382.0,
+        46442.0
+       ],
+       "u:m": [
+        1829900.0,
+        1829960.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        778.5,
+        1342.5
+       ],
+       "u:ft": [
+        250957.80000000002,
+        418308.0
+       ],
+       "u:in": [
+        20871.9,
+        34831.5
+       ],
+       "u:m": [
+        823455.0,
+        1372470.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ],
+       "u:ft": [
+        557684.0,
+        557744.0
+       ],
+       "u:in": [
+        46382.0,
+        46442.0
+       ],
+       "u:m": [
+        1829900.0,
+        1829960.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1830.0,
+     "value_mm": 1830.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|7|sem|Name",
+      "west_riverside_hospital|door|7|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        778.5,
+        1342.5
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "1830 x 1981mm",
+     "value_mm": 1830.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|7|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ],
+       "u:ft": [
+        250903.80000000002,
+        418293.0
+       ],
+       "u:in": [
+        20817.9,
+        34816.5
+       ],
+       "u:m": [
+        823401.0,
+        1372455.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1830.0,
+     "value_mm": 1830.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|7|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1662.0000000000002,
+        1922.0000000000002
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        747.9000000000001,
+        1441.5000000000002
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1662.0000000000002,
+        1922.0000000000002
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1982.0000000000002,
+     "value_mm": 1982.0000000000002,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1830.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|8|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|8",
+   "elements": [
+    865189,
+    878674,
+    878704,
+    878733,
+    878762,
+    878791,
+    878820,
+    879219,
+    879248,
+    882482,
+    882511
+   ],
+   "names": [
+    "M_Double-Flush-Dbl Acting:1830 x 2134mm:669306",
+    "M_Double-Flush-Dbl Acting:1830 x 2134mm:698015",
+    "M_Double-Flush-Dbl Acting:1830 x 2134mm:698048"
+   ],
+   "multiplicity": 11,
+   "category_vars": [
+    "west_riverside_hospital|door|8|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|8|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "1830 x 2134mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|8|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|8|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ],
+       "u:ft": [
+        250903.80000000002,
+        418293.0
+       ],
+       "u:in": [
+        20817.9,
+        34816.5
+       ],
+       "u:m": [
+        823401.0,
+        1372455.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ],
+       "u:ft": [
+        557684.0,
+        557744.0
+       ],
+       "u:in": [
+        46382.0,
+        46442.0
+       ],
+       "u:m": [
+        1829900.0,
+        1829960.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        778.5,
+        1342.5
+       ],
+       "u:ft": [
+        250957.80000000002,
+        418308.0
+       ],
+       "u:in": [
+        20871.9,
+        34831.5
+       ],
+       "u:m": [
+        823455.0,
+        1372470.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ],
+       "u:ft": [
+        557684.0,
+        557744.0
+       ],
+       "u:in": [
+        46382.0,
+        46442.0
+       ],
+       "u:m": [
+        1829900.0,
+        1829960.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1830.0,
+     "value_mm": 1830.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|8|sem|Name",
+      "west_riverside_hospital|door|8|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        778.5,
+        1342.5
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "1830 x 2134mm",
+     "value_mm": 1830.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|8|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ],
+       "u:ft": [
+        250903.80000000002,
+        418293.0
+       ],
+       "u:in": [
+        20817.9,
+        34816.5
+       ],
+       "u:m": [
+        823401.0,
+        1372455.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1830.0,
+     "value_mm": 1830.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|8|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1662.0000000000002,
+        1922.0000000000002
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        747.9000000000001,
+        1441.5000000000002
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1662.0000000000002,
+        1922.0000000000002
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1982.0000000000002,
+     "value_mm": 1982.0000000000002,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1830.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|9|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|9",
+   "elements": [
+    883372,
+    883404,
+    1421877,
+    1421907,
+    1422025
+   ],
+   "names": [
+    "M_Double-Flush:1830 x 2134mm_Metal:706896",
+    "M_Double-Flush:1830 x 2134mm_Metal:706955",
+    "M_Double-Flush:1830 x 2134mm_Metal:857392"
+   ],
+   "multiplicity": 5,
+   "category_vars": [
+    "west_riverside_hospital|door|9|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|9|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "DOUBLE_DOOR_SINGLE_SWING",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|9|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "1830 x 2134mm_Metal",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|9|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|9|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ],
+       "u:ft": [
+        250903.80000000002,
+        418293.0
+       ],
+       "u:in": [
+        20817.9,
+        34816.5
+       ],
+       "u:m": [
+        823401.0,
+        1372455.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ],
+       "u:ft": [
+        557684.0,
+        557744.0
+       ],
+       "u:in": [
+        46382.0,
+        46442.0
+       ],
+       "u:m": [
+        1829900.0,
+        1829960.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        778.5,
+        1342.5
+       ],
+       "u:ft": [
+        250957.80000000002,
+        418308.0
+       ],
+       "u:in": [
+        20871.9,
+        34831.5
+       ],
+       "u:m": [
+        823455.0,
+        1372470.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ],
+       "u:ft": [
+        557684.0,
+        557744.0
+       ],
+       "u:in": [
+        46382.0,
+        46442.0
+       ],
+       "u:m": [
+        1829900.0,
+        1829960.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1830.0,
+     "value_mm": 1830.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|9|sem|Name",
+      "west_riverside_hospital|door|9|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        778.5,
+        1342.5
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "1830 x 2134mm_Metal",
+     "value_mm": 1830.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|9|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ],
+       "u:ft": [
+        250903.80000000002,
+        418293.0
+       ],
+       "u:in": [
+        20817.9,
+        34816.5
+       ],
+       "u:m": [
+        823401.0,
+        1372455.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1830.0,
+     "value_mm": 1830.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|9|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1662.0000000000002,
+        1922.0000000000002
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        747.9000000000001,
+        1441.5000000000002
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1662.0000000000002,
+        1922.0000000000002
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1982.0000000000002,
+     "value_mm": 1982.0000000000002,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1830.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|10|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|10",
+   "elements": [
+    861465,
+    861497,
+    864556,
+    864587,
+    865529,
+    865559,
+    865588,
+    868297,
+    870686,
+    870715,
+    870746,
+    870775,
+    870804,
+    873178,
+    873207,
+    874214,
+    874569,
+    874598,
+    874766,
+    874795,
+    875008,
+    875037,
+    879408,
+    882627,
+    882743,
+    883254,
+    883525,
+    883554
+   ],
+   "names": [
+    "M_Double-Flush:1830 x 2134mm_Wood:664832",
+    "M_Double-Flush:1830 x 2134mm_Wood:664834",
+    "M_Double-Flush:1830 x 2134mm_Wood:668340"
+   ],
+   "multiplicity": 28,
+   "category_vars": [
+    "west_riverside_hospital|door|10|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|10|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "DOUBLE_DOOR_SINGLE_SWING",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|10|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "1830 x 2134mm_Wood",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|10|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|10|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ],
+       "u:ft": [
+        250903.80000000002,
+        418293.0
+       ],
+       "u:in": [
+        20817.9,
+        34816.5
+       ],
+       "u:m": [
+        823401.0,
+        1372455.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ],
+       "u:ft": [
+        557684.0,
+        557744.0
+       ],
+       "u:in": [
+        46382.0,
+        46442.0
+       ],
+       "u:m": [
+        1829900.0,
+        1829960.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        778.5,
+        1342.5
+       ],
+       "u:ft": [
+        250957.80000000002,
+        418308.0
+       ],
+       "u:in": [
+        20871.9,
+        34831.5
+       ],
+       "u:m": [
+        823455.0,
+        1372470.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ],
+       "u:ft": [
+        557684.0,
+        557744.0
+       ],
+       "u:in": [
+        46382.0,
+        46442.0
+       ],
+       "u:m": [
+        1829900.0,
+        1829960.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1830.0,
+     "value_mm": 1830.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|10|sem|Name",
+      "west_riverside_hospital|door|10|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        778.5,
+        1342.5
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1730.0,
+        1790.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "1830 x 2134mm_Wood",
+     "value_mm": 1830.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|10|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        724.5,
+        1327.5
+       ],
+       "u:ft": [
+        250903.80000000002,
+        418293.0
+       ],
+       "u:in": [
+        20817.9,
+        34816.5
+       ],
+       "u:m": [
+        823401.0,
+        1372455.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1610.0,
+        1770.0
+       ],
+       "u:ft": [
+        557564.0,
+        557724.0
+       ],
+       "u:in": [
+        46262.0,
+        46422.0
+       ],
+       "u:m": [
+        1829780.0,
+        1829940.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1830.0,
+     "value_mm": 1830.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|10|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1662.0000000000002,
+        1922.0000000000002
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        747.9000000000001,
+        1441.5000000000002
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1662.0000000000002,
+        1922.0000000000002
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1982.0000000000002,
+     "value_mm": 1982.0000000000002,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1830.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|11|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|11",
+   "elements": [
+    873366,
+    873403
+   ],
+   "names": [
+    "Overhead Door at Dock_Metric:2400 x 3100mm:686644",
+    "Overhead Door at Dock_Metric:2400 x 3100mm:686645"
+   ],
+   "multiplicity": 2,
+   "category_vars": [
+    "west_riverside_hospital|door|11|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|11|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|11|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        2180.0,
+        2340.0
+       ],
+       "u:ft": [
+        731300.0,
+        731460.0
+       ],
+       "u:in": [
+        60740.0,
+        60900.0
+       ],
+       "u:m": [
+        2399780.0,
+        2399940.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        981.0,
+        1755.0
+       ],
+       "u:ft": [
+        329085.0,
+        548595.0
+       ],
+       "u:in": [
+        27333.0,
+        45675.0
+       ],
+       "u:m": [
+        1079901.0,
+        1799955.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        2300.0,
+        2360.0
+       ],
+       "u:ft": [
+        731420.0,
+        731480.0
+       ],
+       "u:in": [
+        60860.0,
+        60920.0
+       ],
+       "u:m": [
+        2399900.0,
+        2399960.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        1035.0,
+        1770.0
+       ],
+       "u:ft": [
+        329139.0,
+        548610.0
+       ],
+       "u:in": [
+        27387.0,
+        45690.0
+       ],
+       "u:m": [
+        1079955.0,
+        1799970.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2400.0,
+     "value_mm": 2400.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|11|sem|Name",
+      "west_riverside_hospital|door|11|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        2300.0,
+        2360.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        1035.0,
+        1770.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        2180.0,
+        2340.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        981.0,
+        1755.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "2400 x 3100mm",
+     "value_mm": 2400.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:BaseQuantities.Width",
+     "label": "BaseQuantities.Width",
+     "level": "std",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|11|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        2180.0,
+        2340.0
+       ],
+       "u:ft": [
+        731300.0,
+        731460.0
+       ],
+       "u:in": [
+        60740.0,
+        60900.0
+       ],
+       "u:m": [
+        2399780.0,
+        2399940.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        981.0,
+        1755.0
+       ],
+       "u:ft": [
+        329085.0,
+        548595.0
+       ],
+       "u:in": [
+        27333.0,
+        45675.0
+       ],
+       "u:m": [
+        1079901.0,
+        1799955.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2400.0,
+     "value_mm": 2400.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|11|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        2689.5999999999995,
+        2949.5999999999995
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        1210.3199999999997,
+        2212.2
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3009.5999999999995,
+     "value_mm": 3009.5999999999995,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2400.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|12|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|12",
+   "elements": [
+    1380559
+   ],
+   "names": [
+    "Curtain Wall Dbl Glass:Curtain Wall Dbl Glass:816393"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "west_riverside_hospital|door|12|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|12|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "DOUBLE_DOOR_SINGLE_SWING",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|12|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "Curtain Wall Dbl Glass",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|12|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|12|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1615.2857142857,
+        1775.2857142857
+       ],
+       "u:ft": [
+        559175.0857142813,
+        559335.0857142813
+       ],
+       "u:in": [
+        46396.257142856775,
+        46556.257142856775
+       ],
+       "u:m": [
+        1835065.7142856999,
+        1835225.7142856999
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        726.878571428565,
+        1331.4642857142749
+       ],
+       "u:ft": [
+        251628.7885714266,
+        419501.314285711
+       ],
+       "u:in": [
+        20878.31571428555,
+        34917.19285714258
+       ],
+       "u:m": [
+        825779.571428565,
+        1376419.285714275
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1615.2857142857,
+        1775.2857142857
+       ],
+       "u:ft": [
+        559175.0857142813,
+        559335.0857142813
+       ],
+       "u:in": [
+        46396.257142856775,
+        46556.257142856775
+       ],
+       "u:m": [
+        1835065.7142856999,
+        1835225.7142856999
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1735.2857142857,
+        1795.2857142857
+       ],
+       "u:ft": [
+        559295.0857142813,
+        559355.0857142813
+       ],
+       "u:in": [
+        46516.257142856775,
+        46576.257142856775
+       ],
+       "u:m": [
+        1835185.7142856999,
+        1835245.7142856999
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        780.878571428565,
+        1346.4642857142749
+       ],
+       "u:ft": [
+        251682.7885714266,
+        419516.314285711
+       ],
+       "u:in": [
+        20932.31571428555,
+        34932.19285714258
+       ],
+       "u:m": [
+        825833.571428565,
+        1376434.285714275
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1735.2857142857,
+        1795.2857142857
+       ],
+       "u:ft": [
+        559295.0857142813,
+        559355.0857142813
+       ],
+       "u:in": [
+        46516.257142856775,
+        46576.257142856775
+       ],
+       "u:m": [
+        1835185.7142856999,
+        1835245.7142856999
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1835.2857142857,
+     "value_mm": 1835.2857142857,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|12|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1515.2857142856963,
+        1775.2857142856963
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        681.8785714285633,
+        1331.4642857142721
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1515.2857142856963,
+        1775.2857142856963
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1835.2857142856963,
+     "value_mm": 1835.2857142856963,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1835.2857142857,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|12|g1": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|12",
+   "elements": [
+    1325438
+   ],
+   "names": [
+    "Curtain Wall Dbl Glass:Curtain Wall Dbl Glass:814300"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "west_riverside_hospital|door|12|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|12|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "DOUBLE_DOOR_SINGLE_SWING",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|12|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "Curtain Wall Dbl Glass",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|12|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|12|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1674.53582131572,
+        1834.53582131572
+       ],
+       "u:ft": [
+        577234.5183370316,
+        577394.5183370316
+       ],
+       "u:in": [
+        47901.20986141929,
+        48061.20986141929
+       ],
+       "u:m": [
+        1894315.8213157202,
+        1894475.8213157202
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        753.5411195920741,
+        1375.9018659867902
+       ],
+       "u:ft": [
+        259755.53325166422,
+        433045.8887527737
+       ],
+       "u:in": [
+        21555.54443763868,
+        36045.90739606447
+       ],
+       "u:m": [
+        852442.1195920741,
+        1420856.86598679
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1674.53582131572,
+        1834.53582131572
+       ],
+       "u:ft": [
+        577234.5183370316,
+        577394.5183370316
+       ],
+       "u:in": [
+        47901.20986141929,
+        48061.20986141929
+       ],
+       "u:m": [
+        1894315.8213157202,
+        1894475.8213157202
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1794.53582131572,
+        1854.53582131572
+       ],
+       "u:ft": [
+        577354.5183370316,
+        577414.5183370316
+       ],
+       "u:in": [
+        48021.20986141929,
+        48081.20986141929
+       ],
+       "u:m": [
+        1894435.8213157202,
+        1894495.8213157202
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        807.5411195920741,
+        1390.9018659867902
+       ],
+       "u:ft": [
+        259809.53325166422,
+        433060.8887527737
+       ],
+       "u:in": [
+        21609.54443763868,
+        36060.90739606447
+       ],
+       "u:m": [
+        852496.1195920741,
+        1420871.86598679
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1794.53582131572,
+        1854.53582131572
+       ],
+       "u:ft": [
+        577354.5183370316,
+        577414.5183370316
+       ],
+       "u:in": [
+        48021.20986141929,
+        48081.20986141929
+       ],
+       "u:m": [
+        1894435.8213157202,
+        1894495.8213157202
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1894.53582131572,
+     "value_mm": 1894.53582131572,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|12|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1574.53582131572,
+        1834.53582131572
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        708.5411195920741,
+        1375.9018659867902
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1574.53582131572,
+        1834.53582131572
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1894.53582131572,
+     "value_mm": 1894.53582131572,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1894.53582131572,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|13|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|13",
+   "elements": [
+    103435,
+    397482,
+    473507
+   ],
+   "names": [
+    "M_Curtain Wall Sgl Glass:M_Curtain Wall Sgl Glass:484649",
+    "M_Curtain Wall Sgl Glass:M_Curtain Wall Sgl Glass:539439",
+    "M_Curtain Wall Sgl Glass:M_Curtain Wall Sgl Glass:542441"
+   ],
+   "multiplicity": 3,
+   "category_vars": [
+    "west_riverside_hospital|door|13|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|13|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|13|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "M_Curtain Wall Sgl Glass",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|13|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|13|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        689.481433187791,
+        849.481433187791
+       ],
+       "u:ft": [
+        276989.9408356387,
+        277149.9408356387
+       ],
+       "u:in": [
+        22880.82840296989,
+        23040.82840296989
+       ],
+       "u:m": [
+        909261.433187791,
+        909421.433187791
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        310.26664493450596,
+        637.1110748908433
+       ],
+       "u:ft": [
+        124645.47337603744,
+        207862.45562672906
+       ],
+       "u:in": [
+        10296.372781336451,
+        17280.621302227417
+       ],
+       "u:m": [
+        409167.644934506,
+        682066.0748908432
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        689.481433187791,
+        849.481433187791
+       ],
+       "u:ft": [
+        276989.9408356387,
+        277149.9408356387
+       ],
+       "u:in": [
+        22880.82840296989,
+        23040.82840296989
+       ],
+       "u:m": [
+        909261.433187791,
+        909421.433187791
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        809.481433187791,
+        869.481433187791
+       ],
+       "u:ft": [
+        277109.9408356387,
+        277169.9408356387
+       ],
+       "u:in": [
+        23000.82840296989,
+        23060.82840296989
+       ],
+       "u:m": [
+        909381.433187791,
+        909441.433187791
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        364.26664493450596,
+        652.1110748908433
+       ],
+       "u:ft": [
+        124699.47337603744,
+        207877.45562672906
+       ],
+       "u:in": [
+        10350.372781336451,
+        17295.621302227417
+       ],
+       "u:m": [
+        409221.644934506,
+        682081.0748908432
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        809.481433187791,
+        869.481433187791
+       ],
+       "u:ft": [
+        277109.9408356387,
+        277169.9408356387
+       ],
+       "u:in": [
+        23000.82840296989,
+        23060.82840296989
+       ],
+       "u:m": [
+        909381.433187791,
+        909441.433187791
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 909.481433187791,
+     "value_mm": 909.481433187791,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|13|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        589.4814331877901,
+        849.4814331877901
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        265.26664493450556,
+        637.1110748908426
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        589.4814331877901,
+        849.4814331877901
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 909.4814331877901,
+     "value_mm": 909.4814331877901,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 909.481433187791,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|door|13|g1": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "west_riverside_hospital|door|13",
+   "elements": [
+    435889,
+    510472
+   ],
+   "names": [
+    "M_Curtain Wall Sgl Glass:M_Curtain Wall Sgl Glass:541795",
+    "M_Curtain Wall Sgl Glass:M_Curtain Wall Sgl Glass:543167"
+   ],
+   "multiplicity": 2,
+   "category_vars": [
+    "west_riverside_hospital|door|13|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|13|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "west_riverside_hospital|door|13|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "M_Curtain Wall Sgl Glass",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|13|sem|IfcDoor.OverallWidth",
+      "west_riverside_hospital|door|13|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        726.588853634826,
+        886.588853634826
+       ],
+       "u:ft": [
+        288300.282587895,
+        288460.282587895
+       ],
+       "u:in": [
+        23823.35688232458,
+        23983.35688232458
+       ],
+       "u:m": [
+        946368.853634826,
+        946528.853634826
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        326.9649841356717,
+        664.9416402261195
+       ],
+       "u:ft": [
+        129735.12716455274,
+        216345.21194092126
+       ],
+       "u:in": [
+        10720.51059704606,
+        17987.517661743434
+       ],
+       "u:m": [
+        425865.9841356717,
+        709896.6402261195
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        726.588853634826,
+        886.588853634826
+       ],
+       "u:ft": [
+        288300.282587895,
+        288460.282587895
+       ],
+       "u:in": [
+        23823.35688232458,
+        23983.35688232458
+       ],
+       "u:m": [
+        946368.853634826,
+        946528.853634826
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        846.588853634826,
+        906.588853634826
+       ],
+       "u:ft": [
+        288420.282587895,
+        288480.282587895
+       ],
+       "u:in": [
+        23943.35688232458,
+        24003.35688232458
+       ],
+       "u:m": [
+        946488.853634826,
+        946548.853634826
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        380.9649841356717,
+        679.9416402261195
+       ],
+       "u:ft": [
+        129789.12716455274,
+        216360.21194092126
+       ],
+       "u:in": [
+        10774.51059704606,
+        18002.517661743434
+       ],
+       "u:m": [
+        425919.9841356717,
+        709911.6402261195
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        846.588853634826,
+        906.588853634826
+       ],
+       "u:ft": [
+        288420.282587895,
+        288480.282587895
+       ],
+       "u:in": [
+        23943.35688232458,
+        24003.35688232458
+       ],
+       "u:m": [
+        946488.853634826,
+        946548.853634826
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:m": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 946.588853634826,
+     "value_mm": 946.588853634826,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "west_riverside_hospital|door|13|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        626.5888536348241,
+        886.5888536348241
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        281.9649841356709,
+        664.9416402261181
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        626.5888536348241,
+        886.5888536348241
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 946.5888536348241,
+     "value_mm": 946.5888536348241,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 946.588853634826,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "west_riverside_hospital|rail|0|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "west_riverside_hospital|rail|0",
+   "elements": [
+    1717703,
+    1717716,
+    1717729,
+    1723013,
+    1723025,
+    1723037,
+    1747698,
+    1753104,
+    1758324,
+    1758337,
+    1758350,
+    1763632,
+    1763644,
+    1763656,
+    1769150,
+    1774546,
+    1779766,
+    1779779,
+    1779792,
+    1779805,
+    1785101,
+    1785113,
+    1785125,
+    1785137,
+    1790645,
+    1796041,
+    1801265,
+    1801278,
+    1801291,
+    1806621,
+    1806633,
+    1806645,
+    1812143,
+    1817607,
+    1822831,
+    1822844,
+    1828160,
+    1828172,
+    1833656,
+    1839100,
+    1844340,
+    1844353,
+    1844366,
+    1844379,
+    1849665,
+    1849677,
+    1849689,
+    1849701,
+    1855189,
+    1860585,
+    2412596,
+    2417590
+   ],
+   "names": [
+    "Railing:1100mm Pipe:291890",
+    "Railing:1100mm Pipe:291890",
+    "Railing:1100mm Pipe:291890"
+   ],
+   "multiplicity": 52,
+   "category_vars": [
+    "west_riverside_hospital|rail|0|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm",
+     "label": "Type-name nominal height",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1090.0,
+        1110.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "1100mm Pipe",
+     "value_mm": 1100.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1218.2,
+        1220.2
+       ],
+       "u:ft": [
+        371611.16000000003,
+        371613.16000000003
+       ],
+       "u:in": [
+        30966.68,
+        30968.68
+       ],
+       "u:m": [
+        1219199.0,
+        1219201.0
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 1219.2,
+     "value_mm": 1219.2,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "west_riverside_hospital|rail|1|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "west_riverside_hospital|rail|1",
+   "elements": [
+    1740106,
+    1742218,
+    1876574,
+    1883367,
+    1890160,
+    1891932,
+    1897635,
+    1899091,
+    1903354,
+    1916207,
+    1921910,
+    1923682,
+    1927945,
+    1937618,
+    1943321,
+    1945093,
+    1949356,
+    1959029,
+    2119938,
+    2126731,
+    2128503,
+    2135296,
+    2144489,
+    2361535,
+    2370598,
+    2379661,
+    2388724,
+    2397787,
+    2406850
+   ],
+   "names": [
+    "Railing:HAS – 42”- Series 200 cable railing – fascia mounted w/ 100 top rail:428687",
+    "Railing:HAS – 42”- Series 200 cable railing – fascia mounted w/ 100 top rail:429201",
+    "Railing:HAS – 42”- Series 200 cable railing – fascia mounted w/ 100 top rail:627332"
+   ],
+   "multiplicity": 29,
+   "category_vars": [
+    "west_riverside_hospital|rail|1|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1218.2,
+        1220.2
+       ],
+       "u:ft": [
+        371611.16000000003,
+        371613.16000000003
+       ],
+       "u:in": [
+        30966.68,
+        30968.68
+       ],
+       "u:m": [
+        1219199.0,
+        1219201.0
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 1219.2,
+     "value_mm": 1219.2,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body height extent (level railing)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        918.7930155168287,
+        1318.7930155168287
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1218.7930155168287,
+     "value_mm": 1218.7930155168287,
+     "note": "UB",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "west_riverside_hospital|rail|2|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "west_riverside_hospital|rail|2",
+   "elements": [
+    2019307,
+    2019322,
+    2019337,
+    2113065,
+    2113079,
+    2113093,
+    2259832,
+    2352472
+   ],
+   "names": [
+    "Railing:HAS – 42”- Series 200 cable railing – stringer mounted w/ 100 top rail:641079",
+    "Railing:HAS – 42”- Series 200 cable railing – stringer mounted w/ 100 top rail:641079",
+    "Railing:HAS – 42”- Series 200 cable railing – stringer mounted w/ 100 top rail:641079"
+   ],
+   "multiplicity": 8,
+   "category_vars": [
+    "west_riverside_hospital|rail|2|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1218.2,
+        1220.2
+       ],
+       "u:ft": [
+        371611.16000000003,
+        371613.16000000003
+       ],
+       "u:in": [
+        30966.68,
+        30968.68
+       ],
+       "u:m": [
+        1219199.0,
+        1219201.0
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 1219.2,
+     "value_mm": 1219.2,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  }
+ }
+}

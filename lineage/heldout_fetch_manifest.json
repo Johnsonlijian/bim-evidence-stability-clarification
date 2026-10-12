@@ -1,0 +1,293 @@
+{
+ "dataset": "sylvainHellin/ifc-bench (v2)",
+ "files": [
+  {
+   "project": "ettenheim_gis",
+   "remote_file": "model_card.md",
+   "local_file": "projects\\ettenheim_gis\\model_card.md",
+   "bytes": 433,
+   "sha256": "3b2d69988c209e7c9c4fde290bdd6809cdeae88aed19e67c8fb004151cb72cc3",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/ettenheim_gis/model_card.md",
+   "retrieved_utc": "2026-10-11T23:58:11Z"
+  },
+  {
+   "project": "ettenheim_gis",
+   "remote_file": "license.txt",
+   "local_file": "projects\\ettenheim_gis\\license.txt",
+   "bytes": 664,
+   "sha256": "47ae3548194e4defc3400ba1b54a71966f5bc913211cd3a348c68235d8d4b19b",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/ettenheim_gis/license.txt",
+   "retrieved_utc": "2026-10-11T23:58:14Z"
+  },
+  {
+   "project": "fantasy_hotel_1",
+   "remote_file": "model_card.md",
+   "local_file": "projects\\fantasy_hotel_1\\model_card.md",
+   "bytes": 429,
+   "sha256": "3f55ce8326c5d00ad578e16824bea7b0aaa1fa514e771aee46290d30b9b03be8",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_hotel_1/model_card.md",
+   "retrieved_utc": "2026-10-11T23:58:16Z"
+  },
+  {
+   "project": "fantasy_hotel_1",
+   "remote_file": "license.txt",
+   "local_file": "projects\\fantasy_hotel_1\\license.txt",
+   "bytes": 1094,
+   "sha256": "4ed1230e1a64393492643218e984c08b37dc2ae1369c56c85804effc311459d5",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_hotel_1/license.txt",
+   "retrieved_utc": "2026-10-11T23:58:18Z"
+  },
+  {
+   "project": "fantasy_hotel_1",
+   "remote_file": "arc.ifc",
+   "local_file": "projects\\fantasy_hotel_1\\arc.ifc",
+   "bytes": 8455469,
+   "sha256": "cd976f3e9222a49ad072078ed27934f20dbc11c889271b1ee3c1ab4ce504a03e",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_hotel_1/arc.ifc",
+   "retrieved_utc": "2026-10-11T23:58:23Z"
+  },
+  {
+   "project": "fantasy_hotel_2",
+   "remote_file": "model_card.md",
+   "local_file": "projects\\fantasy_hotel_2\\model_card.md",
+   "bytes": 429,
+   "sha256": "70af190364ac590b6c100a0b3510de372f41df2404a7582b9ba4b51c92913f59",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_hotel_2/model_card.md",
+   "retrieved_utc": "2026-10-11T23:58:25Z"
+  },
+  {
+   "project": "fantasy_hotel_2",
+   "remote_file": "license.txt",
+   "local_file": "projects\\fantasy_hotel_2\\license.txt",
+   "bytes": 1094,
+   "sha256": "4ed1230e1a64393492643218e984c08b37dc2ae1369c56c85804effc311459d5",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_hotel_2/license.txt",
+   "retrieved_utc": "2026-10-11T23:58:27Z"
+  },
+  {
+   "project": "fantasy_hotel_2",
+   "remote_file": "arc.ifc",
+   "local_file": "projects\\fantasy_hotel_2\\arc.ifc",
+   "bytes": 9952273,
+   "sha256": "3d6e1e7426686366f42b3c6738f17b636aa3e697150dd87bb658f449962c3b39",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_hotel_2/arc.ifc",
+   "retrieved_utc": "2026-10-11T23:58:31Z"
+  },
+  {
+   "project": "fantasy_office_building_2",
+   "remote_file": "model_card.md",
+   "local_file": "projects\\fantasy_office_building_2\\model_card.md",
+   "bytes": 446,
+   "sha256": "eb85c3e69a6d9f40e51b6a2d090d812c88b27dc9b62fe8abb50aeb3cc900b306",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_office_building_2/model_card.md",
+   "retrieved_utc": "2026-10-11T23:58:33Z"
+  },
+  {
+   "project": "fantasy_office_building_2",
+   "remote_file": "license.txt",
+   "local_file": "projects\\fantasy_office_building_2\\license.txt",
+   "bytes": 1094,
+   "sha256": "4ed1230e1a64393492643218e984c08b37dc2ae1369c56c85804effc311459d5",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_office_building_2/license.txt",
+   "retrieved_utc": "2026-10-11T23:58:35Z"
+  },
+  {
+   "project": "fantasy_office_building_2",
+   "remote_file": "arc.ifc",
+   "local_file": "projects\\fantasy_office_building_2\\arc.ifc",
+   "bytes": 19463969,
+   "sha256": "944844edfa7a02698b438f2733ccd76aa4a8d471ddd7b02866d77d1b4703bd46",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_office_building_2/arc.ifc",
+   "retrieved_utc": "2026-10-11T23:58:40Z"
+  },
+  {
+   "project": "fantasy_office_building_3",
+   "remote_file": "model_card.md",
+   "local_file": "projects\\fantasy_office_building_3\\model_card.md",
+   "bytes": 446,
+   "sha256": "691ac34810483889c05cbebfe60d99ac2cb53de8ab220f5804ecd32a30450e27",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_office_building_3/model_card.md",
+   "retrieved_utc": "2026-10-11T23:58:42Z"
+  },
+  {
+   "project": "fantasy_office_building_3",
+   "remote_file": "license.txt",
+   "local_file": "projects\\fantasy_office_building_3\\license.txt",
+   "bytes": 1094,
+   "sha256": "4ed1230e1a64393492643218e984c08b37dc2ae1369c56c85804effc311459d5",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_office_building_3/license.txt",
+   "retrieved_utc": "2026-10-11T23:58:45Z"
+  },
+  {
+   "project": "fantasy_office_building_3",
+   "remote_file": "arc.ifc",
+   "local_file": "projects\\fantasy_office_building_3\\arc.ifc",
+   "bytes": 9655829,
+   "sha256": "bc92fbc42ecacf0c46246eb5c7e1c12f5a63982aba947aefac5fb46e93cc1e74",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_office_building_3/arc.ifc",
+   "retrieved_utc": "2026-10-11T23:58:49Z"
+  },
+  {
+   "project": "fantasy_residential_building_1",
+   "remote_file": "model_card.md",
+   "local_file": "projects\\fantasy_residential_building_1\\model_card.md",
+   "bytes": 466,
+   "sha256": "dcf432728a5278b7f68b5955ad6e0a69fe8041c608ec30f212a0192f33ae8105",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_residential_building_1/model_card.md",
+   "retrieved_utc": "2026-10-11T23:58:51Z"
+  },
+  {
+   "project": "fantasy_residential_building_1",
+   "remote_file": "license.txt",
+   "local_file": "projects\\fantasy_residential_building_1\\license.txt",
+   "bytes": 1094,
+   "sha256": "4ed1230e1a64393492643218e984c08b37dc2ae1369c56c85804effc311459d5",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_residential_building_1/license.txt",
+   "retrieved_utc": "2026-10-11T23:58:53Z"
+  },
+  {
+   "project": "fantasy_residential_building_1",
+   "remote_file": "arc.ifc",
+   "local_file": "projects\\fantasy_residential_building_1\\arc.ifc",
+   "bytes": 19719618,
+   "sha256": "dd7000fc4d1d4f651044375e32d48f947ee3aaf6ce8efc634c0e65a4bed48a1c",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/fantasy_residential_building_1/arc.ifc",
+   "retrieved_utc": "2026-10-11T23:58:58Z"
+  },
+  {
+   "project": "hitos",
+   "remote_file": "model_card.md",
+   "local_file": "projects\\hitos\\model_card.md",
+   "bytes": 433,
+   "sha256": "bedc042a2e3d4201f37d5fddaed9c35f391f74e6f9ecba86cc370490062ad124",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/hitos/model_card.md",
+   "retrieved_utc": "2026-10-11T23:59:00Z"
+  },
+  {
+   "project": "hitos",
+   "remote_file": "license.txt",
+   "local_file": "projects\\hitos\\license.txt",
+   "bytes": 664,
+   "sha256": "47ae3548194e4defc3400ba1b54a71966f5bc913211cd3a348c68235d8d4b19b",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/hitos/license.txt",
+   "retrieved_utc": "2026-10-11T23:59:02Z"
+  },
+  {
+   "project": "hitos",
+   "remote_file": "arc.ifc",
+   "local_file": "projects\\hitos\\arc.ifc",
+   "bytes": 64095402,
+   "sha256": "fe339277c7390b4a99d327846e34239e4d853371fac6951e46503ba8faaa2dcf",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/hitos/arc.ifc",
+   "retrieved_utc": "2026-10-11T23:59:10Z"
+  },
+  {
+   "project": "molio",
+   "remote_file": "model_card.md",
+   "local_file": "projects\\molio\\model_card.md",
+   "bytes": 478,
+   "sha256": "098d46b0529b39575ec4aac4d675c727f97a57a5d6f86864fa04b0da398b99a5",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/molio/model_card.md",
+   "retrieved_utc": "2026-10-11T23:59:12Z"
+  },
+  {
+   "project": "molio",
+   "remote_file": "license.txt",
+   "local_file": "projects\\molio\\license.txt",
+   "bytes": 328,
+   "sha256": "0e7810040d1aff5bd870bef7cf5c4675a6fb11a49113c7115152b4a8b8efd810",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/molio/license.txt",
+   "retrieved_utc": "2026-10-11T23:59:14Z"
+  },
+  {
+   "project": "molio",
+   "remote_file": "arc.ifc",
+   "local_file": "projects\\molio\\arc.ifc",
+   "bytes": 73945142,
+   "sha256": "626654e3b62648d3f0499e17c04d4f087931f048ddf79410f6cb90e45004c086",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/molio/arc.ifc",
+   "retrieved_utc": "2026-10-11T23:59:23Z"
+  },
+  {
+   "project": "samuel_macalister_sample_house",
+   "remote_file": "model_card.md",
+   "local_file": "projects\\samuel_macalister_sample_house\\model_card.md",
+   "bytes": 618,
+   "sha256": "a5f11ef2fbf20950bac35cce3c8deeb927da2d4deda0ac0249e38b7391f325f5",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/samuel_macalister_sample_house/model_card.md",
+   "retrieved_utc": "2026-10-11T23:59:26Z"
+  },
+  {
+   "project": "samuel_macalister_sample_house",
+   "remote_file": "license.txt",
+   "local_file": "projects\\samuel_macalister_sample_house\\license.txt",
+   "bytes": 664,
+   "sha256": "47ae3548194e4defc3400ba1b54a71966f5bc913211cd3a348c68235d8d4b19b",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/samuel_macalister_sample_house/license.txt",
+   "retrieved_utc": "2026-10-11T23:59:28Z"
+  },
+  {
+   "project": "samuel_macalister_sample_house",
+   "remote_file": "arc.ifc",
+   "local_file": "projects\\samuel_macalister_sample_house\\arc.ifc",
+   "bytes": 25400254,
+   "sha256": "1421b55315b99044b639db2704dc086aeb42a37d6032bbc2aecdc8649f7c05f2",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/samuel_macalister_sample_house/arc.ifc",
+   "retrieved_utc": "2026-10-11T23:59:33Z"
+  },
+  {
+   "project": "sixty5",
+   "remote_file": "model_card.md",
+   "local_file": "projects\\sixty5\\model_card.md",
+   "bytes": 1441,
+   "sha256": "8abb1b6f1b78644f6c87b9af7cedc52c41806a586d60df721a84666adaf170a9",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/sixty5/model_card.md",
+   "retrieved_utc": "2026-10-11T23:59:35Z"
+  },
+  {
+   "project": "sixty5",
+   "remote_file": "license.txt",
+   "local_file": "projects\\sixty5\\license.txt",
+   "bytes": 335,
+   "sha256": "6cf6c9c5da2e192d888b3727eb23632c17096f0fae23f8295d853cc3a71c4d41",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/sixty5/license.txt",
+   "retrieved_utc": "2026-10-11T23:59:37Z"
+  },
+  {
+   "project": "sixty5",
+   "remote_file": "arc.ifc",
+   "local_file": "projects\\sixty5\\arc.ifc",
+   "bytes": 342657851,
+   "sha256": "e91ddbbd672bbde946af14631de4c732f0cf8a7cfae5dbbf06fbeab03b5c46df",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/sixty5/arc.ifc",
+   "retrieved_utc": "2026-10-12T00:00:11Z"
+  },
+  {
+   "project": "west_riverside_hospital",
+   "remote_file": "model_card.md",
+   "local_file": "projects\\west_riverside_hospital\\model_card.md",
+   "bytes": 4571,
+   "sha256": "3513e60bbaa3202fb9c54a014bdcbe38b46ba7b426e3ecc45f3b11d33ef4b6ff",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/west_riverside_hospital/model_card.md",
+   "retrieved_utc": "2026-10-12T00:00:13Z"
+  },
+  {
+   "project": "west_riverside_hospital",
+   "remote_file": "license.txt",
+   "local_file": "projects\\west_riverside_hospital\\license.txt",
+   "bytes": 1059,
+   "sha256": "2d7d4e28831e12cc6ae47ec03560d602e139f1f73617bb2ed3dfe1782e8c97f4",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/west_riverside_hospital/license.txt",
+   "retrieved_utc": "2026-10-12T00:00:15Z"
+  },
+  {
+   "project": "west_riverside_hospital",
+   "remote_file": "arc_ifc4.ifc",
+   "local_file": "projects\\west_riverside_hospital\\arc.ifc",
+   "bytes": 80937122,
+   "sha256": "230afa4d72a59c9ce18cdd9a7bc7c5c3e409a46078de6e14b19741b4cf92cf09",
+   "url": "https://huggingface.co/datasets/sylvainHellin/ifc-bench/resolve/main/projects/west_riverside_hospital/arc_ifc4.ifc",
+   "retrieved_utc": "2026-10-12T00:00:26Z"
+  }
+ ]
+}

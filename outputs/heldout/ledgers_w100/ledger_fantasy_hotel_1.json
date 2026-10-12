@@ -1,0 +1,5536 @@
+{
+ "project": "fantasy_hotel_1",
+ "schema": "IFC4",
+ "occupancy": "commercial",
+ "length_scale_m": 1.0,
+ "metric": true,
+ "vars": {
+  "fantasy_hotel_1|door|0|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_hotel_1|door|0",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_hotel_1|door|0|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|door|0",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_hotel_1|door|0|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|door|0",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_hotel_1|door|1|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_hotel_1|door|1",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_hotel_1|door|1|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|door|1",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_hotel_1|door|1|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|door|1",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_hotel_1|door|2|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_hotel_1|door|2",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_hotel_1|door|2|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|door|2",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_hotel_1|door|2|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|door|2",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_hotel_1|door|3|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_hotel_1|door|3",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_hotel_1|door|3|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|door|3",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_hotel_1|door|3|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|door|3",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_hotel_1|door|4|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "fantasy_hotel_1|door|4",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "fantasy_hotel_1|door|4|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|door|4",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "fantasy_hotel_1|door|4|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|door|4",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "fantasy_hotel_1|rail|0|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "fantasy_hotel_1|rail|0",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "fantasy_hotel_1|rail|1|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "fantasy_hotel_1|rail|1",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "fantasy_hotel_1|rail|2|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "fantasy_hotel_1|rail|2",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "fantasy_hotel_1|rail|3|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "fantasy_hotel_1|rail|3",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "fantasy_hotel_1|space|sem|RoomHeight": {
+   "domain": [
+    "CLEAR",
+    "GROSS"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|space",
+   "group": null,
+   "label": "meaning of the room height parameter (finished ceiling vs computational upper limit)"
+  },
+  "fantasy_hotel_1|space|sem|Body": {
+   "domain": [
+    "CLEAR",
+    "GROSS"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "fantasy_hotel_1|space",
+   "group": null,
+   "label": "meaning of space body height (finished ceiling vs upper limit)"
+  },
+  "fantasy_hotel_1|space|69|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|69",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|87|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|87",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|104|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|104",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|121|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|121",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|138|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|138",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|155|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|155",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|172|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|172",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|189|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|189",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|206|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|206",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|223|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|223",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|240|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|240",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|257|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|257",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|274|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|274",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|291|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|291",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|308|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|308",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|325|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|325",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|342|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|342",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|359|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|359",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|376|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|376",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|393|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|393",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|410|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|410",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|427|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|427",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|446|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|446",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|463|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|463",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|480|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|480",
+   "label": "space category (applicability)"
+  },
+  "fantasy_hotel_1|space|497|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "fantasy_hotel_1|space",
+   "group": "fantasy_hotel_1|space|497",
+   "label": "space category (applicability)"
+  }
+ },
+ "clusters": {
+  "fantasy_hotel_1|door|0": {
+   "family": "door",
+   "label": "Doors_IntAys_1:1210x2110mm-Sgl_Swing",
+   "groups": [
+    "fantasy_hotel_1|door|0|g0"
+   ]
+  },
+  "fantasy_hotel_1|door|1": {
+   "family": "door",
+   "label": "M_Door-Interior-Single-1_Panel-Wood:300 x 2000mm",
+   "groups": [
+    "fantasy_hotel_1|door|1|g0"
+   ]
+  },
+  "fantasy_hotel_1|door|2": {
+   "family": "door",
+   "label": "M_Door-Passage-Single-Flush:900 x 2200mm",
+   "groups": [
+    "fantasy_hotel_1|door|2|g0"
+   ]
+  },
+  "fantasy_hotel_1|door|3": {
+   "family": "door",
+   "label": "M_Door-Passage-Single-Flush:900 x 2400mm",
+   "groups": [
+    "fantasy_hotel_1|door|3|g0"
+   ]
+  },
+  "fantasy_hotel_1|door|4": {
+   "family": "door",
+   "label": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm",
+   "groups": [
+    "fantasy_hotel_1|door|4|g0"
+   ]
+  },
+  "fantasy_hotel_1|stair_riser|13295": {
+   "family": "stair",
+   "label": "Assembled Stair:Stair:1644242 Run 1",
+   "groups": [
+    "fantasy_hotel_1|stair_riser|13295|g0"
+   ]
+  },
+  "fantasy_hotel_1|stair_tread|13295": {
+   "family": "stair",
+   "label": "Assembled Stair:Stair:1644242 Run 1",
+   "groups": [
+    "fantasy_hotel_1|stair_tread|13295|g0"
+   ]
+  },
+  "fantasy_hotel_1|stair_riser|13889": {
+   "family": "stair",
+   "label": "Assembled Stair:Stair:1646359 Run 1",
+   "groups": [
+    "fantasy_hotel_1|stair_riser|13889|g0"
+   ]
+  },
+  "fantasy_hotel_1|stair_tread|13889": {
+   "family": "stair",
+   "label": "Assembled Stair:Stair:1646359 Run 1",
+   "groups": [
+    "fantasy_hotel_1|stair_tread|13889|g0"
+   ]
+  },
+  "fantasy_hotel_1|stair_riser|55107": {
+   "family": "stair",
+   "label": "Assembled Stair:Stair:1751844 Run 1",
+   "groups": [
+    "fantasy_hotel_1|stair_riser|55107|g0"
+   ]
+  },
+  "fantasy_hotel_1|stair_tread|55107": {
+   "family": "stair",
+   "label": "Assembled Stair:Stair:1751844 Run 1",
+   "groups": [
+    "fantasy_hotel_1|stair_tread|55107|g0"
+   ]
+  },
+  "fantasy_hotel_1|stair_riser|55685": {
+   "family": "stair",
+   "label": "Assembled Stair:Stair:1752399 Run 1",
+   "groups": [
+    "fantasy_hotel_1|stair_riser|55685|g0"
+   ]
+  },
+  "fantasy_hotel_1|stair_tread|55685": {
+   "family": "stair",
+   "label": "Assembled Stair:Stair:1752399 Run 1",
+   "groups": [
+    "fantasy_hotel_1|stair_tread|55685|g0"
+   ]
+  },
+  "fantasy_hotel_1|rail|0": {
+   "family": "railing",
+   "label": "Railing:900mm Pipe",
+   "groups": [
+    "fantasy_hotel_1|rail|0|g0"
+   ]
+  },
+  "fantasy_hotel_1|rail|1": {
+   "family": "railing",
+   "label": "Railing:Glass Panel - Bottom Fill",
+   "groups": [
+    "fantasy_hotel_1|rail|1|g0",
+    "fantasy_hotel_1|rail|1|g1"
+   ]
+  },
+  "fantasy_hotel_1|rail|2": {
+   "family": "railing",
+   "label": "Railing:Handrail - Rectangular",
+   "groups": [
+    "fantasy_hotel_1|rail|2|g0"
+   ]
+  },
+  "fantasy_hotel_1|rail|3": {
+   "family": "railing",
+   "label": "Support - Steel Bar:800mm Picket",
+   "groups": [
+    "fantasy_hotel_1|rail|3|g0"
+   ]
+  },
+  "fantasy_hotel_1|space": {
+   "family": "space",
+   "label": "all spaces",
+   "groups": [
+    "fantasy_hotel_1|space|69",
+    "fantasy_hotel_1|space|87",
+    "fantasy_hotel_1|space|104",
+    "fantasy_hotel_1|space|121",
+    "fantasy_hotel_1|space|138",
+    "fantasy_hotel_1|space|155",
+    "fantasy_hotel_1|space|172",
+    "fantasy_hotel_1|space|189",
+    "fantasy_hotel_1|space|206",
+    "fantasy_hotel_1|space|223",
+    "fantasy_hotel_1|space|240",
+    "fantasy_hotel_1|space|257",
+    "fantasy_hotel_1|space|274",
+    "fantasy_hotel_1|space|291",
+    "fantasy_hotel_1|space|308",
+    "fantasy_hotel_1|space|325",
+    "fantasy_hotel_1|space|342",
+    "fantasy_hotel_1|space|359",
+    "fantasy_hotel_1|space|376",
+    "fantasy_hotel_1|space|393",
+    "fantasy_hotel_1|space|410",
+    "fantasy_hotel_1|space|427",
+    "fantasy_hotel_1|space|446",
+    "fantasy_hotel_1|space|463",
+    "fantasy_hotel_1|space|480",
+    "fantasy_hotel_1|space|497"
+   ]
+  }
+ },
+ "groups": {
+  "fantasy_hotel_1|door|0|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_hotel_1|door|0",
+   "elements": [
+    4927,
+    6701,
+    6719,
+    6735,
+    8886,
+    8902,
+    8918,
+    8934
+   ],
+   "names": [
+    "Doors_IntAys_1:1210x2110mm-Sgl_Swing:1607221",
+    "Doors_IntAys_1:1210x2110mm-Sgl_Swing:1607271",
+    "Doors_IntAys_1:1210x2110mm-Sgl_Swing:1607342"
+   ],
+   "multiplicity": 8,
+   "category_vars": [
+    "fantasy_hotel_1|door|0|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|door|0|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "DOUBLE_DOOR_SINGLE_SWING",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|door|0|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "Doors_IntAys_1:1210x2110mm-Sgl_Swing",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|0|sem|IfcDoor.OverallWidth",
+      "fantasy_hotel_1|door|0|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        830.0,
+        1310.0
+       ],
+       "u:ft": [
+        -11.19199999999995,
+        468.80800000000005
+       ],
+       "u:in": [
+        -349.266,
+        130.734
+       ],
+       "u:mm": [
+        -378.79,
+        101.21
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        249.0,
+        1310.0
+       ],
+       "u:ft": [
+        -3.357599999999985,
+        468.80800000000005
+       ],
+       "u:in": [
+        -104.77980000000001,
+        130.734
+       ],
+       "u:mm": [
+        -113.637,
+        101.21
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        830.0,
+        1310.0
+       ],
+       "u:ft": [
+        -11.19199999999995,
+        468.80800000000005
+       ],
+       "u:in": [
+        -349.266,
+        130.734
+       ],
+       "u:mm": [
+        -378.79,
+        101.21
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1050.0,
+        1230.0
+       ],
+       "u:ft": [
+        208.80800000000005,
+        388.80800000000005
+       ],
+       "u:in": [
+        -129.266,
+        50.733999999999995
+       ],
+       "u:mm": [
+        -158.79,
+        21.21
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        315.0,
+        1230.0
+       ],
+       "u:ft": [
+        62.64240000000001,
+        388.80800000000005
+       ],
+       "u:in": [
+        -38.779799999999994,
+        50.733999999999995
+       ],
+       "u:mm": [
+        -47.63699999999999,
+        21.21
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1050.0,
+        1230.0
+       ],
+       "u:ft": [
+        208.80800000000005,
+        388.80800000000005
+       ],
+       "u:in": [
+        -129.266,
+        50.733999999999995
+       ],
+       "u:mm": [
+        -158.79,
+        21.21
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.21,
+     "value_mm": 1210.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|0|sem|Name",
+      "fantasy_hotel_1|door|0|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1050.0,
+        1230.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        315.0,
+        1230.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1050.0,
+        1230.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        830.0,
+        1310.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        249.0,
+        1310.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        830.0,
+        1310.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "Doors_IntAys_1:1210x2110mm-Sgl_Swing",
+     "value_mm": 1210.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|0|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        699.9999999999982,
+        1479.9999999999982
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        209.99999999999946,
+        1479.9999999999982
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        699.9999999999982,
+        1479.9999999999982
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1279.9999999999982,
+     "value_mm": 1279.9999999999982,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1210.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_hotel_1|door|1|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_hotel_1|door|1",
+   "elements": [
+    65029,
+    65437,
+    65451
+   ],
+   "names": [
+    "M_Door-Interior-Single-1_Panel-Wood:300 x 2000mm:1792745",
+    "M_Door-Interior-Single-1_Panel-Wood:300 x 2000mm:1792811",
+    "M_Door-Interior-Single-1_Panel-Wood:300 x 2000mm:1792882"
+   ],
+   "multiplicity": 3,
+   "category_vars": [
+    "fantasy_hotel_1|door|1|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|door|1|cfg",
+     "allowed": [
+      "OTHER"
+     ],
+     "raw": "SWING_FIXED_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|door|1|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "M_Door-Interior-Single-1_Panel-Wood:300 x 2000mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|1|sem|IfcDoor.OverallWidth",
+      "fantasy_hotel_1|door|1|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        -29.99999999999943,
+        450.00000000000057
+       ],
+       "u:ft": [
+        -273.3199999999998,
+        206.68000000000018
+       ],
+       "u:in": [
+        -371.11,
+        108.89000000000001
+       ],
+       "u:mm": [
+        -379.65,
+        100.35
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        -8.99999999999983,
+        450.00000000000057
+       ],
+       "u:ft": [
+        -81.99599999999994,
+        206.68000000000018
+       ],
+       "u:in": [
+        -111.333,
+        108.89000000000001
+       ],
+       "u:mm": [
+        -113.895,
+        100.35
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        -29.99999999999943,
+        450.00000000000057
+       ],
+       "u:ft": [
+        -273.3199999999998,
+        206.68000000000018
+       ],
+       "u:in": [
+        -371.11,
+        108.89000000000001
+       ],
+       "u:mm": [
+        -379.65,
+        100.35
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        190.00000000000057,
+        370.00000000000057
+       ],
+       "u:ft": [
+        -53.31999999999981,
+        126.68000000000019
+       ],
+       "u:in": [
+        -151.10999999999999,
+        28.890000000000015
+       ],
+       "u:mm": [
+        -159.65,
+        20.35
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        57.00000000000017,
+        370.00000000000057
+       ],
+       "u:ft": [
+        -15.995999999999942,
+        126.68000000000019
+       ],
+       "u:in": [
+        -45.33299999999999,
+        28.890000000000015
+       ],
+       "u:mm": [
+        -47.895,
+        20.35
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        190.00000000000057,
+        370.00000000000057
+       ],
+       "u:ft": [
+        -53.31999999999981,
+        126.68000000000019
+       ],
+       "u:in": [
+        -151.10999999999999,
+        28.890000000000015
+       ],
+       "u:mm": [
+        -159.65,
+        20.35
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.3500000000000006,
+     "value_mm": 350.00000000000057,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|1|sem|Name",
+      "fantasy_hotel_1|door|1|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        140.0,
+        320.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        42.0,
+        320.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        140.0,
+        320.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        -80.0,
+        400.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        -24.0,
+        400.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        -80.0,
+        400.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "M_Door-Interior-Single-1_Panel-Wood:300 x 2000mm",
+     "value_mm": 300.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|1|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        -137.2999999999994,
+        642.7000000000006
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        -41.18999999999981,
+        642.7000000000006
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        -137.2999999999994,
+        642.7000000000006
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 442.7000000000006,
+     "value_mm": 442.7000000000006,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 350.00000000000057,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_hotel_1|door|2|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_hotel_1|door|2",
+   "elements": [
+    48225,
+    48679,
+    50528,
+    50543,
+    50558
+   ],
+   "names": [
+    "M_Door-Passage-Single-Flush:900 x 2200mm:1712416",
+    "M_Door-Passage-Single-Flush:900 x 2200mm:1712530",
+    "M_Door-Passage-Single-Flush:900 x 2200mm:1715003"
+   ],
+   "multiplicity": 5,
+   "category_vars": [
+    "fantasy_hotel_1|door|2|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|door|2|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|door|2|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "M_Door-Passage-Single-Flush:900 x 2200mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|2|sem|IfcDoor.OverallWidth",
+      "fantasy_hotel_1|door|2|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        620.0,
+        1100.0
+       ],
+       "u:ft": [
+        -75.19999999999999,
+        404.8
+       ],
+       "u:in": [
+        -354.6,
+        125.4
+       ],
+       "u:mm": [
+        -379.0,
+        101.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        186.0,
+        1100.0
+       ],
+       "u:ft": [
+        -22.559999999999995,
+        404.8
+       ],
+       "u:in": [
+        -106.38000000000001,
+        125.4
+       ],
+       "u:mm": [
+        -113.7,
+        101.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        620.0,
+        1100.0
+       ],
+       "u:ft": [
+        -75.19999999999999,
+        404.8
+       ],
+       "u:in": [
+        -354.6,
+        125.4
+       ],
+       "u:mm": [
+        -379.0,
+        101.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        840.0,
+        1020.0
+       ],
+       "u:ft": [
+        144.8,
+        324.8
+       ],
+       "u:in": [
+        -134.6,
+        45.4
+       ],
+       "u:mm": [
+        -159.0,
+        21.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        252.0,
+        1020.0
+       ],
+       "u:ft": [
+        43.440000000000005,
+        324.8
+       ],
+       "u:in": [
+        -40.379999999999995,
+        45.4
+       ],
+       "u:mm": [
+        -47.699999999999996,
+        21.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        840.0,
+        1020.0
+       ],
+       "u:ft": [
+        144.8,
+        324.8
+       ],
+       "u:in": [
+        -134.6,
+        45.4
+       ],
+       "u:mm": [
+        -159.0,
+        21.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.0,
+     "value_mm": 1000.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|2|sem|Name",
+      "fantasy_hotel_1|door|2|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        740.0,
+        920.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        222.0,
+        920.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        740.0,
+        920.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        520.0,
+        1000.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        156.0,
+        1000.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        520.0,
+        1000.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "M_Door-Passage-Single-Flush:900 x 2200mm",
+     "value_mm": 900.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|2|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        419.9999999999999,
+        1200.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        125.99999999999996,
+        1200.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        419.9999999999999,
+        1200.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 999.9999999999999,
+     "value_mm": 999.9999999999999,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1000.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_hotel_1|door|3|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_hotel_1|door|3",
+   "elements": [
+    2596,
+    3051,
+    3066,
+    3081,
+    3096,
+    3111,
+    3126,
+    3141
+   ],
+   "names": [
+    "M_Door-Passage-Single-Flush:900 x 2400mm:1597571",
+    "M_Door-Passage-Single-Flush:900 x 2400mm:1597715",
+    "M_Door-Passage-Single-Flush:900 x 2400mm:1597766"
+   ],
+   "multiplicity": 8,
+   "category_vars": [
+    "fantasy_hotel_1|door|3|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|door|3|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|door|3|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "M_Door-Passage-Single-Flush:900 x 2400mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|3|sem|IfcDoor.OverallWidth",
+      "fantasy_hotel_1|door|3|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        620.0,
+        1100.0
+       ],
+       "u:ft": [
+        -75.19999999999999,
+        404.8
+       ],
+       "u:in": [
+        -354.6,
+        125.4
+       ],
+       "u:mm": [
+        -379.0,
+        101.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        186.0,
+        1100.0
+       ],
+       "u:ft": [
+        -22.559999999999995,
+        404.8
+       ],
+       "u:in": [
+        -106.38000000000001,
+        125.4
+       ],
+       "u:mm": [
+        -113.7,
+        101.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        620.0,
+        1100.0
+       ],
+       "u:ft": [
+        -75.19999999999999,
+        404.8
+       ],
+       "u:in": [
+        -354.6,
+        125.4
+       ],
+       "u:mm": [
+        -379.0,
+        101.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        840.0,
+        1020.0
+       ],
+       "u:ft": [
+        144.8,
+        324.8
+       ],
+       "u:in": [
+        -134.6,
+        45.4
+       ],
+       "u:mm": [
+        -159.0,
+        21.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        252.0,
+        1020.0
+       ],
+       "u:ft": [
+        43.440000000000005,
+        324.8
+       ],
+       "u:in": [
+        -40.379999999999995,
+        45.4
+       ],
+       "u:mm": [
+        -47.699999999999996,
+        21.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        840.0,
+        1020.0
+       ],
+       "u:ft": [
+        144.8,
+        324.8
+       ],
+       "u:in": [
+        -134.6,
+        45.4
+       ],
+       "u:mm": [
+        -159.0,
+        21.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.0,
+     "value_mm": 1000.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|3|sem|Name",
+      "fantasy_hotel_1|door|3|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        740.0,
+        920.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        222.0,
+        920.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        740.0,
+        920.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        520.0,
+        1000.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        156.0,
+        1000.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        520.0,
+        1000.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "M_Door-Passage-Single-Flush:900 x 2400mm",
+     "value_mm": 900.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|3|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        419.9999999999999,
+        1200.0
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        125.99999999999996,
+        1200.0
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        419.9999999999999,
+        1200.0
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 999.9999999999999,
+     "value_mm": 999.9999999999999,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1000.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_hotel_1|door|4|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "fantasy_hotel_1|door|4",
+   "elements": [
+    50473
+   ],
+   "names": [
+    "M_Door-Passage-Single-Vision_Lite:750 x 2000mm:1712675"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|door|4|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|door|4|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|door|4|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|4|sem|IfcDoor.OverallWidth",
+      "fantasy_hotel_1|door|4|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        469.99999999999955,
+        949.9999999999995
+       ],
+       "u:ft": [
+        -120.92000000000013,
+        359.07999999999987
+       ],
+       "u:in": [
+        -358.41,
+        121.58999999999999
+       ],
+       "u:mm": [
+        -379.15,
+        100.85
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        140.99999999999986,
+        949.9999999999995
+       ],
+       "u:ft": [
+        -36.27600000000004,
+        359.07999999999987
+       ],
+       "u:in": [
+        -107.52300000000001,
+        121.58999999999999
+       ],
+       "u:mm": [
+        -113.74499999999999,
+        100.85
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        469.99999999999955,
+        949.9999999999995
+       ],
+       "u:ft": [
+        -120.92000000000013,
+        359.07999999999987
+       ],
+       "u:in": [
+        -358.41,
+        121.58999999999999
+       ],
+       "u:mm": [
+        -379.15,
+        100.85
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        689.9999999999995,
+        869.9999999999995
+       ],
+       "u:ft": [
+        99.07999999999987,
+        279.07999999999987
+       ],
+       "u:in": [
+        -138.41000000000003,
+        41.58999999999999
+       ],
+       "u:mm": [
+        -159.15,
+        20.849999999999998
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        206.99999999999986,
+        869.9999999999995
+       ],
+       "u:ft": [
+        29.72399999999996,
+        279.07999999999987
+       ],
+       "u:in": [
+        -41.523,
+        41.58999999999999
+       ],
+       "u:mm": [
+        -47.745,
+        20.849999999999998
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        689.9999999999995,
+        869.9999999999995
+       ],
+       "u:ft": [
+        99.07999999999987,
+        279.07999999999987
+       ],
+       "u:in": [
+        -138.41000000000003,
+        41.58999999999999
+       ],
+       "u:mm": [
+        -159.15,
+        20.849999999999998
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8499999999999995,
+     "value_mm": 849.9999999999995,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|4|sem|Name",
+      "fantasy_hotel_1|door|4|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        590.0,
+        770.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        177.0,
+        770.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        590.0,
+        770.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        370.0,
+        850.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        111.0,
+        850.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        370.0,
+        850.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "M_Door-Passage-Single-Vision_Lite:750 x 2000mm",
+     "value_mm": 750.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|door|4|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        269.9999999999998,
+        1049.9999999999998
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        80.99999999999993,
+        1049.9999999999998
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        269.9999999999998,
+        1049.9999999999998
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 849.9999999999998,
+     "value_mm": 849.9999999999998,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 849.9999999999995,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "fantasy_hotel_1|stair_riser|13295|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "fantasy_hotel_1|stair_riser|13295",
+   "elements": [
+    13295
+   ],
+   "names": [
+    "Assembled Stair:Stair:1644242 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        272.02222222222224,
+        272.4222222222222
+       ],
+       "u:ft": [
+        82.77333333333334,
+        83.17333333333335
+       ],
+       "u:in": [
+        6.714444444444445,
+        7.1144444444444455
+       ],
+       "u:mm": [
+        0.07222222222222224,
+        0.47222222222222227
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27222222222222225,
+     "value_mm": 272.22222222222223,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        272.02222222222224,
+        272.4222222222222
+       ],
+       "u:ft": [
+        82.77333333333334,
+        83.17333333333335
+       ],
+       "u:in": [
+        6.714444444444445,
+        7.1144444444444455
+       ],
+       "u:mm": [
+        0.07222222222222224,
+        0.47222222222222227
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27222222222222225,
+     "value_mm": 272.22222222222223,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=18, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        231.88888888888894,
+        611.7500000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 4894.000000000001,
+     "value_mm": null,
+     "note": "N=18",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 272.22222222222223,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 272.22222222222223,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 4894.000000000001
+  },
+  "fantasy_hotel_1|stair_tread|13295|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "fantasy_hotel_1|stair_tread|13295",
+   "elements": [
+    13295
+   ],
+   "names": [
+    "Assembled Stair:Stair:1644242 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 275.0,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 275.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 4894.000000000001
+  },
+  "fantasy_hotel_1|stair_riser|13889|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "fantasy_hotel_1|stair_riser|13889",
+   "elements": [
+    13889
+   ],
+   "names": [
+    "Assembled Stair:Stair:1646359 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        272.02222222222224,
+        272.4222222222222
+       ],
+       "u:ft": [
+        82.77333333333334,
+        83.17333333333335
+       ],
+       "u:in": [
+        6.714444444444445,
+        7.1144444444444455
+       ],
+       "u:mm": [
+        0.07222222222222224,
+        0.47222222222222227
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27222222222222225,
+     "value_mm": 272.22222222222223,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        272.02222222222224,
+        272.4222222222222
+       ],
+       "u:ft": [
+        82.77333333333334,
+        83.17333333333335
+       ],
+       "u:in": [
+        6.714444444444445,
+        7.1144444444444455
+       ],
+       "u:mm": [
+        0.07222222222222224,
+        0.47222222222222227
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.27222222222222225,
+     "value_mm": 272.22222222222223,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=18, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        231.88888888888894,
+        611.7500000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 4894.000000000001,
+     "value_mm": null,
+     "note": "N=18",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 272.22222222222223,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 272.22222222222223,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 4894.000000000001
+  },
+  "fantasy_hotel_1|stair_tread|13889|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "fantasy_hotel_1|stair_tread|13889",
+   "elements": [
+    13889
+   ],
+   "names": [
+    "Assembled Stair:Stair:1646359 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 275.0,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 275.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 4894.000000000001
+  },
+  "fantasy_hotel_1|stair_riser|55107|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "fantasy_hotel_1|stair_riser|55107",
+   "elements": [
+    55107
+   ],
+   "names": [
+    "Assembled Stair:Stair:1751844 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        272.02222222223355,
+        272.42222222223353
+       ],
+       "u:ft": [
+        82.77333333333678,
+        83.17333333333679
+       ],
+       "u:in": [
+        6.714444444444731,
+        7.1144444444447315
+       ],
+       "u:mm": [
+        0.07222222222223351,
+        0.47222222222223353
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.2722222222222335,
+     "value_mm": 272.22222222223354,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        272.02222222223355,
+        272.42222222223353
+       ],
+       "u:ft": [
+        82.77333333333678,
+        83.17333333333679
+       ],
+       "u:in": [
+        6.714444444444731,
+        7.1144444444447315
+       ],
+       "u:mm": [
+        0.07222222222223351,
+        0.47222222222223353
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.2722222222222335,
+     "value_mm": 272.22222222223354,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=18, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        231.8888888889002,
+        611.7500000000255
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 4894.000000000204,
+     "value_mm": null,
+     "note": "N=18",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 272.22222222223354,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 272.22222222223354,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 4894.000000000204
+  },
+  "fantasy_hotel_1|stair_tread|55107|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "fantasy_hotel_1|stair_tread|55107",
+   "elements": [
+    55107
+   ],
+   "names": [
+    "Assembled Stair:Stair:1751844 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 275.0,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 275.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 4894.000000000204
+  },
+  "fantasy_hotel_1|stair_riser|55685|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "fantasy_hotel_1|stair_riser|55685",
+   "elements": [
+    55685
+   ],
+   "names": [
+    "Assembled Stair:Stair:1752399 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        272.02222222223355,
+        272.42222222223353
+       ],
+       "u:ft": [
+        82.77333333333678,
+        83.17333333333679
+       ],
+       "u:in": [
+        6.714444444444731,
+        7.1144444444447315
+       ],
+       "u:mm": [
+        0.07222222222223351,
+        0.47222222222223353
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.2722222222222335,
+     "value_mm": 272.22222222223354,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        272.02222222223355,
+        272.42222222223353
+       ],
+       "u:ft": [
+        82.77333333333678,
+        83.17333333333679
+       ],
+       "u:in": [
+        6.714444444444731,
+        7.1144444444447315
+       ],
+       "u:mm": [
+        0.07222222222223351,
+        0.47222222222223353
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.2722222222222335,
+     "value_mm": 272.22222222223354,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=18, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        231.8888888889002,
+        611.7500000000255
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 4894.000000000204,
+     "value_mm": null,
+     "note": "N=18",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 272.22222222223354,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 272.22222222223354,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 4894.000000000204
+  },
+  "fantasy_hotel_1|stair_tread|55685|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "fantasy_hotel_1|stair_tread|55685",
+   "elements": [
+    55685
+   ],
+   "names": [
+    "Assembled Stair:Stair:1752399 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        274.8,
+        275.2
+       ],
+       "u:ft": [
+        83.62,
+        84.02000000000001
+       ],
+       "u:in": [
+        6.785,
+        7.1850000000000005
+       ],
+       "u:mm": [
+        0.07500000000000001,
+        0.47500000000000003
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.275,
+     "value_mm": 275.0,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 275.0,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 275.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 4894.000000000204
+  },
+  "fantasy_hotel_1|rail|0|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "fantasy_hotel_1|rail|0",
+   "elements": [
+    76579
+   ],
+   "names": [
+    "Railing:900mm Pipe:1653439"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|rail|0|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm",
+     "label": "Type-name nominal height",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        890.0,
+        910.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "900mm Pipe",
+     "value_mm": 900.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        898.9999999999999,
+        900.9999999999999
+       ],
+       "u:ft": [
+        273.32,
+        275.32
+       ],
+       "u:in": [
+        21.86,
+        23.86
+       ],
+       "u:mm": [
+        -0.09999999999999998,
+        1.9
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8999999999999999,
+     "value_mm": 899.9999999999999,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body height extent (level railing)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        299.999999160038,
+        1099.999999160038
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 899.999999160038,
+     "value_mm": 899.999999160038,
+     "note": "UB",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 899.9999999999999,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 899.9999999999999,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|rail|1|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "fantasy_hotel_1|rail|1",
+   "elements": [
+    83493
+   ],
+   "names": [
+    "Railing:Glass Panel - Bottom Fill:1754649"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|rail|1|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        899.0,
+        901.0
+       ],
+       "u:ft": [
+        273.32,
+        275.32
+       ],
+       "u:in": [
+        21.86,
+        23.86
+       ],
+       "u:mm": [
+        -0.09999999999999987,
+        1.9000000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.9,
+     "value_mm": 900.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body height extent (level railing)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        329.9989844252905,
+        1129.9989844252905
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 929.9989844252905,
+     "value_mm": 929.9989844252905,
+     "note": "UB",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 900.0,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 900.0,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|rail|1|g1": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "fantasy_hotel_1|rail|1",
+   "elements": [
+    77152,
+    77999,
+    78577,
+    79421
+   ],
+   "names": [
+    "Railing:Glass Panel - Bottom Fill:1751984",
+    "Railing:Glass Panel - Bottom Fill:1751988",
+    "Railing:Glass Panel - Bottom Fill:1752736"
+   ],
+   "multiplicity": 4,
+   "category_vars": [
+    "fantasy_hotel_1|rail|1|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        899.0,
+        901.0
+       ],
+       "u:ft": [
+        273.32,
+        275.32
+       ],
+       "u:in": [
+        21.86,
+        23.86
+       ],
+       "u:mm": [
+        -0.09999999999999987,
+        1.9000000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.9,
+     "value_mm": 900.0,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 900.0,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 900.0,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|rail|2|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "fantasy_hotel_1|rail|2",
+   "elements": [
+    72218,
+    72860,
+    73177,
+    73814
+   ],
+   "names": [
+    "Railing:Handrail - Rectangular:1646139",
+    "Railing:Handrail - Rectangular:1646143",
+    "Railing:Handrail - Rectangular:1646370"
+   ],
+   "multiplicity": 4,
+   "category_vars": [
+    "fantasy_hotel_1|rail|2|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm_fn",
+     "label": "Type-name function tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|rail|2|fn",
+     "allowed": [
+      "HANDRAIL"
+     ],
+     "raw": "Handrail - Rectangular",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        899.0,
+        901.0
+       ],
+       "u:ft": [
+        273.32,
+        275.32
+       ],
+       "u:in": [
+        21.86,
+        23.86
+       ],
+       "u:mm": [
+        -0.09999999999999987,
+        1.9000000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.9,
+     "value_mm": 900.0,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 900.0,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 900.0,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|rail|3|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "fantasy_hotel_1|rail|3",
+   "elements": [
+    71901
+   ],
+   "names": [
+    "Support - Steel Bar:800mm Picket:1630126"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|rail|3|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm",
+     "label": "Type-name nominal height",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        790.0,
+        810.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "800mm Picket",
+     "value_mm": 800.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body height extent (level railing)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        187.50000000000148,
+        987.5000000000015
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 787.5000000000015,
+     "value_mm": 787.5000000000015,
+     "note": "UB",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|69": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    69
+   ],
+   "names": [
+    "LIVING ROOM 100"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|69|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|69|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "LIVING ROOM 100",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|87": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    87
+   ],
+   "names": [
+    "LIVING ROOM 101"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|87|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|87|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "LIVING ROOM 101",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|104": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    104
+   ],
+   "names": [
+    "KITCHEN 102"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|104|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|104|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "KITCHEN 102",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|121": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    121
+   ],
+   "names": [
+    "LIVING ROOM 103"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|121|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|121|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "LIVING ROOM 103",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|138": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    138
+   ],
+   "names": [
+    "Room Name 104"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|138|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|155": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    155
+   ],
+   "names": [
+    "Room Name 105"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|155|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|172": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    172
+   ],
+   "names": [
+    "MASTER BEDROOM 106"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|172|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|172|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "MASTER BEDROOM 106",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|189": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    189
+   ],
+   "names": [
+    "MASTER BEDROOM 107"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|189|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|189|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "MASTER BEDROOM 107",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|206": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    206
+   ],
+   "names": [
+    "BATHROOM 108"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|206|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|206|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "BATHROOM 108",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|223": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    223
+   ],
+   "names": [
+    "BATHROOM 109"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|223|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|223|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "BATHROOM 109",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|240": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    240
+   ],
+   "names": [
+    "MASTER BEDROOM 110"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|240|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|240|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "MASTER BEDROOM 110",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|257": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    257
+   ],
+   "names": [
+    "STAIRCASE 111"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|257|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|257|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "STAIRCASE 111",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|274": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    274
+   ],
+   "names": [
+    "MASTER BEDROOM 112"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|274|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|274|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "MASTER BEDROOM 112",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|291": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    291
+   ],
+   "names": [
+    "STAIRCASE 113"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|291|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|291|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "STAIRCASE 113",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|308": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    308
+   ],
+   "names": [
+    "LIVING ROOM 114"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|308|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|308|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "LIVING ROOM 114",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|325": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    325
+   ],
+   "names": [
+    "LIVING ROOM 115"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|325|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|325|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "LIVING ROOM 115",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|342": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    342
+   ],
+   "names": [
+    "BATH 116"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|342|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|342|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "BATH 116",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|359": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    359
+   ],
+   "names": [
+    "WASH BASIN 117"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|359|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|376": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    376
+   ],
+   "names": [
+    "MASTER BEDROOM 118"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|376|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|376|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "MASTER BEDROOM 118",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|393": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    393
+   ],
+   "names": [
+    "STAIRCASE 119"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|393|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|393|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "STAIRCASE 119",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|410": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    410
+   ],
+   "names": [
+    "MASTER BEDROOM 120"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|410|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|410|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "MASTER BEDROOM 120",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|427": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    427
+   ],
+   "names": [
+    "MASTER BEDROOM 121"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|427|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|427|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "MASTER BEDROOM 121",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|446": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    446
+   ],
+   "names": [
+    "MASTER BEDROOM 123"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|446|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|446|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "MASTER BEDROOM 123",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|463": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    463
+   ],
+   "names": [
+    "LIVING ROOM 124"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|463|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|463|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "LIVING ROOM 124",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|480": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    480
+   ],
+   "names": [
+    "LIVING ROOM 125"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|480|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|480|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "LIVING ROOM 125",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "fantasy_hotel_1|space|497": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "fantasy_hotel_1|space",
+   "elements": [
+    497
+   ],
+   "names": [
+    "LIVING ROOM 126"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "fantasy_hotel_1|space|497|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "fantasy_hotel_1|space|497|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "LIVING ROOM 126",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "fantasy_hotel_1|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        3028.0,
+        3068.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3068.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3048.0,
+     "value_mm": 3048.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": null,
+    "label": null,
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  }
+ }
+}

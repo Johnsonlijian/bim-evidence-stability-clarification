@@ -1,0 +1,6827 @@
+{
+ "project": "city_house_munich",
+ "schema": "IFC4X3",
+ "occupancy": "residential",
+ "length_scale_m": 1.0,
+ "metric": true,
+ "vars": {
+  "city_house_munich|door|0|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "city_house_munich|door|0",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "city_house_munich|door|0|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|0",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "city_house_munich|door|0|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|0",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "city_house_munich|door|0|sem|Dimensions.Width": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|0",
+   "group": null,
+   "label": "meaning of Dimensions.Width"
+  },
+  "city_house_munich|door|1|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "city_house_munich|door|1",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "city_house_munich|door|1|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|1",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "city_house_munich|door|1|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|1",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "city_house_munich|door|1|sem|Dimensions.Width": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|1",
+   "group": null,
+   "label": "meaning of Dimensions.Width"
+  },
+  "city_house_munich|door|2|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "city_house_munich|door|2",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "city_house_munich|door|2|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|2",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "city_house_munich|door|2|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|2",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "city_house_munich|door|2|sem|Dimensions.Width": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|2",
+   "group": null,
+   "label": "meaning of Dimensions.Width"
+  },
+  "city_house_munich|door|3|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "city_house_munich|door|3",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "city_house_munich|door|3|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|3",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "city_house_munich|door|3|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|3",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "city_house_munich|door|3|sem|Dimensions.Width": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|3",
+   "group": null,
+   "label": "meaning of Dimensions.Width"
+  },
+  "city_house_munich|door|4|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "city_house_munich|door|4",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "city_house_munich|door|4|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|4",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "city_house_munich|door|4|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|4",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "city_house_munich|door|4|sem|Dimensions.Width": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|4",
+   "group": null,
+   "label": "meaning of Dimensions.Width"
+  },
+  "city_house_munich|door|5|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "city_house_munich|door|5",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "city_house_munich|door|5|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|5",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "city_house_munich|door|5|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|5",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "city_house_munich|door|5|sem|Dimensions.Width": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|door|5",
+   "group": null,
+   "label": "meaning of Dimensions.Width"
+  },
+  "city_house_munich|rail|0|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "city_house_munich|rail|0",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "city_house_munich|rail|1|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "city_house_munich|rail|1",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "city_house_munich|space|sem|RoomHeight": {
+   "domain": [
+    "CLEAR",
+    "GROSS"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|space",
+   "group": null,
+   "label": "meaning of the room height parameter (finished ceiling vs computational upper limit)"
+  },
+  "city_house_munich|space|sem|Body": {
+   "domain": [
+    "CLEAR",
+    "GROSS"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "city_house_munich|space",
+   "group": null,
+   "label": "meaning of space body height (finished ceiling vs upper limit)"
+  },
+  "city_house_munich|space|94|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|94",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|155|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|155",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|199|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|199",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|237|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|237",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|275|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|275",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|313|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|313",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|367|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|367",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|405|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|405",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|448|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|448",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|496|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|496",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|541|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|541",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|579|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|579",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|624|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|624",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|675|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|675",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|718|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|718",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|762|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|762",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|800|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|800",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|842|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|842",
+   "label": "space category (applicability)"
+  },
+  "city_house_munich|space|880|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "city_house_munich|space",
+   "group": "city_house_munich|space|880",
+   "label": "space category (applicability)"
+  }
+ },
+ "clusters": {
+  "city_house_munich|door|0": {
+   "family": "door",
+   "label": "Aluprof_MB-86N-SI_PanelDoor_AP01_Dbl_In-Open_R-00900:1400 x 2395",
+   "groups": [
+    "city_house_munich|door|0|g0"
+   ]
+  },
+  "city_house_munich|door|1": {
+   "family": "door",
+   "label": "CLASSIC_1H_53_MU_v2:800x2050",
+   "groups": [
+    "city_house_munich|door|1|g0"
+   ]
+  },
+  "city_house_munich|door|2": {
+   "family": "door",
+   "label": "DRE_UNI_Przylgowe:Ościeżnica regulowana_przylgowa_60_T63",
+   "groups": [
+    "city_house_munich|door|2|g0"
+   ]
+  },
+  "city_house_munich|door|3": {
+   "family": "door",
+   "label": "DRE_UNI_Przylgowe:Ościeżnica regulowana_przylgowa_80_T63",
+   "groups": [
+    "city_house_munich|door|3|g0"
+   ]
+  },
+  "city_house_munich|door|4": {
+   "family": "door",
+   "label": "DRE_UNI_Przylgowe:Ościeżnica regulowana_przylgowa_90_T63",
+   "groups": [
+    "city_house_munich|door|4|g0"
+   ]
+  },
+  "city_house_munich|door|5": {
+   "family": "door",
+   "label": "Hafele Automatic Garage Door LPU46:Hafele Automatic Garage Door LPU46 RAL 9002",
+   "groups": [
+    "city_house_munich|door|5|g0"
+   ]
+  },
+  "city_house_munich|stair_riser|28458": {
+   "family": "stair",
+   "label": "Assembled Stair:Stair:425692 Run 1",
+   "groups": [
+    "city_house_munich|stair_riser|28458|g0"
+   ]
+  },
+  "city_house_munich|stair_tread|28458": {
+   "family": "stair",
+   "label": "Assembled Stair:Stair:425692 Run 1",
+   "groups": [
+    "city_house_munich|stair_tread|28458|g0"
+   ]
+  },
+  "city_house_munich|stair_riser|28915": {
+   "family": "stair",
+   "label": "Cast-In-Place Stair:Stair:426851 Run 1",
+   "groups": [
+    "city_house_munich|stair_riser|28915|g0"
+   ]
+  },
+  "city_house_munich|stair_tread|28915": {
+   "family": "stair",
+   "label": "Cast-In-Place Stair:Stair:426851 Run 1",
+   "groups": [
+    "city_house_munich|stair_tread|28915|g0"
+   ]
+  },
+  "city_house_munich|stair_riser|29296": {
+   "family": "stair",
+   "label": "Cast-In-Place Stair:Stair:427618 Run 1",
+   "groups": [
+    "city_house_munich|stair_riser|29296|g0"
+   ]
+  },
+  "city_house_munich|stair_tread|29296": {
+   "family": "stair",
+   "label": "Cast-In-Place Stair:Stair:427618 Run 1",
+   "groups": [
+    "city_house_munich|stair_tread|29296|g0"
+   ]
+  },
+  "city_house_munich|rail|0": {
+   "family": "railing",
+   "label": "Railing:900mm",
+   "groups": [
+    "city_house_munich|rail|0|g0"
+   ]
+  },
+  "city_house_munich|rail|1": {
+   "family": "railing",
+   "label": "Railing:Horizal Antares B090",
+   "groups": [
+    "city_house_munich|rail|1|g0"
+   ]
+  },
+  "city_house_munich|space": {
+   "family": "space",
+   "label": "all spaces",
+   "groups": [
+    "city_house_munich|space|94",
+    "city_house_munich|space|155",
+    "city_house_munich|space|199",
+    "city_house_munich|space|237",
+    "city_house_munich|space|275",
+    "city_house_munich|space|313",
+    "city_house_munich|space|367",
+    "city_house_munich|space|405",
+    "city_house_munich|space|448",
+    "city_house_munich|space|496",
+    "city_house_munich|space|541",
+    "city_house_munich|space|579",
+    "city_house_munich|space|624",
+    "city_house_munich|space|675",
+    "city_house_munich|space|718",
+    "city_house_munich|space|762",
+    "city_house_munich|space|800",
+    "city_house_munich|space|842",
+    "city_house_munich|space|880"
+   ]
+  }
+ },
+ "groups": {
+  "city_house_munich|door|0|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "city_house_munich|door|0",
+   "elements": [
+    11563
+   ],
+   "names": [
+    "Aluprof_MB-86N-SI_PanelDoor_AP01_Dbl_In-Open_R-00900:1400 x 2395:395489"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|door|0|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|door|0|cfg",
+     "allowed": [
+      "DOUBLE"
+     ],
+     "raw": "Aluprof_MB-86N-SI_PanelDoor_AP01_Dbl_In-Open_R-00900:1400 x 2395",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|0|sem|IfcDoor.OverallWidth",
+      "city_house_munich|door|0|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1129.9999999999998,
+        1449.9999999999998
+       ],
+       "u:ft": [
+        135.86399999999992,
+        455.8639999999999
+       ],
+       "u:in": [
+        -263.678,
+        56.321999999999996
+       ],
+       "u:mm": [
+        -298.57,
+        21.43
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        339.0,
+        1304.9999999999998
+       ],
+       "u:ft": [
+        40.75919999999998,
+        410.27759999999995
+       ],
+       "u:in": [
+        -79.10340000000001,
+        50.6898
+       ],
+       "u:mm": [
+        -89.57100000000001,
+        19.287
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1129.9999999999998,
+        1449.9999999999998
+       ],
+       "u:ft": [
+        135.86399999999992,
+        455.8639999999999
+       ],
+       "u:in": [
+        -263.678,
+        56.321999999999996
+       ],
+       "u:mm": [
+        -298.57,
+        21.43
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1299.9999999999998,
+        1419.9999999999998
+       ],
+       "u:ft": [
+        305.8639999999999,
+        425.8639999999999
+       ],
+       "u:in": [
+        -93.678,
+        26.321999999999996
+       ],
+       "u:mm": [
+        -128.57,
+        -8.57
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        390.0,
+        1277.9999999999998
+       ],
+       "u:ft": [
+        91.75919999999999,
+        383.27759999999995
+       ],
+       "u:in": [
+        -28.103400000000004,
+        23.689799999999998
+       ],
+       "u:mm": [
+        -38.571000000000005,
+        -7.713
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1299.9999999999998,
+        1419.9999999999998
+       ],
+       "u:ft": [
+        305.8639999999999,
+        425.8639999999999
+       ],
+       "u:in": [
+        -93.678,
+        26.321999999999996
+       ],
+       "u:mm": [
+        -128.57,
+        -8.57
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.4299999999999997,
+     "value_mm": 1429.9999999999998,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|0|sem|Name",
+      "city_house_munich|door|0|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1270.0,
+        1390.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        381.00000000000006,
+        1251.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1270.0,
+        1390.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        1100.0,
+        1420.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        330.00000000000006,
+        1278.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1100.0,
+        1420.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "Aluprof_MB-86N-SI_PanelDoor_AP01_Dbl_In-Open_R-00900:1400 x 2395",
+     "value_mm": 1400.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Active leaf clear opening width",
+     "label": "Dimensions.Active leaf clear opening width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|0|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        810.0,
+        930.0
+       ],
+       "u:ft": [
+        184.32,
+        304.32
+       ],
+       "u:in": [
+        -67.14,
+        52.86
+       ],
+       "u:mm": [
+        -89.1,
+        30.9
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        810.0,
+        930.0
+       ],
+       "u:ft": [
+        184.32,
+        304.32
+       ],
+       "u:in": [
+        -67.14,
+        52.86
+       ],
+       "u:mm": [
+        -89.1,
+        30.9
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        810.0,
+        930.0
+       ],
+       "u:ft": [
+        184.32,
+        304.32
+       ],
+       "u:in": [
+        -67.14,
+        52.86
+       ],
+       "u:mm": [
+        -89.1,
+        30.9
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.9,
+     "value_mm": 900.0,
+     "note": "CLEAR_ACTIVE",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Clear opening width",
+     "label": "Dimensions.Clear opening width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|0|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1024.9999999999998,
+        1144.9999999999998
+       ],
+       "u:ft": [
+        249.85199999999992,
+        369.8519999999999
+       ],
+       "u:in": [
+        -61.67900000000001,
+        58.32099999999999
+       ],
+       "u:mm": [
+        -88.885,
+        31.115
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        307.5,
+        1030.4999999999998
+       ],
+       "u:ft": [
+        74.95559999999999,
+        332.86679999999996
+       ],
+       "u:in": [
+        -18.503700000000006,
+        52.488899999999994
+       ],
+       "u:mm": [
+        -26.665500000000005,
+        28.0035
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1024.9999999999998,
+        1144.9999999999998
+       ],
+       "u:ft": [
+        249.85199999999992,
+        369.8519999999999
+       ],
+       "u:in": [
+        -61.67900000000001,
+        58.32099999999999
+       ],
+       "u:mm": [
+        -88.885,
+        31.115
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.1149999999999998,
+     "value_mm": 1114.9999999999998,
+     "note": "CLEAR",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Rough Width",
+     "label": "Dimensions.Rough Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|0|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1129.9999999999998,
+        1449.9999999999998
+       ],
+       "u:ft": [
+        135.86399999999992,
+        455.8639999999999
+       ],
+       "u:in": [
+        -263.678,
+        56.321999999999996
+       ],
+       "u:mm": [
+        -298.57,
+        21.43
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        339.0,
+        1304.9999999999998
+       ],
+       "u:ft": [
+        40.75919999999998,
+        410.27759999999995
+       ],
+       "u:in": [
+        -79.10340000000001,
+        50.6898
+       ],
+       "u:mm": [
+        -89.57100000000001,
+        19.287
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1129.9999999999998,
+        1449.9999999999998
+       ],
+       "u:ft": [
+        135.86399999999992,
+        455.8639999999999
+       ],
+       "u:in": [
+        -263.678,
+        56.321999999999996
+       ],
+       "u:mm": [
+        -298.57,
+        21.43
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.4299999999999997,
+     "value_mm": 1429.9999999999998,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Width",
+     "label": "Dimensions.Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|0|sem|Dimensions.Width",
+      "city_house_munich|door|0|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1270.0,
+        1390.0
+       ],
+       "u:ft": [
+        296.71999999999997,
+        416.71999999999997
+       ],
+       "u:in": [
+        -94.44,
+        25.559999999999995
+       ],
+       "u:mm": [
+        -128.6,
+        -8.6
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        381.00000000000006,
+        1251.0
+       ],
+       "u:ft": [
+        89.016,
+        375.048
+       ],
+       "u:in": [
+        -28.332000000000004,
+        23.003999999999998
+       ],
+       "u:mm": [
+        -38.580000000000005,
+        -7.74
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1270.0,
+        1390.0
+       ],
+       "u:ft": [
+        296.71999999999997,
+        416.71999999999997
+       ],
+       "u:in": [
+        -94.44,
+        25.559999999999995
+       ],
+       "u:mm": [
+        -128.6,
+        -8.6
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        1100.0,
+        1420.0
+       ],
+       "u:ft": [
+        126.71999999999997,
+        446.71999999999997
+       ],
+       "u:in": [
+        -264.44,
+        55.559999999999995
+       ],
+       "u:mm": [
+        -298.6,
+        21.4
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        330.00000000000006,
+        1278.0
+       ],
+       "u:ft": [
+        38.016,
+        402.048
+       ],
+       "u:in": [
+        -79.33200000000001,
+        50.004
+       ],
+       "u:mm": [
+        -89.58000000000003,
+        19.259999999999998
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1100.0,
+        1420.0
+       ],
+       "u:ft": [
+        126.71999999999997,
+        446.71999999999997
+       ],
+       "u:in": [
+        -264.44,
+        55.559999999999995
+       ],
+       "u:mm": [
+        -298.6,
+        21.4
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.4,
+     "value_mm": 1400.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Width of the active leaf",
+     "label": "Dimensions.Width of the active leaf",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|0|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        932.5,
+        1052.5
+       ],
+       "u:ft": [
+        193.85000000000002,
+        313.85
+       ],
+       "u:in": [
+        -103.0125,
+        16.987499999999997
+       ],
+       "u:mm": [
+        -128.9375,
+        -8.9375
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        932.5,
+        1052.5
+       ],
+       "u:ft": [
+        193.85000000000002,
+        313.85
+       ],
+       "u:in": [
+        -103.0125,
+        16.987499999999997
+       ],
+       "u:mm": [
+        -128.9375,
+        -8.9375
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        932.5,
+        1052.5
+       ],
+       "u:ft": [
+        193.85000000000002,
+        313.85
+       ],
+       "u:in": [
+        -103.0125,
+        16.987499999999997
+       ],
+       "u:mm": [
+        -128.9375,
+        -8.9375
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.0625,
+     "value_mm": 1062.5,
+     "note": "LEAF_ACTIVE",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|0|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        980.0000000000159,
+        1500.000000000016
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        294.00000000000483,
+        1350.0000000000143
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        980.0000000000159,
+        1500.000000000016
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1430.000000000016,
+     "value_mm": 1430.000000000016,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1429.9999999999998,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 900.0,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "city_house_munich|door|1|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "city_house_munich|door|1",
+   "elements": [
+    430190
+   ],
+   "names": [
+    "CLASSIC_1H_53_MU_v2:800x2050:563243"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|door|1|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|1|sem|IfcDoor.OverallWidth",
+      "city_house_munich|door|1|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        3154.0000000000045,
+        3474.0000000000045
+       ],
+       "u:ft": [
+        752.7792000000013,
+        1072.7792000000013
+       ],
+       "u:in": [
+        -212.26839999999987,
+        107.73160000000011
+       ],
+       "u:mm": [
+        -296.546,
+        23.454000000000004
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        946.2000000000015,
+        3126.600000000004
+       ],
+       "u:ft": [
+        225.83376000000044,
+        965.5012800000012
+       ],
+       "u:in": [
+        -63.68051999999997,
+        96.95844000000011
+       ],
+       "u:mm": [
+        -88.9638,
+        21.108600000000003
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        3324.0000000000045,
+        3444.0000000000045
+       ],
+       "u:ft": [
+        922.7792000000013,
+        1042.7792000000013
+       ],
+       "u:in": [
+        -42.268399999999886,
+        77.73160000000011
+       ],
+       "u:mm": [
+        -126.54599999999999,
+        -6.545999999999996
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        997.2000000000015,
+        3099.600000000004
+       ],
+       "u:ft": [
+        276.83376000000044,
+        938.5012800000012
+       ],
+       "u:in": [
+        -12.680519999999968,
+        69.95844000000011
+       ],
+       "u:mm": [
+        -37.963800000000006,
+        -5.891399999999996
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3.4540000000000046,
+     "value_mm": 3454.0000000000045,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|1|sem|Name",
+      "city_house_munich|door|1|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        670.0,
+        790.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        201.00000000000003,
+        711.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        500.0,
+        820.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        150.00000000000003,
+        738.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "CLASSIC_1H_53_MU_v2:800x2050",
+     "value_mm": 800.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Width",
+     "label": "Dimensions.Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|1|sem|Dimensions.Width",
+      "city_house_munich|door|1|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        632.2,
+        752.2
+       ],
+       "u:ft": [
+        102.31856000000005,
+        222.31856000000005
+       ],
+       "u:in": [
+        -110.64012,
+        9.359880000000004
+       ],
+       "u:mm": [
+        -129.2378,
+        -9.2378
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        189.66000000000005,
+        676.98
+       ],
+       "u:ft": [
+        30.69556800000002,
+        200.08670400000005
+       ],
+       "u:in": [
+        -33.192036,
+        8.423892000000004
+       ],
+       "u:mm": [
+        -38.77134,
+        -8.314020000000001
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        462.20000000000005,
+        782.2
+       ],
+       "u:ft": [
+        -67.68143999999995,
+        252.31856000000005
+       ],
+       "u:in": [
+        -280.64012,
+        39.359880000000004
+       ],
+       "u:mm": [
+        -299.2378,
+        20.7622
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        138.66000000000003,
+        703.98
+       ],
+       "u:ft": [
+        -20.304431999999988,
+        227.08670400000005
+       ],
+       "u:in": [
+        -84.19203600000002,
+        35.423892
+       ],
+       "u:mm": [
+        -89.77134000000001,
+        18.68598
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.7622000000000001,
+     "value_mm": 762.2,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.width classic 1 leaf",
+     "label": "Dimensions.width classic 1 leaf",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|1|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        670.0,
+        790.0
+       ],
+       "u:ft": [
+        113.84000000000003,
+        233.84000000000003
+       ],
+       "u:in": [
+        -109.68,
+        10.32
+       ],
+       "u:mm": [
+        -129.2,
+        -9.2
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        201.00000000000003,
+        711.0
+       ],
+       "u:ft": [
+        34.152000000000015,
+        210.45600000000005
+       ],
+       "u:in": [
+        -32.904,
+        9.288
+       ],
+       "u:mm": [
+        -38.760000000000005,
+        -8.28
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8,
+     "value_mm": 800.0,
+     "note": "LEAF",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.width clear passagee",
+     "label": "Dimensions.width clear passagee",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|1|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        622.0000000000001,
+        742.0000000000001
+       ],
+       "u:ft": [
+        127.01760000000004,
+        247.01760000000004
+       ],
+       "u:in": [
+        -71.9152,
+        48.0848
+       ],
+       "u:mm": [
+        -89.288,
+        30.712
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        186.60000000000005,
+        667.8000000000001
+       ],
+       "u:ft": [
+        38.10528000000002,
+        222.31584000000004
+       ],
+       "u:in": [
+        -21.57456,
+        43.276320000000005
+       ],
+       "u:mm": [
+        -26.786400000000004,
+        27.6408
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.7120000000000001,
+     "value_mm": 712.0000000000001,
+     "note": "CLEAR",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.width structural opening",
+     "label": "Dimensions.width structural opening",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|1|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        490.0,
+        810.0
+       ],
+       "u:ft": [
+        -59.20799999999997,
+        260.79200000000003
+       ],
+       "u:in": [
+        -279.934,
+        40.066
+       ],
+       "u:mm": [
+        -299.21,
+        20.79
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        147.00000000000003,
+        729.0
+       ],
+       "u:ft": [
+        -17.762399999999992,
+        234.71280000000004
+       ],
+       "u:in": [
+        -83.98020000000002,
+        36.059400000000004
+       ],
+       "u:mm": [
+        -89.763,
+        18.711
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.79,
+     "value_mm": 790.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|1|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        460.8984735198899,
+        980.8984735198899
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        138.26954205596698,
+        882.8086261679009
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 910.8984735198899,
+     "value_mm": 910.8984735198899,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 3454.0000000000045,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 712.0000000000001,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "city_house_munich|door|2|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "city_house_munich|door|2",
+   "elements": [
+    27766
+   ],
+   "names": [
+    "DRE_UNI_Przylgowe:Ościeżnica regulowana_przylgowa_60_T63:419173"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|door|2|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|2|sem|IfcDoor.OverallWidth",
+      "city_house_munich|door|2|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        380.00000000000136,
+        700.0000000000014
+       ],
+       "u:ft": [
+        -92.73599999999959,
+        227.2640000000004
+       ],
+       "u:in": [
+        -282.72799999999995,
+        37.272000000000034
+       ],
+       "u:mm": [
+        -299.32,
+        20.68
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        114.00000000000043,
+        630.0000000000013
+       ],
+       "u:ft": [
+        -27.82079999999988,
+        204.53760000000037
+       ],
+       "u:in": [
+        -84.8184,
+        33.54480000000003
+       ],
+       "u:mm": [
+        -89.796,
+        18.612000000000002
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        550.0000000000014,
+        670.0000000000014
+       ],
+       "u:ft": [
+        77.26400000000041,
+        197.2640000000004
+       ],
+       "u:in": [
+        -112.72799999999997,
+        7.272000000000034
+       ],
+       "u:mm": [
+        -129.32,
+        -9.319999999999999
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        165.00000000000043,
+        603.0000000000013
+       ],
+       "u:ft": [
+        23.179200000000126,
+        177.53760000000037
+       ],
+       "u:in": [
+        -33.8184,
+        6.544800000000031
+       ],
+       "u:mm": [
+        -38.79600000000001,
+        -8.387999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.6800000000000014,
+     "value_mm": 680.0000000000014,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Rough Width",
+     "label": "Dimensions.Rough Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|2|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        380.0,
+        700.0
+       ],
+       "u:ft": [
+        -92.73599999999996,
+        227.26400000000004
+       ],
+       "u:in": [
+        -282.728,
+        37.272
+       ],
+       "u:mm": [
+        -299.32,
+        20.68
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        114.00000000000001,
+        630.0
+       ],
+       "u:ft": [
+        -27.82079999999999,
+        204.53760000000003
+       ],
+       "u:in": [
+        -84.81840000000001,
+        33.5448
+       ],
+       "u:mm": [
+        -89.796,
+        18.612000000000002
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.68,
+     "value_mm": 680.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Width",
+     "label": "Dimensions.Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|2|sem|Dimensions.Width",
+      "city_house_munich|door|2|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        472.0,
+        592.0
+       ],
+       "u:ft": [
+        53.489599999999996,
+        173.4896
+       ],
+       "u:in": [
+        -114.7092,
+        5.290799999999999
+       ],
+       "u:mm": [
+        -129.398,
+        -9.398
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        141.60000000000002,
+        532.8000000000001
+       ],
+       "u:ft": [
+        16.04688,
+        156.14064
+       ],
+       "u:in": [
+        -34.412760000000006,
+        4.7617199999999995
+       ],
+       "u:mm": [
+        -38.8194,
+        -8.4582
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        302.0,
+        622.0
+       ],
+       "u:ft": [
+        -116.5104,
+        203.4896
+       ],
+       "u:in": [
+        -284.7092,
+        35.2908
+       ],
+       "u:mm": [
+        -299.398,
+        20.602
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        90.60000000000001,
+        559.8000000000001
+       ],
+       "u:ft": [
+        -34.953120000000006,
+        183.14064
+       ],
+       "u:in": [
+        -85.41276000000002,
+        31.761719999999997
+       ],
+       "u:mm": [
+        -89.81940000000002,
+        18.541800000000002
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.602,
+     "value_mm": 602.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|2|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        302.00000000000114,
+        822.0000000000011
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        90.60000000000035,
+        739.8000000000011
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 752.0000000000011,
+     "value_mm": 752.0000000000011,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 680.0000000000014,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "city_house_munich|door|3|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "city_house_munich|door|3",
+   "elements": [
+    24512
+   ],
+   "names": [
+    "DRE_UNI_Przylgowe:Ościeżnica regulowana_przylgowa_80_T63:417478"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|door|3|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|3|sem|IfcDoor.OverallWidth",
+      "city_house_munich|door|3|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        580.0000000000014,
+        900.0000000000014
+       ],
+       "u:ft": [
+        -31.775999999999613,
+        288.2240000000004
+       ],
+       "u:in": [
+        -277.64799999999997,
+        42.35200000000003
+       ],
+       "u:mm": [
+        -299.12,
+        20.880000000000003
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        174.00000000000043,
+        810.0000000000013
+       ],
+       "u:ft": [
+        -9.532799999999884,
+        259.40160000000037
+       ],
+       "u:in": [
+        -83.2944,
+        38.11680000000003
+       ],
+       "u:mm": [
+        -89.73600000000002,
+        18.792
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        750.0000000000014,
+        870.0000000000014
+       ],
+       "u:ft": [
+        138.2240000000004,
+        258.2240000000004
+       ],
+       "u:in": [
+        -107.64799999999997,
+        12.352000000000032
+       ],
+       "u:mm": [
+        -129.12,
+        -9.12
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        225.00000000000045,
+        783.0000000000013
+       ],
+       "u:ft": [
+        41.46720000000012,
+        232.40160000000034
+       ],
+       "u:in": [
+        -32.294399999999996,
+        11.11680000000003
+       ],
+       "u:mm": [
+        -38.736000000000004,
+        -8.208
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8800000000000013,
+     "value_mm": 880.0000000000014,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Rough Width",
+     "label": "Dimensions.Rough Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|3|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        580.0,
+        900.0
+       ],
+       "u:ft": [
+        -31.775999999999954,
+        288.22400000000005
+       ],
+       "u:in": [
+        -277.648,
+        42.352000000000004
+       ],
+       "u:mm": [
+        -299.12,
+        20.88
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        174.00000000000003,
+        810.0
+       ],
+       "u:ft": [
+        -9.532799999999988,
+        259.40160000000003
+       ],
+       "u:in": [
+        -83.29440000000002,
+        38.116800000000005
+       ],
+       "u:mm": [
+        -89.73600000000002,
+        18.791999999999998
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.88,
+     "value_mm": 880.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Width",
+     "label": "Dimensions.Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|3|sem|Dimensions.Width",
+      "city_house_munich|door|3|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        672.0,
+        792.0
+       ],
+       "u:ft": [
+        114.4496,
+        234.4496
+       ],
+       "u:in": [
+        -109.6292,
+        10.370800000000003
+       ],
+       "u:mm": [
+        -129.198,
+        -9.198
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        201.60000000000002,
+        712.8000000000001
+       ],
+       "u:ft": [
+        34.334880000000005,
+        211.00464
+       ],
+       "u:in": [
+        -32.888760000000005,
+        9.333720000000003
+       ],
+       "u:mm": [
+        -38.75940000000001,
+        -8.2782
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        502.0,
+        822.0
+       ],
+       "u:ft": [
+        -55.550399999999996,
+        264.44960000000003
+       ],
+       "u:in": [
+        -279.62919999999997,
+        40.3708
+       ],
+       "u:mm": [
+        -299.198,
+        20.802
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        150.60000000000002,
+        739.8000000000001
+       ],
+       "u:ft": [
+        -16.66512,
+        238.00464000000002
+       ],
+       "u:in": [
+        -83.88876,
+        36.33372000000001
+       ],
+       "u:mm": [
+        -89.75940000000001,
+        18.7218
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.802,
+     "value_mm": 802.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|3|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        502.00000000000136,
+        1022.0000000000014
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        150.60000000000042,
+        919.8000000000012
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 952.0000000000014,
+     "value_mm": 952.0000000000014,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 880.0000000000014,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "city_house_munich|door|4|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "city_house_munich|door|4",
+   "elements": [
+    17848,
+    18958,
+    20001,
+    23469,
+    25596,
+    25640,
+    25682,
+    26723,
+    451667
+   ],
+   "names": [
+    "DRE_UNI_Przylgowe:Ościeżnica regulowana_przylgowa_90_T63:414600",
+    "DRE_UNI_Przylgowe:Ościeżnica regulowana_przylgowa_90_T63:414781",
+    "DRE_UNI_Przylgowe:Ościeżnica regulowana_przylgowa_90_T63:414866"
+   ],
+   "multiplicity": 9,
+   "category_vars": [
+    "city_house_munich|door|4|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|4|sem|IfcDoor.OverallWidth",
+      "city_house_munich|door|4|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        680.0,
+        1000.0
+       ],
+       "u:ft": [
+        -1.2959999999999923,
+        318.704
+       ],
+       "u:in": [
+        -275.108,
+        44.891999999999996
+       ],
+       "u:mm": [
+        -299.02,
+        20.98
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        204.00000000000003,
+        900.0
+       ],
+       "u:ft": [
+        -0.38879999999999776,
+        286.8336
+       ],
+       "u:in": [
+        -82.53240000000001,
+        40.4028
+       ],
+       "u:mm": [
+        -89.706,
+        18.882
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        850.0,
+        970.0
+       ],
+       "u:ft": [
+        168.704,
+        288.704
+       ],
+       "u:in": [
+        -105.108,
+        14.891999999999996
+       ],
+       "u:mm": [
+        -129.02,
+        -9.02
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        255.00000000000003,
+        873.0
+       ],
+       "u:ft": [
+        50.61120000000001,
+        259.8336
+       ],
+       "u:in": [
+        -31.532400000000006,
+        13.402799999999997
+       ],
+       "u:mm": [
+        -38.70600000000001,
+        -8.118
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.98,
+     "value_mm": 980.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Rough Width",
+     "label": "Dimensions.Rough Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|4|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        680.0,
+        1000.0
+       ],
+       "u:ft": [
+        -1.2959999999999923,
+        318.704
+       ],
+       "u:in": [
+        -275.108,
+        44.891999999999996
+       ],
+       "u:mm": [
+        -299.02,
+        20.98
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        204.00000000000003,
+        900.0
+       ],
+       "u:ft": [
+        -0.38879999999999776,
+        286.8336
+       ],
+       "u:in": [
+        -82.53240000000001,
+        40.4028
+       ],
+       "u:mm": [
+        -89.706,
+        18.882
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.98,
+     "value_mm": 980.0,
+     "note": "OPENING",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Width",
+     "label": "Dimensions.Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|4|sem|Dimensions.Width",
+      "city_house_munich|door|4|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        772.0,
+        892.0
+       ],
+       "u:ft": [
+        144.9296,
+        264.9296
+       ],
+       "u:in": [
+        -107.0892,
+        12.910799999999998
+       ],
+       "u:mm": [
+        -129.098,
+        -9.098
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        231.60000000000002,
+        802.8000000000001
+       ],
+       "u:ft": [
+        43.478880000000004,
+        238.43664
+       ],
+       "u:in": [
+        -32.126760000000004,
+        11.61972
+       ],
+       "u:mm": [
+        -38.72940000000001,
+        -8.1882
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        602.0,
+        922.0
+       ],
+       "u:ft": [
+        -25.070400000000006,
+        294.9296
+       ],
+       "u:in": [
+        -277.0892,
+        42.910799999999995
+       ],
+       "u:mm": [
+        -299.098,
+        20.902
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        180.60000000000002,
+        829.8000000000001
+       ],
+       "u:ft": [
+        -7.521120000000003,
+        265.43664
+       ],
+       "u:in": [
+        -83.12676000000002,
+        38.619719999999994
+       ],
+       "u:mm": [
+        -89.72940000000001,
+        18.8118
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.902,
+     "value_mm": 902.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|4|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        602.0000000000011,
+        1122.0000000000011
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        180.60000000000036,
+        1009.8000000000011
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1052.0000000000011,
+     "value_mm": 1052.0000000000011,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 980.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "city_house_munich|door|5|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "city_house_munich|door|5",
+   "elements": [
+    448521,
+    606136,
+    625812
+   ],
+   "names": [
+    "Hafele Automatic Garage Door LPU46:Hafele Automatic Garage Door LPU46 RAL 9002:563566",
+    "Hafele Automatic Garage Door LPU46:Hafele Automatic Garage Door LPU46 RAL 9002:581620",
+    "Hafele Automatic Garage Door LPU46:Hafele Automatic Garage Door LPU46 RAL 9002:575839"
+   ],
+   "multiplicity": 3,
+   "category_vars": [
+    "city_house_munich|door|5|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|door|5|cfg",
+     "allowed": [
+      "OTHER"
+     ],
+     "raw": "Hafele Automatic Garage Door LPU46:Hafele Automatic Garage Door LPU46 RAL 9002",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|5|sem|IfcDoor.OverallWidth",
+      "city_house_munich|door|5|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1700.0,
+        2020.0
+       ],
+       "u:ft": [
+        309.6,
+        629.6
+       ],
+       "u:in": [
+        -249.2,
+        70.8
+       ],
+       "u:mm": [
+        -298.0,
+        22.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        510.00000000000006,
+        1818.0
+       ],
+       "u:ft": [
+        92.88000000000002,
+        566.64
+       ],
+       "u:in": [
+        -74.76,
+        63.72
+       ],
+       "u:mm": [
+        -89.40000000000002,
+        19.8
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1700.0,
+        2020.0
+       ],
+       "u:ft": [
+        309.6,
+        629.6
+       ],
+       "u:in": [
+        -249.2,
+        70.8
+       ],
+       "u:mm": [
+        -298.0,
+        22.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1870.0,
+        1990.0
+       ],
+       "u:ft": [
+        479.6,
+        599.6
+       ],
+       "u:in": [
+        -79.2,
+        40.8
+       ],
+       "u:mm": [
+        -128.0,
+        -8.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        561.0000000000001,
+        1791.0
+       ],
+       "u:ft": [
+        143.88000000000002,
+        539.64
+       ],
+       "u:in": [
+        -23.760000000000005,
+        36.72
+       ],
+       "u:mm": [
+        -38.400000000000006,
+        -7.2
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1870.0,
+        1990.0
+       ],
+       "u:ft": [
+        479.6,
+        599.6
+       ],
+       "u:in": [
+        -79.2,
+        40.8
+       ],
+       "u:mm": [
+        -128.0,
+        -8.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.0,
+     "value_mm": 2000.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Width",
+     "label": "Dimensions.Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|5|sem|Dimensions.Width",
+      "city_house_munich|door|5|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1870.0,
+        1990.0
+       ],
+       "u:ft": [
+        479.6,
+        599.6
+       ],
+       "u:in": [
+        -79.2,
+        40.8
+       ],
+       "u:mm": [
+        -128.0,
+        -8.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        561.0000000000001,
+        1791.0
+       ],
+       "u:ft": [
+        143.88000000000002,
+        539.64
+       ],
+       "u:in": [
+        -23.760000000000005,
+        36.72
+       ],
+       "u:mm": [
+        -38.400000000000006,
+        -7.2
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1870.0,
+        1990.0
+       ],
+       "u:ft": [
+        479.6,
+        599.6
+       ],
+       "u:in": [
+        -79.2,
+        40.8
+       ],
+       "u:mm": [
+        -128.0,
+        -8.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        1700.0,
+        2020.0
+       ],
+       "u:ft": [
+        309.6,
+        629.6
+       ],
+       "u:in": [
+        -249.2,
+        70.8
+       ],
+       "u:mm": [
+        -298.0,
+        22.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        510.00000000000006,
+        1818.0
+       ],
+       "u:ft": [
+        92.88000000000002,
+        566.64
+       ],
+       "u:in": [
+        -74.76,
+        63.72
+       ],
+       "u:mm": [
+        -89.40000000000002,
+        19.8
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1700.0,
+        2020.0
+       ],
+       "u:ft": [
+        309.6,
+        629.6
+       ],
+       "u:in": [
+        -249.2,
+        70.8
+       ],
+       "u:mm": [
+        -298.0,
+        22.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.0,
+     "value_mm": 2000.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|door|5|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1744.484811587638,
+        2264.484811587638
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        523.3454434762915,
+        2038.0363304288742
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1744.484811587638,
+        2264.484811587638
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2194.484811587638,
+     "value_mm": 2194.484811587638,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2000.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "city_house_munich|stair_riser|28458|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "city_house_munich|stair_riser|28458",
+   "elements": [
+    28458
+   ],
+   "names": [
+    "Assembled Stair:Stair:425692 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        183.79999999999487,
+        184.19999999999484
+       ],
+       "u:ft": [
+        55.88319999999844,
+        56.283199999998445
+       ],
+       "u:in": [
+        4.473599999999869,
+        4.873599999999869
+       ],
+       "u:mm": [
+        -0.01600000000000512,
+        0.3839999999999949
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.18399999999999486,
+     "value_mm": 183.99999999999486,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Actual Riser Height",
+     "label": "Dimensions.Actual Riser Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        183.79999999999487,
+        184.19999999999484
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.18399999999999486,
+     "value_mm": 183.99999999999486,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        183.79999999999487,
+        184.19999999999484
+       ],
+       "u:ft": [
+        55.88319999999844,
+        56.283199999998445
+       ],
+       "u:in": [
+        4.473599999999869,
+        4.873599999999869
+       ],
+       "u:mm": [
+        -0.01600000000000512,
+        0.3839999999999949
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.18399999999999486,
+     "value_mm": 183.99999999999486,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "rule:Calculation Rules.Maximum Riser Height",
+     "label": "Calculation Rules.Maximum Riser Height (stair rule)",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        -1000000000.0,
+        220.2
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.22,
+     "value_mm": 220.0,
+     "note": "INTENT",
+     "weight": 0.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=15, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        144.6666666666615,
+        312.69230769229875
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2709.9999999999227,
+     "value_mm": null,
+     "note": "N=15",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 183.99999999999486,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 183.99999999999486,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 2709.9999999999227
+  },
+  "city_house_munich|stair_tread|28458|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "city_house_munich|stair_tread|28458",
+   "elements": [
+    28458
+   ],
+   "names": [
+    "Assembled Stair:Stair:425692 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        238.8,
+        239.2
+       ],
+       "u:ft": [
+        72.6472,
+        73.0472
+       ],
+       "u:in": [
+        5.8706,
+        6.2706
+       ],
+       "u:mm": [
+        0.03899999999999998,
+        0.439
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.239,
+     "value_mm": 239.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        238.8,
+        239.2
+       ],
+       "u:ft": [
+        72.6472,
+        73.0472
+       ],
+       "u:in": [
+        5.8706,
+        6.2706
+       ],
+       "u:mm": [
+        0.03899999999999998,
+        0.439
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.239,
+     "value_mm": 239.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Actual Tread Depth",
+     "label": "Dimensions.Actual Tread Depth",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        238.8,
+        239.2
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.239,
+     "value_mm": 239.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        238.8,
+        239.2
+       ],
+       "u:ft": [
+        72.6472,
+        73.0472
+       ],
+       "u:in": [
+        5.8706,
+        6.2706
+       ],
+       "u:mm": [
+        0.03899999999999998,
+        0.439
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.239,
+     "value_mm": 239.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "rule:Calculation Rules.Minimum Tread Depth",
+     "label": "Calculation Rules.Minimum Tread Depth (stair rule)",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        219.8,
+        1000000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.22,
+     "value_mm": 220.0,
+     "note": "INTENT",
+     "weight": 0.0
+    }
+   ],
+   "naive": {
+    "value_mm": 239.0,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 239.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 2709.9999999999227
+  },
+  "city_house_munich|stair_riser|28915|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "city_house_munich|stair_riser|28915",
+   "elements": [
+    28915
+   ],
+   "names": [
+    "Cast-In-Place Stair:Stair:426851 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        209.08571428571426,
+        209.48571428571424
+       ],
+       "u:ft": [
+        63.5902857142857,
+        63.990285714285704
+       ],
+       "u:in": [
+        5.115857142857141,
+        5.515857142857142
+       ],
+       "u:mm": [
+        0.00928571428571423,
+        0.40928571428571425
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.20928571428571424,
+     "value_mm": 209.28571428571425,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Actual Riser Height",
+     "label": "Dimensions.Actual Riser Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        209.08571428571426,
+        209.48571428571424
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.20928571428571424,
+     "value_mm": 209.28571428571425,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        209.08571428571426,
+        209.48571428571424
+       ],
+       "u:ft": [
+        63.5902857142857,
+        63.990285714285704
+       ],
+       "u:in": [
+        5.115857142857141,
+        5.515857142857142
+       ],
+       "u:mm": [
+        0.00928571428571423,
+        0.40928571428571425
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.20928571428571424,
+     "value_mm": 209.28571428571425,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "rule:Calculation Rules.Maximum Riser Height",
+     "label": "Calculation Rules.Maximum Riser Height (stair rule)",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        -1000000000.0,
+        180.2
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.18,
+     "value_mm": 180.0,
+     "note": "INTENT",
+     "weight": 0.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=14, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        155.76530612244898,
+        340.0892857142857
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2720.714285714286,
+     "value_mm": null,
+     "note": "N=14",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 209.28571428571425,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 209.28571428571425,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 2720.714285714286
+  },
+  "city_house_munich|stair_tread|28915|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "city_house_munich|stair_tread|28915",
+   "elements": [
+    28915
+   ],
+   "names": [
+    "Cast-In-Place Stair:Stair:426851 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        276.8,
+        277.2
+       ],
+       "u:ft": [
+        84.2296,
+        84.62960000000001
+       ],
+       "u:in": [
+        6.8358,
+        7.2358
+       ],
+       "u:mm": [
+        0.07700000000000001,
+        0.47700000000000004
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.277,
+     "value_mm": 277.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        276.8,
+        277.2
+       ],
+       "u:ft": [
+        84.2296,
+        84.62960000000001
+       ],
+       "u:in": [
+        6.8358,
+        7.2358
+       ],
+       "u:mm": [
+        0.07700000000000001,
+        0.47700000000000004
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.277,
+     "value_mm": 277.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Actual Tread Depth",
+     "label": "Dimensions.Actual Tread Depth",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        276.8,
+        277.2
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.277,
+     "value_mm": 277.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        276.8,
+        277.2
+       ],
+       "u:ft": [
+        84.2296,
+        84.62960000000001
+       ],
+       "u:in": [
+        6.8358,
+        7.2358
+       ],
+       "u:mm": [
+        0.07700000000000001,
+        0.47700000000000004
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.277,
+     "value_mm": 277.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "rule:Calculation Rules.Minimum Tread Depth",
+     "label": "Calculation Rules.Minimum Tread Depth (stair rule)",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        279.8,
+        1000000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.28,
+     "value_mm": 280.0,
+     "note": "INTENT",
+     "weight": 0.0
+    }
+   ],
+   "naive": {
+    "value_mm": 277.0,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 277.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 2720.714285714286
+  },
+  "city_house_munich|stair_riser|29296|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "city_house_munich|stair_riser|29296",
+   "elements": [
+    29296
+   ],
+   "names": [
+    "Cast-In-Place Stair:Stair:427618 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        206.22857142857112,
+        206.6285714285711
+       ],
+       "u:ft": [
+        62.71942857142847,
+        63.11942857142848
+       ],
+       "u:in": [
+        5.043285714285705,
+        5.443285714285706
+       ],
+       "u:mm": [
+        0.006428571428571089,
+        0.40642857142857114
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.2064285714285711,
+     "value_mm": 206.4285714285711,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Actual Riser Height",
+     "label": "Dimensions.Actual Riser Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        206.22857142857112,
+        206.6285714285711
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.2064285714285711,
+     "value_mm": 206.4285714285711,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        206.22857142857112,
+        206.6285714285711
+       ],
+       "u:ft": [
+        62.71942857142847,
+        63.11942857142848
+       ],
+       "u:in": [
+        5.043285714285705,
+        5.443285714285706
+       ],
+       "u:mm": [
+        0.006428571428571089,
+        0.40642857142857114
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.2064285714285711,
+     "value_mm": 206.4285714285711,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "rule:Calculation Rules.Maximum Riser Height",
+     "label": "Calculation Rules.Maximum Riser Height (stair rule)",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        -1000000000.0,
+        180.2
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.18,
+     "value_mm": 180.0,
+     "note": "INTENT",
+     "weight": 0.0
+    },
+    {
+     "sid": "geom:std",
+     "label": "Body rise / riser count (N=14, std)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        153.1122448979589,
+        335.4464285714281
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2683.571428571425,
+     "value_mm": null,
+     "note": "N=14",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 206.4285714285711,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 206.4285714285711,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 2683.571428571425
+  },
+  "city_house_munich|stair_tread|29296|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "city_house_munich|stair_tread|29296",
+   "elements": [
+    29296
+   ],
+   "names": [
+    "Cast-In-Place Stair:Stair:427618 Run 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        276.8,
+        277.2
+       ],
+       "u:ft": [
+        84.2296,
+        84.62960000000001
+       ],
+       "u:in": [
+        6.8358,
+        7.2358
+       ],
+       "u:mm": [
+        0.07700000000000001,
+        0.47700000000000004
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.277,
+     "value_mm": 277.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        276.8,
+        277.2
+       ],
+       "u:ft": [
+        84.2296,
+        84.62960000000001
+       ],
+       "u:in": [
+        6.8358,
+        7.2358
+       ],
+       "u:mm": [
+        0.07700000000000001,
+        0.47700000000000004
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.277,
+     "value_mm": 277.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Actual Tread Depth",
+     "label": "Dimensions.Actual Tread Depth",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        276.8,
+        277.2
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.277,
+     "value_mm": 277.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        276.8,
+        277.2
+       ],
+       "u:ft": [
+        84.2296,
+        84.62960000000001
+       ],
+       "u:in": [
+        6.8358,
+        7.2358
+       ],
+       "u:mm": [
+        0.07700000000000001,
+        0.47700000000000004
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.277,
+     "value_mm": 277.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "rule:Calculation Rules.Minimum Tread Depth",
+     "label": "Calculation Rules.Minimum Tread Depth (stair rule)",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        279.8,
+        1000000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.28,
+     "value_mm": 280.0,
+     "note": "INTENT",
+     "weight": 0.0
+    }
+   ],
+   "naive": {
+    "value_mm": 277.0,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 277.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 2683.571428571425
+  },
+  "city_house_munich|rail|0|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "city_house_munich|rail|0",
+   "elements": [
+    567099
+   ],
+   "names": [
+    "Railing:900mm:426723"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|rail|0|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm",
+     "label": "Type-name nominal height",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        890.0,
+        910.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "900mm",
+     "value_mm": 900.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Construction.Railing Height",
+     "label": "Construction.Railing Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        898.9999999999999,
+        900.9999999999999
+       ],
+       "u:ft": [
+        273.32,
+        275.32
+       ],
+       "u:in": [
+        21.86,
+        23.86
+       ],
+       "u:mm": [
+        -0.09999999999999998,
+        1.9
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8999999999999999,
+     "value_mm": 899.9999999999999,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        898.9999999999999,
+        900.9999999999999
+       ],
+       "u:ft": [
+        273.32,
+        275.32
+       ],
+       "u:in": [
+        21.86,
+        23.86
+       ],
+       "u:mm": [
+        -0.09999999999999998,
+        1.9
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8999999999999999,
+     "value_mm": 899.9999999999999,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Top Rail.Height",
+     "label": "Top Rail.Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        898.9999999999999,
+        900.9999999999999
+       ],
+       "u:ft": [
+        273.32,
+        275.32
+       ],
+       "u:in": [
+        21.86,
+        23.86
+       ],
+       "u:mm": [
+        -0.09999999999999998,
+        1.9
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8999999999999999,
+     "value_mm": 899.9999999999999,
+     "note": "",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 899.9999999999999,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 899.9999999999999,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|rail|1|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "city_house_munich|rail|1",
+   "elements": [
+    571059,
+    575023,
+    578951,
+    582879
+   ],
+   "names": [
+    "Railing:Horizal Antares B090:823853",
+    "Railing:Horizal Antares B090:824217",
+    "Railing:Horizal Antares B090:824238"
+   ],
+   "multiplicity": 4,
+   "category_vars": [
+    "city_house_munich|rail|1|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "p:Construction.Railing Height",
+     "label": "Construction.Railing Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        999.0,
+        1001.0
+       ],
+       "u:ft": [
+        303.8,
+        305.8
+       ],
+       "u:in": [
+        24.4,
+        26.4
+       ],
+       "u:mm": [
+        0.0,
+        2.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.0,
+     "value_mm": 1000.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1218.2,
+        1220.2
+       ],
+       "u:ft": [
+        370.61216,
+        372.61216
+       ],
+       "u:in": [
+        29.96768,
+        31.96768
+       ],
+       "u:mm": [
+        0.21920000000000006,
+        2.2192
+       ]
+      }
+     },
+     "suspect": true,
+     "raw": 1.2192,
+     "value_mm": 1219.2,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Top Rail.Height",
+     "label": "Top Rail.Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        13122.359580052493,
+        13124.359580052493
+       ],
+       "u:ft": [
+        3998.9999999999995,
+        4000.9999999999995
+       ],
+       "u:in": [
+        332.33333333333326,
+        334.33333333333326
+       ],
+       "u:mm": [
+        12.123359580052492,
+        14.123359580052492
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 13.123359580052492,
+     "value_mm": 13123.359580052493,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body height extent (level railing)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        511.44275223015666,
+        1111.4427522301567
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 961.4427522301567,
+     "value_mm": 961.4427522301567,
+     "note": "UB",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 1219.2,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|94": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    94
+   ],
+   "names": [
+    "Technik/HK 1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|94|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|94|cat",
+     "allowed": [
+      "NONOCC",
+      "OCCUPIABLE"
+     ],
+     "raw": "Technik/HK 1",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2614.9999999999222,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        793.5759999999764,
+        803.5759999999764
+       ],
+       "u:in": [
+        61.54799999999803,
+        71.54799999999803
+       ],
+       "u:mm": [
+        -2.3800000000000776,
+        7.619999999999923
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        0.0,
+        803.5759999999764
+       ],
+       "u:in": [
+        0.0,
+        71.54799999999803
+       ],
+       "u:mm": [
+        0.0,
+        7.619999999999923
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6199999999999224,
+     "value_mm": 2619.9999999999222,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2599.9999999999227,
+        2639.9999999999227
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2639.9999999999227
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2619.9999999999227,
+     "value_mm": 2619.9999999999227,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2619.9999999999222,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE",
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|155": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    155
+   ],
+   "names": [
+    "Keller/HK 2"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|155|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2614.9999999999222,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        793.5759999999764,
+        803.5759999999764
+       ],
+       "u:in": [
+        61.54799999999803,
+        71.54799999999803
+       ],
+       "u:mm": [
+        -2.3800000000000776,
+        7.619999999999923
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        0.0,
+        803.5759999999764
+       ],
+       "u:in": [
+        0.0,
+        71.54799999999803
+       ],
+       "u:mm": [
+        0.0,
+        7.619999999999923
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6199999999999224,
+     "value_mm": 2619.9999999999222,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2599.9999999999227,
+        2639.9999999999227
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2639.9999999999227
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2619.9999999999227,
+     "value_mm": 2619.9999999999227,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2619.9999999999222,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|199": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    199
+   ],
+   "names": [
+    "Vorraum/HK 3"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|199|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2614.9999999999222,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        793.5759999999764,
+        803.5759999999764
+       ],
+       "u:in": [
+        61.54799999999803,
+        71.54799999999803
+       ],
+       "u:mm": [
+        -2.3800000000000776,
+        7.619999999999923
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        0.0,
+        803.5759999999764
+       ],
+       "u:in": [
+        0.0,
+        71.54799999999803
+       ],
+       "u:mm": [
+        0.0,
+        7.619999999999923
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6199999999999224,
+     "value_mm": 2619.9999999999222,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2599.9999999999227,
+        2639.9999999999227
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2639.9999999999227
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2619.9999999999227,
+     "value_mm": 2619.9999999999227,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2619.9999999999222,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|237": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    237
+   ],
+   "names": [
+    "Gäste WC/HK 4"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|237|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|237|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Gäste WC/HK 4",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2614.9999999999222,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        793.5759999999764,
+        803.5759999999764
+       ],
+       "u:in": [
+        61.54799999999803,
+        71.54799999999803
+       ],
+       "u:mm": [
+        -2.3800000000000776,
+        7.619999999999923
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        0.0,
+        803.5759999999764
+       ],
+       "u:in": [
+        0.0,
+        71.54799999999803
+       ],
+       "u:mm": [
+        0.0,
+        7.619999999999923
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6199999999999224,
+     "value_mm": 2619.9999999999222,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2599.9999999999227,
+        2639.9999999999227
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2639.9999999999227
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2619.9999999999227,
+     "value_mm": 2619.9999999999227,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2619.9999999999222,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|275": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    275
+   ],
+   "names": [
+    "Keller/HK 5"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|275|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2614.9999999999222,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        793.5759999999764,
+        803.5759999999764
+       ],
+       "u:in": [
+        61.54799999999803,
+        71.54799999999803
+       ],
+       "u:mm": [
+        -2.3800000000000776,
+        7.619999999999923
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        0.0,
+        803.5759999999764
+       ],
+       "u:in": [
+        0.0,
+        71.54799999999803
+       ],
+       "u:mm": [
+        0.0,
+        7.619999999999923
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6199999999999224,
+     "value_mm": 2619.9999999999222,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2599.9999999999227,
+        2639.9999999999227
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2639.9999999999227
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2619.9999999999227,
+     "value_mm": 2619.9999999999227,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2619.9999999999222,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|313": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    313
+   ],
+   "names": [
+    "Diele/FBH 7"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|313|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|313|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Diele/FBH 7",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2634.9999999999995,
+        2644.9999999999995
+       ],
+       "u:ft": [
+        799.6719999999999,
+        809.6719999999999
+       ],
+       "u:in": [
+        62.056,
+        72.056
+       ],
+       "u:mm": [
+        -2.3600000000000003,
+        7.64
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2644.9999999999995
+       ],
+       "u:ft": [
+        0.0,
+        809.6719999999999
+       ],
+       "u:in": [
+        0.0,
+        72.056
+       ],
+       "u:mm": [
+        0.0,
+        7.64
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6399999999999997,
+     "value_mm": 2639.9999999999995,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2619.9999999999995,
+        2659.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2659.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2639.9999999999995,
+     "value_mm": 2639.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2639.9999999999995,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|367": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    367
+   ],
+   "names": [
+    "Wohnen/Essen/FBH 8"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|367|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|367|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Wohnen/Essen/FBH 8",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2634.9999999999995,
+        2644.9999999999995
+       ],
+       "u:ft": [
+        799.6719999999999,
+        809.6719999999999
+       ],
+       "u:in": [
+        62.056,
+        72.056
+       ],
+       "u:mm": [
+        -2.3600000000000003,
+        7.64
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2644.9999999999995
+       ],
+       "u:ft": [
+        0.0,
+        809.6719999999999
+       ],
+       "u:in": [
+        0.0,
+        72.056
+       ],
+       "u:mm": [
+        0.0,
+        7.64
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6399999999999997,
+     "value_mm": 2639.9999999999995,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2619.9999999999995,
+        2659.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2659.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2639.9999999999995,
+     "value_mm": 2639.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2639.9999999999995,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|405": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    405
+   ],
+   "names": [
+    "z.KG/FBH 9"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|405|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2634.9999999999995,
+        2644.9999999999995
+       ],
+       "u:ft": [
+        799.6719999999999,
+        809.6719999999999
+       ],
+       "u:in": [
+        62.056,
+        72.056
+       ],
+       "u:mm": [
+        -2.3600000000000003,
+        7.64
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2644.9999999999995
+       ],
+       "u:ft": [
+        0.0,
+        809.6719999999999
+       ],
+       "u:in": [
+        0.0,
+        72.056
+       ],
+       "u:mm": [
+        0.0,
+        7.64
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6399999999999997,
+     "value_mm": 2639.9999999999995,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2619.9999999999995,
+        2659.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2659.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2639.9999999999995,
+     "value_mm": 2639.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2639.9999999999995,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|448": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    448
+   ],
+   "names": [
+    "Kind/FBH 11"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|448|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|448|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Kind/FBH 11",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2594.999999999996,
+        2604.999999999996
+       ],
+       "u:ft": [
+        787.4799999999989,
+        797.4799999999989
+       ],
+       "u:in": [
+        61.03999999999991,
+        71.0399999999999
+       ],
+       "u:mm": [
+        -2.400000000000004,
+        7.599999999999996
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2604.999999999996
+       ],
+       "u:ft": [
+        0.0,
+        797.4799999999989
+       ],
+       "u:in": [
+        0.0,
+        71.0399999999999
+       ],
+       "u:mm": [
+        0.0,
+        7.599999999999996
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.599999999999996,
+     "value_mm": 2599.999999999996,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2579.999999999996,
+        2619.999999999996
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2619.999999999996
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2599.999999999996,
+     "value_mm": 2599.999999999996,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2599.999999999996,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|496": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    496
+   ],
+   "names": [
+    "Flur/FBH 12"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|496|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|496|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Flur/FBH 12",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2594.999999999996,
+        2604.999999999996
+       ],
+       "u:ft": [
+        787.4799999999989,
+        797.4799999999989
+       ],
+       "u:in": [
+        61.03999999999991,
+        71.0399999999999
+       ],
+       "u:mm": [
+        -2.400000000000004,
+        7.599999999999996
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2604.999999999996
+       ],
+       "u:ft": [
+        0.0,
+        797.4799999999989
+       ],
+       "u:in": [
+        0.0,
+        71.0399999999999
+       ],
+       "u:mm": [
+        0.0,
+        7.599999999999996
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.599999999999996,
+     "value_mm": 2599.999999999996,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2579.999999999996,
+        2619.999999999996
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2619.999999999996
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2599.999999999996,
+     "value_mm": 2599.999999999996,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2599.999999999996,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|541": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    541
+   ],
+   "names": [
+    "Bad/FBH 13"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|541|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|541|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bad/FBH 13",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2594.999999999996,
+        2604.999999999996
+       ],
+       "u:ft": [
+        787.4799999999989,
+        797.4799999999989
+       ],
+       "u:in": [
+        61.03999999999991,
+        71.0399999999999
+       ],
+       "u:mm": [
+        -2.400000000000004,
+        7.599999999999996
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2604.999999999996
+       ],
+       "u:ft": [
+        0.0,
+        797.4799999999989
+       ],
+       "u:in": [
+        0.0,
+        71.0399999999999
+       ],
+       "u:mm": [
+        0.0,
+        7.599999999999996
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.599999999999996,
+     "value_mm": 2599.999999999996,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2579.999999999996,
+        2619.999999999996
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2619.999999999996
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2599.999999999996,
+     "value_mm": 2599.999999999996,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2599.999999999996,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|579": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    579
+   ],
+   "names": [
+    "Kind/FBH 15"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|579|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|579|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Kind/FBH 15",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2594.999999999996,
+        2604.999999999996
+       ],
+       "u:ft": [
+        787.4799999999989,
+        797.4799999999989
+       ],
+       "u:in": [
+        61.03999999999991,
+        71.0399999999999
+       ],
+       "u:mm": [
+        -2.400000000000004,
+        7.599999999999996
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2604.999999999996
+       ],
+       "u:ft": [
+        0.0,
+        797.4799999999989
+       ],
+       "u:in": [
+        0.0,
+        71.0399999999999
+       ],
+       "u:mm": [
+        0.0,
+        7.599999999999996
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.599999999999996,
+     "value_mm": 2599.999999999996,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2579.999999999996,
+        2619.999999999996
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2619.999999999996
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2599.999999999996,
+     "value_mm": 2599.999999999996,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2599.999999999996,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|624": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    624
+   ],
+   "names": [
+    "Ankleide/FBH 16"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|624|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|624|cat",
+     "allowed": [
+      "NONOCC",
+      "OCCUPIABLE"
+     ],
+     "raw": "Ankleide/FBH 16",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2814.999999999999,
+        2824.999999999999
+       ],
+       "u:ft": [
+        854.5359999999997,
+        864.5359999999997
+       ],
+       "u:in": [
+        66.62799999999997,
+        76.62799999999997
+       ],
+       "u:mm": [
+        -2.180000000000001,
+        7.8199999999999985
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2824.999999999999
+       ],
+       "u:ft": [
+        0.0,
+        864.5359999999997
+       ],
+       "u:in": [
+        0.0,
+        76.62799999999997
+       ],
+       "u:mm": [
+        0.0,
+        7.8199999999999985
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.819999999999999,
+     "value_mm": 2819.999999999999,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2800.0,
+        2840.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2840.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2820.0,
+     "value_mm": 2820.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2819.999999999999,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE",
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|675": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    675
+   ],
+   "names": [
+    "Schlafen/FBH 18"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|675|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|675|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Schlafen/FBH 18",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2814.9999999999222,
+        2824.9999999999222
+       ],
+       "u:ft": [
+        854.5359999999763,
+        864.5359999999763
+       ],
+       "u:in": [
+        66.62799999999801,
+        76.62799999999801
+       ],
+       "u:mm": [
+        -2.1800000000000774,
+        7.819999999999922
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2824.9999999999222
+       ],
+       "u:ft": [
+        0.0,
+        864.5359999999763
+       ],
+       "u:in": [
+        0.0,
+        76.62799999999801
+       ],
+       "u:mm": [
+        0.0,
+        7.819999999999922
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.819999999999922,
+     "value_mm": 2819.9999999999222,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2799.9999999999236,
+        2839.9999999999236
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2839.9999999999236
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2819.9999999999236,
+     "value_mm": 2819.9999999999236,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2775.0,
+        2865.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2820.0,
+     "value_mm": 2820.0,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2819.9999999999222,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|718": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    718
+   ],
+   "names": [
+    "Bad/FBH 17"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|718|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|718|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bad/FBH 17",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2814.9999999999222,
+        2824.9999999999222
+       ],
+       "u:ft": [
+        854.5359999999763,
+        864.5359999999763
+       ],
+       "u:in": [
+        66.62799999999801,
+        76.62799999999801
+       ],
+       "u:mm": [
+        -2.1800000000000774,
+        7.819999999999922
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2824.9999999999222
+       ],
+       "u:ft": [
+        0.0,
+        864.5359999999763
+       ],
+       "u:in": [
+        0.0,
+        76.62799999999801
+       ],
+       "u:mm": [
+        0.0,
+        7.819999999999922
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.819999999999922,
+     "value_mm": 2819.9999999999222,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2799.9999999999236,
+        2839.9999999999236
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2839.9999999999236
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2819.9999999999236,
+     "value_mm": 2819.9999999999236,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2775.0,
+        2865.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2820.0,
+     "value_mm": 2820.0,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2819.9999999999222,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|762": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    762
+   ],
+   "names": [
+    "Luftraum 19"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|762|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|762|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "Luftraum 19",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2814.999999999999,
+        2824.999999999999
+       ],
+       "u:ft": [
+        854.5359999999997,
+        864.5359999999997
+       ],
+       "u:in": [
+        66.62799999999997,
+        76.62799999999997
+       ],
+       "u:mm": [
+        -2.180000000000001,
+        7.8199999999999985
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2824.999999999999
+       ],
+       "u:ft": [
+        0.0,
+        864.5359999999997
+       ],
+       "u:in": [
+        0.0,
+        76.62799999999997
+       ],
+       "u:mm": [
+        0.0,
+        7.8199999999999985
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.819999999999999,
+     "value_mm": 2819.999999999999,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2800.0,
+        2840.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2840.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2820.0,
+     "value_mm": 2820.0,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2775.0,
+        2865.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2820.0,
+     "value_mm": 2820.0,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2819.999999999999,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|800": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    800
+   ],
+   "names": [
+    "Luftraum 14"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|800|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|800|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "Luftraum 14",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2594.999999999996,
+        2604.999999999996
+       ],
+       "u:ft": [
+        787.4799999999989,
+        797.4799999999989
+       ],
+       "u:in": [
+        61.03999999999991,
+        71.0399999999999
+       ],
+       "u:mm": [
+        -2.400000000000004,
+        7.599999999999996
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2604.999999999996
+       ],
+       "u:ft": [
+        0.0,
+        797.4799999999989
+       ],
+       "u:in": [
+        0.0,
+        71.0399999999999
+       ],
+       "u:mm": [
+        0.0,
+        7.599999999999996
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.599999999999996,
+     "value_mm": 2599.999999999996,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2579.999999999996,
+        2619.999999999996
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2619.999999999996
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2599.999999999996,
+     "value_mm": 2599.999999999996,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2599.999999999996,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|842": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    842
+   ],
+   "names": [
+    "Luftraum 10"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|842|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|842|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "Luftraum 10",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2634.9999999999995,
+        2644.9999999999995
+       ],
+       "u:ft": [
+        799.6719999999999,
+        809.6719999999999
+       ],
+       "u:in": [
+        62.056,
+        72.056
+       ],
+       "u:mm": [
+        -2.3600000000000003,
+        7.64
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2644.9999999999995
+       ],
+       "u:ft": [
+        0.0,
+        809.6719999999999
+       ],
+       "u:in": [
+        0.0,
+        72.056
+       ],
+       "u:mm": [
+        0.0,
+        7.64
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6399999999999997,
+     "value_mm": 2639.9999999999995,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2619.9999999999995,
+        2659.9999999999995
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2659.9999999999995
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2639.9999999999995,
+     "value_mm": 2639.9999999999995,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2639.9999999999995,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "city_house_munich|space|880": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "city_house_munich|space",
+   "elements": [
+    880
+   ],
+   "names": [
+    "Treppe KG/EG 6"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "city_house_munich|space|880|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "city_house_munich|space|880|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "Treppe KG/EG 6",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Dimensions.Unbounded Height",
+     "label": "Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2614.9999999999222,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        793.5759999999764,
+        803.5759999999764
+       ],
+       "u:in": [
+        61.54799999999803,
+        71.54799999999803
+       ],
+       "u:mm": [
+        -2.3800000000000776,
+        7.619999999999923
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2624.9999999999222
+       ],
+       "u:ft": [
+        0.0,
+        803.5759999999764
+       ],
+       "u:in": [
+        0.0,
+        71.54799999999803
+       ],
+       "u:mm": [
+        0.0,
+        7.619999999999923
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6199999999999224,
+     "value_mm": 2619.9999999999222,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "city_house_munich|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2599.9999999999227,
+        2639.9999999999227
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2639.9999999999227
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2619.9999999999227,
+     "value_mm": 2619.9999999999227,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2619.9999999999222,
+    "label": "Dimensions.Unbounded Height",
+    "category": [
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  }
+ }
+}

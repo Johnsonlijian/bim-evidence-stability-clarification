@@ -1,0 +1,6882 @@
+{
+ "project": "duplex",
+ "schema": "IFC2X3",
+ "occupancy": "residential",
+ "length_scale_m": 1.0,
+ "metric": true,
+ "vars": {
+  "duplex|door|0|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "duplex|door|0",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "duplex|door|0|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|0",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "duplex|door|0|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|0",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "duplex|door|0|sem|PSet_Revit_Type_Dimensions.Width": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|0",
+   "group": null,
+   "label": "meaning of PSet_Revit_Type_Dimensions.Width"
+  },
+  "duplex|door|1|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "duplex|door|1",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "duplex|door|1|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|1",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "duplex|door|1|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|1",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "duplex|door|1|sem|PSet_Revit_Type_Dimensions.Width": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|1",
+   "group": null,
+   "label": "meaning of PSet_Revit_Type_Dimensions.Width"
+  },
+  "duplex|door|2|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "duplex|door|2",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "duplex|door|2|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|2",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "duplex|door|2|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|2",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "duplex|door|2|sem|PSet_Revit_Type_Dimensions.Width": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|2",
+   "group": null,
+   "label": "meaning of PSet_Revit_Type_Dimensions.Width"
+  },
+  "duplex|door|3|cfg": {
+   "domain": [
+    "SWING",
+    "DOUBLE",
+    "SLIDING",
+    "OTHER"
+   ],
+   "scope": "cluster",
+   "kind": "cfg",
+   "cluster": "duplex|door|3",
+   "group": null,
+   "label": "door configuration (OperationType)"
+  },
+  "duplex|door|3|sem|IfcDoor.OverallWidth": {
+   "domain": [
+    "OPENING",
+    "LEAF"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|3",
+   "group": null,
+   "label": "meaning of IfcDoor.OverallWidth"
+  },
+  "duplex|door|3|sem|Name": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|3",
+   "group": null,
+   "label": "meaning of nominal width in type name"
+  },
+  "duplex|door|3|sem|PSet_Revit_Type_Dimensions.Width": {
+   "domain": [
+    "LEAF",
+    "OPENING"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|door|3",
+   "group": null,
+   "label": "meaning of PSet_Revit_Type_Dimensions.Width"
+  },
+  "duplex|rail|0|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "duplex|rail|0",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "duplex|rail|1|fn": {
+   "domain": [
+    "GUARD",
+    "HANDRAIL"
+   ],
+   "scope": "cluster",
+   "kind": "fn",
+   "cluster": "duplex|rail|1",
+   "group": null,
+   "label": "railing function (guard/handrail)"
+  },
+  "duplex|space|sem|RoomHeight": {
+   "domain": [
+    "CLEAR",
+    "GROSS"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|space",
+   "group": null,
+   "label": "meaning of the room height parameter (finished ceiling vs computational upper limit)"
+  },
+  "duplex|space|sem|Body": {
+   "domain": [
+    "CLEAR",
+    "GROSS"
+   ],
+   "scope": "cluster",
+   "kind": "sem",
+   "cluster": "duplex|space",
+   "group": null,
+   "label": "meaning of space body height (finished ceiling vs upper limit)"
+  },
+  "duplex|space|82|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|82",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|83|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|83",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|84|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|84",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|88|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|88",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|89|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|89",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|90|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|90",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|96|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|96",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|97|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|97",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|113|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|113",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|118|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|118",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|119|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|119",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|120|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|120",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|126|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|126",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|127|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|127",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|128|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|128",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|129|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|129",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|152|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|152",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|184|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|184",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|185|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|185",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|186|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|186",
+   "label": "space category (applicability)"
+  },
+  "duplex|space|349|cat": {
+   "domain": [
+    "OCCUPIABLE",
+    "SERVICE",
+    "NONOCC"
+   ],
+   "scope": "group",
+   "kind": "cat",
+   "cluster": "duplex|space",
+   "group": "duplex|space|349",
+   "label": "space category (applicability)"
+  }
+ },
+ "clusters": {
+  "duplex|door|0": {
+   "family": "door",
+   "label": "0762 x 2032mm",
+   "groups": [
+    "duplex|door|0|g0"
+   ]
+  },
+  "duplex|door|1": {
+   "family": "door",
+   "label": "0813 x 2420mm",
+   "groups": [
+    "duplex|door|1|g0"
+   ]
+  },
+  "duplex|door|2": {
+   "family": "door",
+   "label": "0864 x 2032mm",
+   "groups": [
+    "duplex|door|2|g0"
+   ]
+  },
+  "duplex|door|3": {
+   "family": "door",
+   "label": "1250mm x 2010mm",
+   "groups": [
+    "duplex|door|3|g0"
+   ]
+  },
+  "duplex|stair_riser|5984": {
+   "family": "stair",
+   "label": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1",
+   "groups": [
+    "duplex|stair_riser|5984|g0"
+   ]
+  },
+  "duplex|stair_tread|5984": {
+   "family": "stair",
+   "label": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1",
+   "groups": [
+    "duplex|stair_tread|5984|g0"
+   ]
+  },
+  "duplex|stair_riser|5985": {
+   "family": "stair",
+   "label": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1",
+   "groups": [
+    "duplex|stair_riser|5985|g0"
+   ]
+  },
+  "duplex|stair_tread|5985": {
+   "family": "stair",
+   "label": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1",
+   "groups": [
+    "duplex|stair_tread|5985|g0"
+   ]
+  },
+  "duplex|rail|0": {
+   "family": "railing",
+   "label": "Railing:1100mm Guard Rail",
+   "groups": [
+    "duplex|rail|0|g0"
+   ]
+  },
+  "duplex|rail|1": {
+   "family": "railing",
+   "label": "Railing:900mm Handrail Only",
+   "groups": [
+    "duplex|rail|1|g0"
+   ]
+  },
+  "duplex|space": {
+   "family": "space",
+   "label": "all spaces",
+   "groups": [
+    "duplex|space|82",
+    "duplex|space|83",
+    "duplex|space|84",
+    "duplex|space|88",
+    "duplex|space|89",
+    "duplex|space|90",
+    "duplex|space|96",
+    "duplex|space|97",
+    "duplex|space|113",
+    "duplex|space|118",
+    "duplex|space|119",
+    "duplex|space|120",
+    "duplex|space|126",
+    "duplex|space|127",
+    "duplex|space|128",
+    "duplex|space|129",
+    "duplex|space|152",
+    "duplex|space|184",
+    "duplex|space|185",
+    "duplex|space|186",
+    "duplex|space|349"
+   ]
+  }
+ },
+ "groups": {
+  "duplex|door|0|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "duplex|door|0",
+   "elements": [
+    125,
+    198,
+    199,
+    201
+   ],
+   "names": [
+    "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:204034",
+    "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:203720",
+    "M_Single-Flush:0762 x 2032mm:0762 x 2032mm:150173"
+   ],
+   "multiplicity": 4,
+   "category_vars": [
+    "duplex|door|0|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|door|0|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_RIGHT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|door|0|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "0762 x 2032mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|0|sem|IfcDoor.OverallWidth",
+      "duplex|door|0|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        542.0,
+        702.0
+       ],
+       "u:ft": [
+        12.257599999999996,
+        172.2576
+       ],
+       "u:in": [
+        -200.6452,
+        -40.6452
+       ],
+       "u:mm": [
+        -219.238,
+        -59.238
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        243.9,
+        526.5
+       ],
+       "u:ft": [
+        5.515919999999999,
+        129.1932
+       ],
+       "u:in": [
+        -90.29034,
+        -30.483900000000002
+       ],
+       "u:mm": [
+        -98.6571,
+        -44.4285
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        542.0,
+        702.0
+       ],
+       "u:ft": [
+        12.257599999999996,
+        172.2576
+       ],
+       "u:in": [
+        -200.6452,
+        -40.6452
+       ],
+       "u:mm": [
+        -219.238,
+        -59.238
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        662.0,
+        722.0
+       ],
+       "u:ft": [
+        132.2576,
+        192.2576
+       ],
+       "u:in": [
+        -80.6452,
+        -20.645200000000003
+       ],
+       "u:mm": [
+        -99.238,
+        -39.238
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        297.90000000000003,
+        541.5
+       ],
+       "u:ft": [
+        59.51592,
+        144.1932
+       ],
+       "u:in": [
+        -36.29034,
+        -15.483900000000002
+       ],
+       "u:mm": [
+        -44.6571,
+        -29.4285
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        662.0,
+        722.0
+       ],
+       "u:ft": [
+        132.2576,
+        192.2576
+       ],
+       "u:in": [
+        -80.6452,
+        -20.645200000000003
+       ],
+       "u:mm": [
+        -99.238,
+        -39.238
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.762,
+     "value_mm": 762.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|0|sem|Name",
+      "duplex|door|0|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        662.0,
+        722.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        297.90000000000003,
+        541.5
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        662.0,
+        722.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        542.0,
+        702.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        243.9,
+        526.5
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        542.0,
+        702.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "0762 x 2032mm",
+     "value_mm": 762.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Type_Dimensions.Width",
+     "label": "PSet_Revit_Type_Dimensions.Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|door|0|sem|PSet_Revit_Type_Dimensions.Width",
+      "duplex|door|0|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        661.9999999999999,
+        721.9999999999999
+       ],
+       "u:ft": [
+        132.25759999999997,
+        192.25759999999997
+       ],
+       "u:in": [
+        -80.6452,
+        -20.645200000000003
+       ],
+       "u:mm": [
+        -99.238,
+        -39.238
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        297.9,
+        541.4999999999999
+       ],
+       "u:ft": [
+        59.51591999999999,
+        144.1932
+       ],
+       "u:in": [
+        -36.29034,
+        -15.483900000000002
+       ],
+       "u:mm": [
+        -44.6571,
+        -29.4285
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        661.9999999999999,
+        721.9999999999999
+       ],
+       "u:ft": [
+        132.25759999999997,
+        192.25759999999997
+       ],
+       "u:in": [
+        -80.6452,
+        -20.645200000000003
+       ],
+       "u:mm": [
+        -99.238,
+        -39.238
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        541.9999999999999,
+        701.9999999999999
+       ],
+       "u:ft": [
+        12.257599999999968,
+        172.25759999999997
+       ],
+       "u:in": [
+        -200.6452,
+        -40.6452
+       ],
+       "u:mm": [
+        -219.238,
+        -59.238
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        243.89999999999995,
+        526.4999999999999
+       ],
+       "u:ft": [
+        5.515919999999986,
+        129.1932
+       ],
+       "u:in": [
+        -90.29034,
+        -30.483900000000002
+       ],
+       "u:mm": [
+        -98.6571,
+        -44.4285
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        541.9999999999999,
+        701.9999999999999
+       ],
+       "u:ft": [
+        12.257599999999968,
+        172.25759999999997
+       ],
+       "u:in": [
+        -200.6452,
+        -40.6452
+       ],
+       "u:mm": [
+        -219.238,
+        -59.238
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.7619999999999999,
+     "value_mm": 761.9999999999999,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|0|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        594.0000000000003,
+        854.0000000000003
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        267.3000000000002,
+        640.5000000000002
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        594.0000000000003,
+        854.0000000000003
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 914.0000000000003,
+     "value_mm": 914.0000000000003,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 762.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "duplex|door|1|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "duplex|door|1",
+   "elements": [
+    251,
+    254
+   ],
+   "names": [
+    "M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171975",
+    "M_Single-Glass 1:0813 x 2420mm:0813 x 2420mm:171853"
+   ],
+   "multiplicity": 2,
+   "category_vars": [
+    "duplex|door|1|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|door|1|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_LEFT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|door|1|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "0813 x 2420mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|1|sem|IfcDoor.OverallWidth",
+      "duplex|door|1|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        592.9999999999993,
+        752.9999999999993
+       ],
+       "u:ft": [
+        27.80239999999978,
+        187.80239999999978
+       ],
+       "u:in": [
+        -199.34980000000002,
+        -39.349800000000016
+       ],
+       "u:mm": [
+        -219.187,
+        -59.187
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        266.8499999999997,
+        564.7499999999995
+       ],
+       "u:ft": [
+        12.5110799999999,
+        140.85179999999983
+       ],
+       "u:in": [
+        -89.70741000000001,
+        -29.512350000000012
+       ],
+       "u:mm": [
+        -98.63415,
+        -44.390249999999995
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        592.9999999999993,
+        752.9999999999993
+       ],
+       "u:ft": [
+        27.80239999999978,
+        187.80239999999978
+       ],
+       "u:in": [
+        -199.34980000000002,
+        -39.349800000000016
+       ],
+       "u:mm": [
+        -219.187,
+        -59.187
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        712.9999999999993,
+        772.9999999999993
+       ],
+       "u:ft": [
+        147.80239999999978,
+        207.80239999999978
+       ],
+       "u:in": [
+        -79.34980000000002,
+        -19.34980000000002
+       ],
+       "u:mm": [
+        -99.187,
+        -39.187
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        320.8499999999997,
+        579.7499999999995
+       ],
+       "u:ft": [
+        66.51107999999991,
+        155.85179999999983
+       ],
+       "u:in": [
+        -35.70741000000001,
+        -14.512350000000016
+       ],
+       "u:mm": [
+        -44.63415,
+        -29.390249999999998
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        712.9999999999993,
+        772.9999999999993
+       ],
+       "u:ft": [
+        147.80239999999978,
+        207.80239999999978
+       ],
+       "u:in": [
+        -79.34980000000002,
+        -19.34980000000002
+       ],
+       "u:mm": [
+        -99.187,
+        -39.187
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8129999999999993,
+     "value_mm": 812.9999999999993,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|1|sem|Name",
+      "duplex|door|1|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        713.0,
+        773.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        320.85,
+        579.75
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        713.0,
+        773.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        593.0,
+        753.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        266.85,
+        564.75
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        593.0,
+        753.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "0813 x 2420mm",
+     "value_mm": 813.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Type_Dimensions.Width",
+     "label": "PSet_Revit_Type_Dimensions.Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|door|1|sem|PSet_Revit_Type_Dimensions.Width",
+      "duplex|door|1|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        713.0,
+        773.0
+       ],
+       "u:ft": [
+        147.8024,
+        207.8024
+       ],
+       "u:in": [
+        -79.3498,
+        -19.349800000000002
+       ],
+       "u:mm": [
+        -99.187,
+        -39.187
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        320.85,
+        579.75
+       ],
+       "u:ft": [
+        66.51108,
+        155.8518
+       ],
+       "u:in": [
+        -35.70741,
+        -14.512350000000001
+       ],
+       "u:mm": [
+        -44.63415,
+        -29.390249999999998
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        713.0,
+        773.0
+       ],
+       "u:ft": [
+        147.8024,
+        207.8024
+       ],
+       "u:in": [
+        -79.3498,
+        -19.349800000000002
+       ],
+       "u:mm": [
+        -99.187,
+        -39.187
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        593.0,
+        753.0
+       ],
+       "u:ft": [
+        27.802400000000006,
+        187.8024
+       ],
+       "u:in": [
+        -199.34980000000002,
+        -39.3498
+       ],
+       "u:mm": [
+        -219.187,
+        -59.187
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        266.85,
+        564.75
+       ],
+       "u:ft": [
+        12.511080000000003,
+        140.8518
+       ],
+       "u:in": [
+        -89.70741000000001,
+        -29.51235
+       ],
+       "u:mm": [
+        -98.63415,
+        -44.390249999999995
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        593.0,
+        753.0
+       ],
+       "u:ft": [
+        27.802400000000006,
+        187.8024
+       ],
+       "u:in": [
+        -199.34980000000002,
+        -39.3498
+       ],
+       "u:mm": [
+        -219.187,
+        -59.187
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.813,
+     "value_mm": 813.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|1|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        644.9999999999995,
+        904.9999999999995
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        290.24999999999983,
+        678.7499999999997
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        644.9999999999995,
+        904.9999999999995
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 964.9999999999995,
+     "value_mm": 964.9999999999995,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 812.9999999999993,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "duplex|door|2|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "duplex|door|2",
+   "elements": [
+    180,
+    181,
+    200,
+    202,
+    203,
+    204
+   ],
+   "names": [
+    "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150478",
+    "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:150378",
+    "M_Single-Flush:0864 x 2032mm:0864 x 2032mm:159734"
+   ],
+   "multiplicity": 6,
+   "category_vars": [
+    "duplex|door|2|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|door|2|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_RIGHT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|door|2|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "0864 x 2032mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|2|sem|IfcDoor.OverallWidth",
+      "duplex|door|2|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        643.9999999999995,
+        803.9999999999995
+       ],
+       "u:ft": [
+        43.34719999999987,
+        203.34719999999987
+       ],
+       "u:in": [
+        -198.05440000000002,
+        -38.054400000000015
+       ],
+       "u:mm": [
+        -219.136,
+        -59.136
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        289.7999999999998,
+        602.9999999999997
+       ],
+       "u:ft": [
+        19.506239999999945,
+        152.5103999999999
+       ],
+       "u:in": [
+        -89.12448,
+        -28.54080000000001
+       ],
+       "u:mm": [
+        -98.6112,
+        -44.352000000000004
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        643.9999999999995,
+        803.9999999999995
+       ],
+       "u:ft": [
+        43.34719999999987,
+        203.34719999999987
+       ],
+       "u:in": [
+        -198.05440000000002,
+        -38.054400000000015
+       ],
+       "u:mm": [
+        -219.136,
+        -59.136
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        763.9999999999995,
+        823.9999999999995
+       ],
+       "u:ft": [
+        163.34719999999987,
+        223.34719999999987
+       ],
+       "u:in": [
+        -78.05440000000002,
+        -18.05440000000001
+       ],
+       "u:mm": [
+        -99.136,
+        -39.136
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        343.7999999999998,
+        617.9999999999997
+       ],
+       "u:ft": [
+        73.50623999999995,
+        167.5103999999999
+       ],
+       "u:in": [
+        -35.124480000000005,
+        -13.540800000000008
+       ],
+       "u:mm": [
+        -44.6112,
+        -29.352000000000004
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        763.9999999999995,
+        823.9999999999995
+       ],
+       "u:ft": [
+        163.34719999999987,
+        223.34719999999987
+       ],
+       "u:in": [
+        -78.05440000000002,
+        -18.05440000000001
+       ],
+       "u:mm": [
+        -99.136,
+        -39.136
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8639999999999995,
+     "value_mm": 863.9999999999995,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|2|sem|Name",
+      "duplex|door|2|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        764.0,
+        824.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        343.8,
+        618.0
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        764.0,
+        824.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        644.0,
+        804.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        289.8,
+        603.0
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        644.0,
+        804.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "0864 x 2032mm",
+     "value_mm": 864.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Type_Dimensions.Width",
+     "label": "PSet_Revit_Type_Dimensions.Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|door|2|sem|PSet_Revit_Type_Dimensions.Width",
+      "duplex|door|2|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        763.9999999999999,
+        823.9999999999999
+       ],
+       "u:ft": [
+        163.3472,
+        223.3472
+       ],
+       "u:in": [
+        -78.0544,
+        -18.054400000000005
+       ],
+       "u:mm": [
+        -99.136,
+        -39.136
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        343.79999999999995,
+        617.9999999999999
+       ],
+       "u:ft": [
+        73.50623999999999,
+        167.5104
+       ],
+       "u:in": [
+        -35.12448,
+        -13.540800000000004
+       ],
+       "u:mm": [
+        -44.6112,
+        -29.352000000000004
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        763.9999999999999,
+        823.9999999999999
+       ],
+       "u:ft": [
+        163.3472,
+        223.3472
+       ],
+       "u:in": [
+        -78.0544,
+        -18.054400000000005
+       ],
+       "u:mm": [
+        -99.136,
+        -39.136
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        643.9999999999999,
+        803.9999999999999
+       ],
+       "u:ft": [
+        43.34719999999999,
+        203.3472
+       ],
+       "u:in": [
+        -198.05440000000002,
+        -38.0544
+       ],
+       "u:mm": [
+        -219.136,
+        -59.136
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        289.79999999999995,
+        602.9999999999999
+       ],
+       "u:ft": [
+        19.506239999999995,
+        152.5104
+       ],
+       "u:in": [
+        -89.12448,
+        -28.5408
+       ],
+       "u:mm": [
+        -98.6112,
+        -44.352000000000004
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        643.9999999999999,
+        803.9999999999999
+       ],
+       "u:ft": [
+        43.34719999999999,
+        203.3472
+       ],
+       "u:in": [
+        -198.05440000000002,
+        -38.0544
+       ],
+       "u:mm": [
+        -219.136,
+        -59.136
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8639999999999999,
+     "value_mm": 863.9999999999999,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|2|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        696.0000000000001,
+        956.0000000000001
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        313.20000000000005,
+        717.0000000000001
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        696.0000000000001,
+        956.0000000000001
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1016.0000000000001,
+     "value_mm": 1016.0000000000001,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 863.9999999999995,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "duplex|door|3|g0": {
+   "family": "door",
+   "quantity": "door_clear_width",
+   "cluster": "duplex|door|3",
+   "elements": [
+    252,
+    253
+   ],
+   "names": [
+    "M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146596",
+    "M_Single-Flush:1250mm x 2010mm:1250mm x 2010mm:146678"
+   ],
+   "multiplicity": 2,
+   "category_vars": [
+    "duplex|door|3|cfg"
+   ],
+   "requirement_key": "door_clear_width",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "op",
+     "label": "IfcDoorType.OperationType",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|door|3|cfg",
+     "allowed": [
+      "SWING"
+     ],
+     "raw": "SINGLE_SWING_RIGHT",
+     "weight": 2.0
+    },
+    {
+     "sid": "nm_cfg",
+     "label": "Name tokens (configuration)",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|door|3|cfg",
+     "allowed": [
+      "SLIDING",
+      "SWING"
+     ],
+     "raw": "1250mm x 2010mm",
+     "weight": 1.0
+    },
+    {
+     "sid": "ow",
+     "label": "IfcDoor.OverallWidth",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|3|sem|IfcDoor.OverallWidth",
+      "duplex|door|3|cfg"
+     ],
+     "table": {
+      "OPENING|SWING": {
+       "ok": [
+        1030.0,
+        1190.0
+       ],
+       "u:ft": [
+        161.0,
+        321.0
+       ],
+       "u:in": [
+        -188.25,
+        -28.25
+       ],
+       "u:mm": [
+        -218.75,
+        -58.75
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        463.5,
+        892.5
+       ],
+       "u:ft": [
+        72.45,
+        240.75
+       ],
+       "u:in": [
+        -84.7125,
+        -21.1875
+       ],
+       "u:mm": [
+        -98.4375,
+        -44.0625
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1030.0,
+        1190.0
+       ],
+       "u:ft": [
+        161.0,
+        321.0
+       ],
+       "u:in": [
+        -188.25,
+        -28.25
+       ],
+       "u:mm": [
+        -218.75,
+        -58.75
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "LEAF|SWING": {
+       "ok": [
+        1150.0,
+        1210.0
+       ],
+       "u:ft": [
+        281.0,
+        341.0
+       ],
+       "u:in": [
+        -68.25,
+        -8.25
+       ],
+       "u:mm": [
+        -98.75,
+        -38.75
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        517.5,
+        907.5
+       ],
+       "u:ft": [
+        126.45,
+        255.75
+       ],
+       "u:in": [
+        -30.712500000000002,
+        -6.1875
+       ],
+       "u:mm": [
+        -44.4375,
+        -29.0625
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1150.0,
+        1210.0
+       ],
+       "u:ft": [
+        281.0,
+        341.0
+       ],
+       "u:in": [
+        -68.25,
+        -8.25
+       ],
+       "u:mm": [
+        -98.75,
+        -38.75
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.25,
+     "value_mm": 1250.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type name nominal width",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|3|sem|Name",
+      "duplex|door|3|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1150.0,
+        1210.0
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        517.5,
+        907.5
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1150.0,
+        1210.0
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        1030.0,
+        1190.0
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        463.5,
+        892.5
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1030.0,
+        1190.0
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "1250mm x 2010mm",
+     "value_mm": 1250.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Type_Dimensions.Width",
+     "label": "PSet_Revit_Type_Dimensions.Width",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|door|3|sem|PSet_Revit_Type_Dimensions.Width",
+      "duplex|door|3|cfg"
+     ],
+     "table": {
+      "LEAF|SWING": {
+       "ok": [
+        1150.0,
+        1210.0
+       ],
+       "u:ft": [
+        281.0,
+        341.0
+       ],
+       "u:in": [
+        -68.25,
+        -8.25
+       ],
+       "u:mm": [
+        -98.75,
+        -38.75
+       ]
+      },
+      "LEAF|DOUBLE": {
+       "ok": [
+        517.5,
+        907.5
+       ],
+       "u:ft": [
+        126.45,
+        255.75
+       ],
+       "u:in": [
+        -30.712500000000002,
+        -6.1875
+       ],
+       "u:mm": [
+        -44.4375,
+        -29.0625
+       ]
+      },
+      "LEAF|SLIDING": {
+       "ok": [
+        1150.0,
+        1210.0
+       ],
+       "u:ft": [
+        281.0,
+        341.0
+       ],
+       "u:in": [
+        -68.25,
+        -8.25
+       ],
+       "u:mm": [
+        -98.75,
+        -38.75
+       ]
+      },
+      "LEAF|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      },
+      "OPENING|SWING": {
+       "ok": [
+        1030.0,
+        1190.0
+       ],
+       "u:ft": [
+        161.0,
+        321.0
+       ],
+       "u:in": [
+        -188.25,
+        -28.25
+       ],
+       "u:mm": [
+        -218.75,
+        -58.75
+       ]
+      },
+      "OPENING|DOUBLE": {
+       "ok": [
+        463.5,
+        892.5
+       ],
+       "u:ft": [
+        72.45,
+        240.75
+       ],
+       "u:in": [
+        -84.7125,
+        -21.1875
+       ],
+       "u:mm": [
+        -98.4375,
+        -44.0625
+       ]
+      },
+      "OPENING|SLIDING": {
+       "ok": [
+        1030.0,
+        1190.0
+       ],
+       "u:ft": [
+        161.0,
+        321.0
+       ],
+       "u:in": [
+        -188.25,
+        -28.25
+       ],
+       "u:mm": [
+        -218.75,
+        -58.75
+       ]
+      },
+      "OPENING|OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ],
+       "u:ft": [
+        0.0,
+        1000000.0
+       ],
+       "u:in": [
+        0.0,
+        1000000.0
+       ],
+       "u:mm": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.25,
+     "value_mm": 1250.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Body extent (local X)",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|door|3|cfg"
+     ],
+     "table": {
+      "SWING": {
+       "ok": [
+        1081.9999999999995,
+        1341.9999999999995
+       ]
+      },
+      "DOUBLE": {
+       "ok": [
+        486.8999999999998,
+        1006.4999999999997
+       ]
+      },
+      "SLIDING": {
+       "ok": [
+        1081.9999999999995,
+        1341.9999999999995
+       ]
+      },
+      "OTHER": {
+       "ok": [
+        0.0,
+        1000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1401.9999999999995,
+     "value_mm": 1401.9999999999995,
+     "note": "OUTER",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1250.0,
+    "label": "IfcDoor.OverallWidth",
+    "category": null
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "explicit clear width",
+    "needs_category": false
+   }
+  },
+  "duplex|stair_riser|5984|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "duplex|stair_riser|5984",
+   "elements": [
+    5984
+   ],
+   "names": [
+    "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "attr",
+     "label": "IfcStairFlight.RiserHeight",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        635.4627296588327,
+        635.8627296588328
+       ],
+       "u:ft": [
+        193.55000000001223,
+        193.9500000000122
+       ],
+       "u:in": [
+        15.945833333334352,
+        16.34583333333435
+       ],
+       "u:mm": [
+        0.43566272965883274,
+        0.8356627296588328
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.6356627296588327,
+     "value_mm": 635.6627296588327,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        193.5500000000122,
+        193.95000000001218
+       ],
+       "u:ft": [
+        58.85500000000371,
+        59.25500000000372
+       ],
+       "u:in": [
+        4.721250000000309,
+        5.121250000000309
+       ],
+       "u:mm": [
+        -0.006249999999987821,
+        0.3937500000000122
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.1937500000000122,
+     "value_mm": 193.7500000000122,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        193.5500000000122,
+        193.95000000001218
+       ],
+       "u:ft": [
+        58.85500000000371,
+        59.25500000000372
+       ],
+       "u:in": [
+        4.721250000000309,
+        5.121250000000309
+       ],
+       "u:mm": [
+        -0.006249999999987821,
+        0.3937500000000122
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.1937500000000122,
+     "value_mm": 193.7500000000122,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "name_lim",
+     "label": "Type-name design limit (max riser)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        -1000000000.0,
+        200.2
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1",
+     "value_mm": 200.0,
+     "note": "INTENT",
+     "weight": 0.0
+    },
+    {
+     "sid": "rule:PSet_Revit_Type_Risers.Maximum Riser Height",
+     "label": "PSet_Revit_Type_Risers.Maximum Riser Height (stair rule)",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        -1000000000.0,
+        200.2
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.2,
+     "value_mm": 200.0,
+     "note": "INTENT",
+     "weight": 0.0
+    },
+    {
+     "sid": "geom:min",
+     "label": "Body rise / riser count (N=16, min)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        168.12500000001225,
+        217.85714285715684
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3050.000000000196,
+     "value_mm": null,
+     "note": "N=16",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 635.6627296588327,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 193.7500000000122,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3050.000000000196
+  },
+  "duplex|stair_tread|5984|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "duplex|stair_tread|5984",
+   "elements": [
+    5984
+   ],
+   "names": [
+    "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "attr",
+     "label": "IfcStairFlight.TreadLength",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        820.0099737532809,
+        820.409973753281
+       ],
+       "u:ft": [
+        249.8,
+        250.2
+       ],
+       "u:in": [
+        20.633333333333333,
+        21.03333333333333
+       ],
+       "u:mm": [
+        0.6202099737532809,
+        1.0202099737532808
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8202099737532809,
+     "value_mm": 820.2099737532809,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        249.8,
+        250.2
+       ],
+       "u:ft": [
+        76.0,
+        76.4
+       ],
+       "u:in": [
+        6.1499999999999995,
+        6.55
+       ],
+       "u:mm": [
+        0.04999999999999999,
+        0.45
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.25,
+     "value_mm": 250.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        249.8,
+        250.2
+       ],
+       "u:ft": [
+        76.0,
+        76.4
+       ],
+       "u:in": [
+        6.1499999999999995,
+        6.55
+       ],
+       "u:mm": [
+        0.04999999999999999,
+        0.45
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.25,
+     "value_mm": 250.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        249.8,
+        250.2
+       ],
+       "u:ft": [
+        76.0,
+        76.4
+       ],
+       "u:in": [
+        6.1499999999999995,
+        6.55
+       ],
+       "u:mm": [
+        0.04999999999999999,
+        0.45
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.25,
+     "value_mm": 250.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "name_lim",
+     "label": "Type-name design limit (min tread)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        249.8,
+        1000000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "Stair:Residential - 200mm Max Riser 250mm Tread:151086:1",
+     "value_mm": 250.0,
+     "note": "INTENT",
+     "weight": 0.0
+    },
+    {
+     "sid": "rule:PSet_Revit_Type_Treads.Minimum Tread Depth",
+     "label": "PSet_Revit_Type_Treads.Minimum Tread Depth (stair rule)",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        249.8,
+        1000000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.25,
+     "value_mm": 250.0,
+     "note": "INTENT",
+     "weight": 0.0
+    }
+   ],
+   "naive": {
+    "value_mm": 820.2099737532809,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 250.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3050.000000000196
+  },
+  "duplex|stair_riser|5985|g0": {
+   "family": "stair",
+   "quantity": "stair_riser",
+   "cluster": "duplex|stair_riser|5985",
+   "elements": [
+    5985
+   ],
+   "names": [
+    "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_riser",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "attr",
+     "label": "IfcStairFlight.RiserHeight",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        635.4627296588327,
+        635.8627296588328
+       ],
+       "u:ft": [
+        193.55000000001223,
+        193.9500000000122
+       ],
+       "u:in": [
+        15.945833333334352,
+        16.34583333333435
+       ],
+       "u:mm": [
+        0.43566272965883274,
+        0.8356627296588328
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.6356627296588327,
+     "value_mm": 635.6627296588327,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.RiserHeight:inst",
+     "label": "Pset_StairFlightCommon.RiserHeight",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        193.5500000000122,
+        193.95000000001218
+       ],
+       "u:ft": [
+        58.85500000000371,
+        59.25500000000372
+       ],
+       "u:in": [
+        4.721250000000309,
+        5.121250000000309
+       ],
+       "u:mm": [
+        -0.006249999999987821,
+        0.3937500000000122
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.1937500000000122,
+     "value_mm": 193.7500000000122,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.RiserHeight (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        193.5500000000122,
+        193.95000000001218
+       ],
+       "u:ft": [
+        58.85500000000371,
+        59.25500000000372
+       ],
+       "u:in": [
+        4.721250000000309,
+        5.121250000000309
+       ],
+       "u:mm": [
+        -0.006249999999987821,
+        0.3937500000000122
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.1937500000000122,
+     "value_mm": 193.7500000000122,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "name_lim",
+     "label": "Type-name design limit (max riser)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        -1000000000.0,
+        200.2
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1",
+     "value_mm": 200.0,
+     "note": "INTENT",
+     "weight": 0.0
+    },
+    {
+     "sid": "rule:PSet_Revit_Type_Risers.Maximum Riser Height",
+     "label": "PSet_Revit_Type_Risers.Maximum Riser Height (stair rule)",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        -1000000000.0,
+        200.2
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.2,
+     "value_mm": 200.0,
+     "note": "INTENT",
+     "weight": 0.0
+    },
+    {
+     "sid": "geom:min",
+     "label": "Body rise / riser count (N=16, min)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        168.12500000001225,
+        217.85714285715684
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3050.000000000196,
+     "value_mm": null,
+     "note": "N=16",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 635.6627296588327,
+    "label": "IfcStairFlight.RiserHeight or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 193.7500000000122,
+    "label": "Pset_StairFlightCommon.RiserHeight",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3050.000000000196
+  },
+  "duplex|stair_tread|5985|g0": {
+   "family": "stair",
+   "quantity": "stair_tread",
+   "cluster": "duplex|stair_tread|5985",
+   "elements": [
+    5985
+   ],
+   "names": [
+    "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1"
+   ],
+   "multiplicity": 1,
+   "category_vars": [],
+   "requirement_key": "stair_tread",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "attr",
+     "label": "IfcStairFlight.TreadLength",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        820.0099737532809,
+        820.409973753281
+       ],
+       "u:ft": [
+        249.8,
+        250.2
+       ],
+       "u:in": [
+        20.633333333333333,
+        21.03333333333333
+       ],
+       "u:mm": [
+        0.6202099737532809,
+        1.0202099737532808
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8202099737532809,
+     "value_mm": 820.2099737532809,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLength:inst",
+     "label": "Pset_StairFlightCommon.TreadLength",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        249.8,
+        250.2
+       ],
+       "u:ft": [
+        76.0,
+        76.4
+       ],
+       "u:in": [
+        6.1499999999999995,
+        6.55
+       ],
+       "u:mm": [
+        0.04999999999999999,
+        0.45
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.25,
+     "value_mm": 250.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_StairFlightCommon.TreadLengthAtOffset:inst",
+     "label": "Pset_StairFlightCommon.TreadLengthAtOffset",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        249.8,
+        250.2
+       ],
+       "u:ft": [
+        76.0,
+        76.4
+       ],
+       "u:in": [
+        6.1499999999999995,
+        6.55
+       ],
+       "u:mm": [
+        0.04999999999999999,
+        0.45
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.25,
+     "value_mm": 250.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "stair",
+     "label": "Pset_StairCommon.TreadLength (stair)",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        249.8,
+        250.2
+       ],
+       "u:ft": [
+        76.0,
+        76.4
+       ],
+       "u:in": [
+        6.1499999999999995,
+        6.55
+       ],
+       "u:mm": [
+        0.04999999999999999,
+        0.45
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.25,
+     "value_mm": 250.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "name_lim",
+     "label": "Type-name design limit (min tread)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        249.8,
+        1000000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "Stair:Residential - 200mm Max Riser 250mm Tread:198878:1",
+     "value_mm": 250.0,
+     "note": "INTENT",
+     "weight": 0.0
+    },
+    {
+     "sid": "rule:PSet_Revit_Type_Treads.Minimum Tread Depth",
+     "label": "PSet_Revit_Type_Treads.Minimum Tread Depth (stair rule)",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        249.8,
+        1000000000.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.25,
+     "value_mm": 250.0,
+     "note": "INTENT",
+     "weight": 0.0
+    }
+   ],
+   "naive": {
+    "value_mm": 820.2099737532809,
+    "label": "IfcStairFlight.TreadLength or Pset",
+    "category": null
+   },
+   "complete": {
+    "value_mm": 250.0,
+    "label": "Pset_StairFlightCommon.TreadLength",
+    "needs_category": false
+   },
+   "geom_dz_mm": 3050.000000000196
+  },
+  "duplex|rail|0|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "duplex|rail|0",
+   "elements": [
+    523,
+    524
+   ],
+   "names": [
+    "Railing:1100mm Guard Rail:151166",
+    "Railing:1100mm Guard Rail:198972"
+   ],
+   "multiplicity": 2,
+   "category_vars": [
+    "duplex|rail|0|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm_fn",
+     "label": "Type-name function tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|rail|0|fn",
+     "allowed": [
+      "GUARD"
+     ],
+     "raw": "1100mm Guard Rail",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type-name nominal height",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1090.0,
+        1110.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "1100mm Guard Rail",
+     "value_mm": 1100.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Type_Construction.Railing Height",
+     "label": "PSet_Revit_Type_Construction.Railing Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1099.0,
+        1101.0
+       ],
+       "u:ft": [
+        334.28000000000003,
+        336.28000000000003
+       ],
+       "u:in": [
+        26.94,
+        28.94
+       ],
+       "u:mm": [
+        0.10000000000000009,
+        2.1
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.1,
+     "value_mm": 1100.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        1099.0,
+        1101.0
+       ],
+       "u:ft": [
+        334.28000000000003,
+        336.28000000000003
+       ],
+       "u:in": [
+        26.94,
+        28.94
+       ],
+       "u:mm": [
+        0.10000000000000009,
+        2.1
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 1.1,
+     "value_mm": 1100.0,
+     "note": "unitless IfcReal",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 1100.0,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 1100.0,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|rail|1|g0": {
+   "family": "railing",
+   "quantity": "railing_height",
+   "cluster": "duplex|rail|1",
+   "elements": [
+    522,
+    525
+   ],
+   "names": [
+    "Railing:900mm Handrail Only:151162",
+    "Railing:900mm Handrail Only:198880"
+   ],
+   "multiplicity": 2,
+   "category_vars": [
+    "duplex|rail|1|fn"
+   ],
+   "requirement_key": "railing_height",
+   "value_scope": "cluster",
+   "sources": [
+    {
+     "sid": "nm_fn",
+     "label": "Type-name function tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|rail|1|fn",
+     "allowed": [
+      "HANDRAIL"
+     ],
+     "raw": "900mm Handrail Only",
+     "weight": 1.0
+    },
+    {
+     "sid": "nm",
+     "label": "Type-name nominal height",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        890.0,
+        910.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": "900mm Handrail Only",
+     "value_mm": 900.0,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Type_Construction.Railing Height",
+     "label": "PSet_Revit_Type_Construction.Railing Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        898.9999999999999,
+        900.9999999999999
+       ],
+       "u:ft": [
+        273.32,
+        275.32
+       ],
+       "u:in": [
+        21.86,
+        23.86
+       ],
+       "u:mm": [
+        -0.09999999999999998,
+        1.9
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8999999999999999,
+     "value_mm": 899.9999999999999,
+     "note": "",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:Pset_RailingCommon.Height",
+     "label": "Pset_RailingCommon.Height",
+     "level": "std",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        898.9999999999999,
+        900.9999999999999
+       ],
+       "u:ft": [
+        273.32,
+        275.32
+       ],
+       "u:in": [
+        21.86,
+        23.86
+       ],
+       "u:mm": [
+        -0.09999999999999998,
+        1.9
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 0.8999999999999999,
+     "value_mm": 899.9999999999999,
+     "note": "unitless IfcReal",
+     "weight": 1.0
+    }
+   ],
+   "naive": {
+    "value_mm": 899.9999999999999,
+    "label": "Pset_RailingCommon.Height",
+    "category": [
+     "GUARD"
+    ]
+   },
+   "complete": {
+    "value_mm": 899.9999999999999,
+    "label": "Pset_RailingCommon.Height",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|82": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    82
+   ],
+   "names": [
+    "Bedroom 2 A203"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|82|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|82|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom 2 A203",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|82|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "13-51 21 11: Bedroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|82|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.000000000001,
+        2605.000000000001
+       ],
+       "u:ft": [
+        787.4800000000002,
+        797.4800000000002
+       ],
+       "u:in": [
+        61.04000000000002,
+        71.04000000000002
+       ],
+       "u:mm": [
+        -2.399999999999999,
+        7.600000000000001
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.000000000001
+       ],
+       "u:ft": [
+        0.0,
+        797.4800000000002
+       ],
+       "u:in": [
+        0.0,
+        71.04000000000002
+       ],
+       "u:mm": [
+        0.0,
+        7.600000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.600000000000001,
+     "value_mm": 2600.000000000001,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2561.000000000183,
+        2601.000000000183
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2601.000000000183
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.000000000183,
+     "value_mm": 2581.000000000183,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0,
+        2611.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0,
+     "value_mm": 2581.0,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.000000000001,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|83": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    83
+   ],
+   "names": [
+    "Bedroom 2 B203"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|83|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|83|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom 2 B203",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|83|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "13-51 21 11: Bedroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|83|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.000000000001,
+        2605.000000000001
+       ],
+       "u:ft": [
+        787.4800000000002,
+        797.4800000000002
+       ],
+       "u:in": [
+        61.04000000000002,
+        71.04000000000002
+       ],
+       "u:mm": [
+        -2.399999999999999,
+        7.600000000000001
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.000000000001
+       ],
+       "u:ft": [
+        0.0,
+        797.4800000000002
+       ],
+       "u:in": [
+        0.0,
+        71.04000000000002
+       ],
+       "u:mm": [
+        0.0,
+        7.600000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.600000000000001,
+     "value_mm": 2600.000000000001,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2561.000000000183,
+        2601.000000000183
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2601.000000000183
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.000000000183,
+     "value_mm": 2581.000000000183,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0,
+        2611.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0,
+     "value_mm": 2581.0,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.000000000001,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|84": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    84
+   ],
+   "names": [
+    "Hallway A201"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|84|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|84|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Hallway A201",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2895.0000000000127,
+        2905.0000000000127
+       ],
+       "u:ft": [
+        878.9200000000039,
+        888.9200000000039
+       ],
+       "u:in": [
+        68.66000000000032,
+        78.66000000000032
+       ],
+       "u:mm": [
+        -2.099999999999987,
+        7.900000000000013
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2905.0000000000127
+       ],
+       "u:ft": [
+        0.0,
+        888.9200000000039
+       ],
+       "u:in": [
+        0.0,
+        78.66000000000032
+       ],
+       "u:mm": [
+        0.0,
+        7.900000000000013
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.900000000000013,
+     "value_mm": 2900.0000000000127,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2861.000000000195,
+        2901.000000000195
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2901.000000000195
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2881.000000000195,
+     "value_mm": 2881.000000000195,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0000000001833,
+        2611.0000000001833
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0000000001833,
+     "value_mm": 2581.0000000001833,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2900.0000000000127,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|88": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    88
+   ],
+   "names": [
+    "Foyer B101"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|88|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|88|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Foyer B101",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.0,
+        2605.0
+       ],
+       "u:ft": [
+        787.48,
+        797.48
+       ],
+       "u:in": [
+        61.040000000000006,
+        71.04
+       ],
+       "u:mm": [
+        -2.3999999999999995,
+        7.6000000000000005
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.0
+       ],
+       "u:ft": [
+        0.0,
+        797.48
+       ],
+       "u:in": [
+        0.0,
+        71.04
+       ],
+       "u:mm": [
+        0.0,
+        7.6000000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6,
+     "value_mm": 2600.0,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2561.0,
+        2601.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2601.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0,
+     "value_mm": 2581.0,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0,
+        2611.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0,
+     "value_mm": 2581.0,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.0,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|89": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    89
+   ],
+   "names": [
+    "Foyer A101"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|89|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|89|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Foyer A101",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.0,
+        2605.0
+       ],
+       "u:ft": [
+        787.48,
+        797.48
+       ],
+       "u:in": [
+        61.040000000000006,
+        71.04
+       ],
+       "u:mm": [
+        -2.3999999999999995,
+        7.6000000000000005
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.0
+       ],
+       "u:ft": [
+        0.0,
+        797.48
+       ],
+       "u:in": [
+        0.0,
+        71.04
+       ],
+       "u:mm": [
+        0.0,
+        7.6000000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6,
+     "value_mm": 2600.0,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2561.0,
+        2601.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2601.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0,
+     "value_mm": 2581.0,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0,
+        2611.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0,
+     "value_mm": 2581.0,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.0,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|90": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    90
+   ],
+   "names": [
+    "Hallway B201"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|90|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|90|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Hallway B201",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2895.0000000000127,
+        2905.0000000000127
+       ],
+       "u:ft": [
+        878.9200000000039,
+        888.9200000000039
+       ],
+       "u:in": [
+        68.66000000000032,
+        78.66000000000032
+       ],
+       "u:mm": [
+        -2.099999999999987,
+        7.900000000000013
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2905.0000000000127
+       ],
+       "u:ft": [
+        0.0,
+        888.9200000000039
+       ],
+       "u:in": [
+        0.0,
+        78.66000000000032
+       ],
+       "u:mm": [
+        0.0,
+        7.900000000000013
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.900000000000013,
+     "value_mm": 2900.0000000000127,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2861.000000000195,
+        2901.000000000195
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2901.000000000195
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2881.000000000195,
+     "value_mm": 2881.000000000195,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0000000001833,
+        2611.0000000001833
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0000000001833,
+     "value_mm": 2581.0000000001833,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2900.0000000000127,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|96": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    96
+   ],
+   "names": [
+    "Bedroom 1 A202"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|96|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|96|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom 1 A202",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|96|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "13-51 21 11: Bedroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|96|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.000000000001,
+        2605.000000000001
+       ],
+       "u:ft": [
+        787.4800000000002,
+        797.4800000000002
+       ],
+       "u:in": [
+        61.04000000000002,
+        71.04000000000002
+       ],
+       "u:mm": [
+        -2.399999999999999,
+        7.600000000000001
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.000000000001
+       ],
+       "u:ft": [
+        0.0,
+        797.4800000000002
+       ],
+       "u:in": [
+        0.0,
+        71.04000000000002
+       ],
+       "u:mm": [
+        0.0,
+        7.600000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.600000000000001,
+     "value_mm": 2600.000000000001,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2561.0000000001833,
+        2601.0000000001833
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2601.0000000001833
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0000000001833,
+     "value_mm": 2581.0000000001833,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0000000000005,
+        2611.0000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0000000000005,
+     "value_mm": 2581.0000000000005,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.000000000001,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|97": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    97
+   ],
+   "names": [
+    "Bedroom 1 B202"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|97|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|97|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom 1 B202",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|97|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "13-51 21 11: Bedroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|97|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Bedroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.000000000001,
+        2605.000000000001
+       ],
+       "u:ft": [
+        787.4800000000002,
+        797.4800000000002
+       ],
+       "u:in": [
+        61.04000000000002,
+        71.04000000000002
+       ],
+       "u:mm": [
+        -2.399999999999999,
+        7.600000000000001
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.000000000001
+       ],
+       "u:ft": [
+        0.0,
+        797.4800000000002
+       ],
+       "u:in": [
+        0.0,
+        71.04000000000002
+       ],
+       "u:mm": [
+        0.0,
+        7.600000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.600000000000001,
+     "value_mm": 2600.000000000001,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2561.0000000001833,
+        2601.0000000001833
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2601.0000000001833
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0000000001833,
+     "value_mm": 2581.0000000001833,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0000000000005,
+        2611.0000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0000000000005,
+     "value_mm": 2581.0000000000005,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.000000000001,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|113": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    113
+   ],
+   "names": [
+    "Living Room B102"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|113|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|113|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Living Room B102",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|113|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "13-51 24: Living Spaces",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|113|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Living Spaces",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.0,
+        2605.0
+       ],
+       "u:ft": [
+        787.48,
+        797.48
+       ],
+       "u:in": [
+        61.040000000000006,
+        71.04
+       ],
+       "u:mm": [
+        -2.3999999999999995,
+        7.6000000000000005
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.0
+       ],
+       "u:ft": [
+        0.0,
+        797.48
+       ],
+       "u:in": [
+        0.0,
+        71.04
+       ],
+       "u:mm": [
+        0.0,
+        7.6000000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6,
+     "value_mm": 2600.0,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2561.0,
+        2601.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2601.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0,
+     "value_mm": 2581.0,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0,
+        2611.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0,
+     "value_mm": 2581.0,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.0,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|118": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    118
+   ],
+   "names": [
+    "Bathroom 2 A204"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|118|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|118|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom 2 A204",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|118|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "13-41 11 14 11: Bathroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|118|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.000000000001,
+        2605.000000000001
+       ],
+       "u:ft": [
+        787.4800000000002,
+        797.4800000000002
+       ],
+       "u:in": [
+        61.04000000000002,
+        71.04000000000002
+       ],
+       "u:mm": [
+        -2.399999999999999,
+        7.600000000000001
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.000000000001
+       ],
+       "u:ft": [
+        0.0,
+        797.4800000000002
+       ],
+       "u:in": [
+        0.0,
+        71.04000000000002
+       ],
+       "u:mm": [
+        0.0,
+        7.600000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.600000000000001,
+     "value_mm": 2600.000000000001,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2567.0000000001833,
+        2607.0000000001833
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2607.0000000001833
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000001833,
+     "value_mm": 2587.0000000001833,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2557.0000000000005,
+        2617.0000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000000005,
+     "value_mm": 2587.0000000000005,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.000000000001,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|119": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    119
+   ],
+   "names": [
+    "Living Room A102"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|119|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|119|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Living Room A102",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|119|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "13-51 24: Living Spaces",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|119|cat",
+     "allowed": [
+      "OCCUPIABLE"
+     ],
+     "raw": "Living Spaces",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.0,
+        2605.0
+       ],
+       "u:ft": [
+        787.48,
+        797.48
+       ],
+       "u:in": [
+        61.040000000000006,
+        71.04
+       ],
+       "u:mm": [
+        -2.3999999999999995,
+        7.6000000000000005
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.0
+       ],
+       "u:ft": [
+        0.0,
+        797.48
+       ],
+       "u:in": [
+        0.0,
+        71.04
+       ],
+       "u:mm": [
+        0.0,
+        7.6000000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6,
+     "value_mm": 2600.0,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2561.0,
+        2601.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2601.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0,
+     "value_mm": 2581.0,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0,
+        2611.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0,
+     "value_mm": 2581.0,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.0,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|120": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    120
+   ],
+   "names": [
+    "Bathroom 1 B104"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|120|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|120|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom 1 B104",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|120|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "13-41 11 14 11: Bathroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|120|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.0,
+        2605.0
+       ],
+       "u:ft": [
+        787.48,
+        797.48
+       ],
+       "u:in": [
+        61.040000000000006,
+        71.04
+       ],
+       "u:mm": [
+        -2.3999999999999995,
+        7.6000000000000005
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.0
+       ],
+       "u:ft": [
+        0.0,
+        797.48
+       ],
+       "u:in": [
+        0.0,
+        71.04
+       ],
+       "u:mm": [
+        0.0,
+        7.6000000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6,
+     "value_mm": 2600.0,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2567.000000000001,
+        2607.000000000001
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2607.000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.000000000001,
+     "value_mm": 2587.000000000001,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2557.0,
+        2617.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0,
+     "value_mm": 2587.0,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.0,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|126": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    126
+   ],
+   "names": [
+    "Kitchen B103"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|126|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|126|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Kitchen B103",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|126|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "13-11 19 11 11: Kitchen",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|126|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Kitchen",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.0,
+        2605.0
+       ],
+       "u:ft": [
+        787.48,
+        797.48
+       ],
+       "u:in": [
+        61.040000000000006,
+        71.04
+       ],
+       "u:mm": [
+        -2.3999999999999995,
+        7.6000000000000005
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.0
+       ],
+       "u:ft": [
+        0.0,
+        797.48
+       ],
+       "u:in": [
+        0.0,
+        71.04
+       ],
+       "u:mm": [
+        0.0,
+        7.6000000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6,
+     "value_mm": 2600.0,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2567.0000000000014,
+        2607.0000000000014
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2607.0000000000014
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000000014,
+     "value_mm": 2587.0000000000014,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2557.0000000000005,
+        2617.0000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000000005,
+     "value_mm": 2587.0000000000005,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.0,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|127": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    127
+   ],
+   "names": [
+    "Kitchen A103"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|127|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|127|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Kitchen A103",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|127|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "13-11 19 11 11: Kitchen",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|127|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Kitchen",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.0,
+        2605.0
+       ],
+       "u:ft": [
+        787.48,
+        797.48
+       ],
+       "u:in": [
+        61.040000000000006,
+        71.04
+       ],
+       "u:mm": [
+        -2.3999999999999995,
+        7.6000000000000005
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.0
+       ],
+       "u:ft": [
+        0.0,
+        797.48
+       ],
+       "u:in": [
+        0.0,
+        71.04
+       ],
+       "u:mm": [
+        0.0,
+        7.6000000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6,
+     "value_mm": 2600.0,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2567.0000000000014,
+        2607.0000000000014
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2607.0000000000014
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000000014,
+     "value_mm": 2587.0000000000014,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2557.0000000000005,
+        2617.0000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000000005,
+     "value_mm": 2587.0000000000005,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.0,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|128": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    128
+   ],
+   "names": [
+    "Bathroom 2 B204"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|128|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|128|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom 2 B204",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|128|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "13-41 11 14 11: Bathroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|128|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.000000000001,
+        2605.000000000001
+       ],
+       "u:ft": [
+        787.4800000000002,
+        797.4800000000002
+       ],
+       "u:in": [
+        61.04000000000002,
+        71.04000000000002
+       ],
+       "u:mm": [
+        -2.399999999999999,
+        7.600000000000001
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.000000000001
+       ],
+       "u:ft": [
+        0.0,
+        797.4800000000002
+       ],
+       "u:in": [
+        0.0,
+        71.04000000000002
+       ],
+       "u:mm": [
+        0.0,
+        7.600000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.600000000000001,
+     "value_mm": 2600.000000000001,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2567.0000000001833,
+        2607.0000000001833
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2607.0000000001833
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000001833,
+     "value_mm": 2587.0000000001833,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2557.0000000000005,
+        2617.0000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000000005,
+     "value_mm": 2587.0000000000005,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.000000000001,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|129": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    129
+   ],
+   "names": [
+    "Bathroom 1 A104"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|129|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|129|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom 1 A104",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|129|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "13-41 11 14 11: Bathroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|129|cat",
+     "allowed": [
+      "SERVICE"
+     ],
+     "raw": "Bathroom",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.0,
+        2605.0
+       ],
+       "u:ft": [
+        787.48,
+        797.48
+       ],
+       "u:in": [
+        61.040000000000006,
+        71.04
+       ],
+       "u:mm": [
+        -2.3999999999999995,
+        7.6000000000000005
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.0
+       ],
+       "u:ft": [
+        0.0,
+        797.48
+       ],
+       "u:in": [
+        0.0,
+        71.04
+       ],
+       "u:mm": [
+        0.0,
+        7.6000000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.6,
+     "value_mm": 2600.0,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2567.0000000000014,
+        2607.0000000000014
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2607.0000000000014
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000000014,
+     "value_mm": 2587.0000000000014,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2557.0000000000005,
+        2617.0000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000000005,
+     "value_mm": 2587.0000000000005,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.0,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "SERVICE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|152": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    152
+   ],
+   "names": [
+    "Utility A205"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|152|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|152|cat",
+     "allowed": [
+      "NONOCC",
+      "OCCUPIABLE"
+     ],
+     "raw": "Utility A205",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.000000000001,
+        2605.000000000001
+       ],
+       "u:ft": [
+        787.4800000000002,
+        797.4800000000002
+       ],
+       "u:in": [
+        61.04000000000002,
+        71.04000000000002
+       ],
+       "u:mm": [
+        -2.399999999999999,
+        7.600000000000001
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.000000000001
+       ],
+       "u:ft": [
+        0.0,
+        797.4800000000002
+       ],
+       "u:in": [
+        0.0,
+        71.04000000000002
+       ],
+       "u:mm": [
+        0.0,
+        7.600000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.600000000000001,
+     "value_mm": 2600.000000000001,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2567.0000000001833,
+        2607.0000000001833
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2607.0000000001833
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000001833,
+     "value_mm": 2587.0000000001833,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2557.0000000000005,
+        2617.0000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000000005,
+     "value_mm": 2587.0000000000005,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.000000000001,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE",
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|184": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    184
+   ],
+   "names": [
+    "Stair A105"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|184|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|184|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "Stair A105",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|184|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "13-85 21 11: Stairway",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|184|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "Stairway",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        5695.000000000197,
+        5705.000000000197
+       ],
+       "u:ft": [
+        1732.3600000000602,
+        1742.3600000000602
+       ],
+       "u:in": [
+        139.780000000005,
+        149.780000000005
+       ],
+       "u:mm": [
+        0.7000000000001974,
+        10.700000000000198
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        5705.000000000197
+       ],
+       "u:ft": [
+        0.0,
+        1742.3600000000602
+       ],
+       "u:in": [
+        0.0,
+        149.780000000005
+       ],
+       "u:mm": [
+        0.0,
+        10.700000000000198
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 5.700000000000197,
+     "value_mm": 5700.000000000197,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        5661.000000000196,
+        5701.000000000196
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        5701.000000000196
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 5681.000000000196,
+     "value_mm": 5681.000000000196,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0000000000005,
+        2611.0000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0000000000005,
+     "value_mm": 2581.0000000000005,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 5700.000000000197,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|185": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    185
+   ],
+   "names": [
+    "Room B105"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|185|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "p:PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "label": "PSet_Revit_Identity Data.OmniClass Table 13 Category",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|185|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "13-85 21 11: Stairway",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Other.Category Description",
+     "label": "PSet_Revit_Other.Category Description",
+     "level": "full",
+     "kind": "cat",
+     "var": "duplex|space|185|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "Stairway",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        5695.000000000197,
+        5705.000000000197
+       ],
+       "u:ft": [
+        1732.3600000000602,
+        1742.3600000000602
+       ],
+       "u:in": [
+        139.780000000005,
+        149.780000000005
+       ],
+       "u:mm": [
+        0.7000000000001974,
+        10.700000000000198
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        5705.000000000197
+       ],
+       "u:ft": [
+        0.0,
+        1742.3600000000602
+       ],
+       "u:in": [
+        0.0,
+        149.780000000005
+       ],
+       "u:mm": [
+        0.0,
+        10.700000000000198
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 5.700000000000197,
+     "value_mm": 5700.000000000197,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        5661.000000000196,
+        5701.000000000196
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        5701.000000000196
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 5681.000000000196,
+     "value_mm": 5681.000000000196,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2551.0000000000005,
+        2611.0000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2581.0000000000005,
+     "value_mm": 2581.0000000000005,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 5700.000000000197,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|186": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    186
+   ],
+   "names": [
+    "Utility B205"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|186|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|186|cat",
+     "allowed": [
+      "NONOCC",
+      "OCCUPIABLE"
+     ],
+     "raw": "Utility B205",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2595.000000000001,
+        2605.000000000001
+       ],
+       "u:ft": [
+        787.4800000000002,
+        797.4800000000002
+       ],
+       "u:in": [
+        61.04000000000002,
+        71.04000000000002
+       ],
+       "u:mm": [
+        -2.399999999999999,
+        7.600000000000001
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2605.000000000001
+       ],
+       "u:ft": [
+        0.0,
+        797.4800000000002
+       ],
+       "u:in": [
+        0.0,
+        71.04000000000002
+       ],
+       "u:mm": [
+        0.0,
+        7.600000000000001
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2.600000000000001,
+     "value_mm": 2600.000000000001,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2567.0000000001833,
+        2607.0000000001833
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        2607.0000000001833
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000001833,
+     "value_mm": 2587.0000000001833,
+     "note": "",
+     "weight": 2.0
+    },
+    {
+     "sid": "ceil",
+     "label": "Ceiling covering soffit above floor (geometry)",
+     "level": "min",
+     "kind": "num",
+     "deps": [],
+     "table": {
+      "": {
+       "ok": [
+        2557.0000000000005,
+        2617.0000000000005
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 2587.0000000000005,
+     "value_mm": 2587.0000000000005,
+     "note": "CLEAR",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 2600.000000000001,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "OCCUPIABLE",
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  },
+  "duplex|space|349": {
+   "family": "space",
+   "quantity": "ceiling_height",
+   "cluster": "duplex|space",
+   "elements": [
+    349
+   ],
+   "names": [
+    "Roof R301"
+   ],
+   "multiplicity": 1,
+   "category_vars": [
+    "duplex|space|349|cat"
+   ],
+   "requirement_key": "ceiling_height",
+   "value_scope": "group",
+   "sources": [
+    {
+     "sid": "nm_cat",
+     "label": "Space name tokens",
+     "level": "min",
+     "kind": "cat",
+     "var": "duplex|space|349|cat",
+     "allowed": [
+      "NONOCC"
+     ],
+     "raw": "Roof R301",
+     "weight": 1.0
+    },
+    {
+     "sid": "p:PSet_Revit_Dimensions.Unbounded Height",
+     "label": "PSet_Revit_Dimensions.Unbounded Height",
+     "level": "full",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|RoomHeight"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2995.0,
+        3005.0
+       ],
+       "u:ft": [
+        909.4000000000001,
+        919.4000000000001
+       ],
+       "u:in": [
+        71.19999999999999,
+        81.19999999999999
+       ],
+       "u:mm": [
+        -2.0,
+        8.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3005.0
+       ],
+       "u:ft": [
+        0.0,
+        919.4000000000001
+       ],
+       "u:in": [
+        0.0,
+        81.19999999999999
+       ],
+       "u:mm": [
+        0.0,
+        8.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3.0,
+     "value_mm": 3000.0,
+     "note": "AMBIG",
+     "weight": 1.0
+    },
+    {
+     "sid": "geom",
+     "label": "Space body height",
+     "level": "min",
+     "kind": "num",
+     "deps": [
+      "duplex|space|sem|Body"
+     ],
+     "table": {
+      "CLEAR": {
+       "ok": [
+        2980.0,
+        3020.0
+       ]
+      },
+      "GROSS": {
+       "ok": [
+        0.0,
+        3020.0
+       ]
+      }
+     },
+     "suspect": false,
+     "raw": 3000.0,
+     "value_mm": 3000.0,
+     "note": "",
+     "weight": 2.0
+    }
+   ],
+   "naive": {
+    "value_mm": 3000.0,
+    "label": "PSet_Revit_Dimensions.Unbounded Height",
+    "category": [
+     "NONOCC"
+    ]
+   },
+   "complete": {
+    "value_mm": null,
+    "label": "Qto FinishCeilingHeight/ClearHeight",
+    "needs_category": true,
+    "category": null
+   }
+  }
+ }
+}

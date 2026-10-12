@@ -1,0 +1,2 @@
+﻿dataset,source_url_or_doi,license_or_terms,acquisition_note,used_in_package
+IFC-Bench v2,https://huggingface.co/datasets/sylvainHellin/ifc-bench,Per-project model_card.md and license.txt; verify before redistribution,Fetched by scripts/fetch_development.py and src/fetch_heldout.py; raw IFC files are excluded from this repository,Development and held-out IFC models; hashes in lineage/*_public.json

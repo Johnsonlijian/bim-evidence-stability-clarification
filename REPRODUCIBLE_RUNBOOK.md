@@ -45,4 +45,5 @@ Compare regenerated aggregate files with the committed derived artifacts using S
 
 ## Public deposit sequence
 
-Create the intended GitHub repository and push only this directory after selecting licenses and completing the related-manuscript check. For an archival record, upload the same clean tree (or a tagged source archive) to Zenodo and then add the resulting repository URL and DOI to the manuscript's Data availability statement. No repository URL or DOI is claimed by this local package.
+The clean tree is publicly available at https://github.com/Johnsonlijian/bim-evidence-stability-clarification. For an archival record, upload the same clean tree (or a tagged source archive) to Zenodo and then add the resulting DOI to the manuscript's Data availability statement. No Zenodo DOI is claimed by this package.
+

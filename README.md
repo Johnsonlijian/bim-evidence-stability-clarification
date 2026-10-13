@@ -12,7 +12,7 @@ Follow [REPRODUCIBLE_RUNBOOK.md](REPRODUCIBLE_RUNBOOK.md). Raw IFC files are fet
 
 ## Release status
 
-This is a local release candidate. No GitHub URL or Zenodo DOI has been minted yet. The license file intentionally records that a public license is still pending; do not redistribute this draft until the author adds the code/data license.
+The reproducibility repository is publicly available at https://github.com/Johnsonlijian/bim-evidence-stability-clarification. The manuscript remains a local candidate and has not been submitted from this package. No Zenodo DOI has been minted. The license file records that a public code/data license is still pending; reuse should follow the source and dataset terms until the author adds an explicit repository license.
 
 The active manuscript, cover letter, submission forms, internal logs, absolute paths, credentials and the companion-corpus reference index are excluded.
 

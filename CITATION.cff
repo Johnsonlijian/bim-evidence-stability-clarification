@@ -1,19 +1,32 @@
 cff-version: 1.2.0
-message: "If you use this reproducibility package, cite the associated manuscript and this package."
+message: "If you use this reproducibility package, cite it using the metadata below."
 title: "Reproducibility package for decision-stable automated code checking under conflicting BIM evidence"
 type: software
 version: 0.1.0
-date-released: 2026-10-12
+date-released: 2026-10-14
+doi: 10.5281/zenodo.23361167
+url: "https://doi.org/10.5281/zenodo.23361167"
+repository-code: "https://github.com/Johnsonlijian/bim-evidence-stability-clarification"
+license: MIT
+license-url: "https://opensource.org/licenses/MIT"
 authors:
   - family-names: Ren
     given-names: Lijian
     email: renlijian@imut.edu.cn
-    affiliation: "School of Civil Engineering, Inner Mongolia University of Technology; Inner Mongolia Autonomous Region Key Laboratory of Green Construction and Intelligent Operation and Maintenance of Civil Engineering"
-abstract: "Code and derived records for decision-stable automated code checking under conflicting IFC evidence, including a stability-based value-of-information planner for targeted clarification."
+    affiliation: "School of Civil Engineering, Inner Mongolia University of Technology, Hohhot 010051, China; Inner Mongolia Autonomous Region Key Laboratory of Green Construction and Intelligent Operation and Maintenance of Civil Engineering, Hohhot 010051, China"
+contact:
+  - family-names: Ren
+    given-names: Lijian
+    email: renlijian@imut.edu.cn
+abstract: "Code and derived records for decision-stable automated code checking under conflicting IFC evidence, including a stability-based value-of-information planner for targeted clarification. The source code is licensed under MIT (LICENSE); derived data, result tables, figures and documentation are licensed under CC BY 4.0 (LICENSE-DATA). Raw third-party IFC models are not redistributed."
 keywords:
   - building information modeling
   - automated code checking
   - Industry Foundation Classes
   - value of information
   - data quality
-license: other
+  - model-based diagnosis
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23361167
+    description: "Archived release v0.1.0 (Zenodo)"

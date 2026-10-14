@@ -1,0 +1,51 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 Lijian Ren
+
+The derived data, result tables, figures and documentation in this repository
+are licensed under the Creative Commons Attribution 4.0 International licence.
+
+You are free to:
+
+  Share — copy and redistribute the material in any medium or format.
+  Adapt — remix, transform, and build upon the material for any purpose,
+          even commercially.
+
+Under the following terms:
+
+  Attribution — You must give appropriate credit, provide a link to the
+  licence, and indicate if changes were made. You may do so in any reasonable
+  manner, but not in any way that suggests the licensor endorses you or your
+  use. You must not apply legal terms or technological measures that legally
+  restrict others from doing anything the licence permits.
+
+No warranties are given. The licence may not give you all of the permissions
+necessary for your intended use. Other rights, such as publicity, privacy, or
+moral rights, may limit how you use the material.
+
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+--------------------------------------------------------------------------------
+Scope of this licence
+
+This CC BY 4.0 licence applies to the derived data, result tables, figures and
+documentation in this repository, including `outputs/`, `figures/`, `lineage/`,
+`DATASETS_AND_LINKS.csv`, `PUBLIC_RELEASE_SCOPE.md`, `README.md`,
+`REPRODUCIBLE_RUNBOOK.md`, `PREREGISTRATION.md` and `DEVIATIONS.md`.
+
+The source code in `src/` and `scripts/` is released under the MIT licence;
+see `LICENSE`.
+
+Raw third-party IFC model files are not distributed in this repository and are
+not covered by either licence. They remain subject to the terms recorded in
+their own model cards, listed in `DATASETS_AND_LINKS.csv`.
+
+--------------------------------------------------------------------------------
+How to cite
+
+  Ren, Lijian. (2026). Reproducibility package for decision-stable automated
+  code checking under conflicting BIM evidence (v0.1.0). Zenodo.
+  https://doi.org/10.5281/zenodo.23361167
+
+Machine-readable metadata is in `CITATION.cff`.

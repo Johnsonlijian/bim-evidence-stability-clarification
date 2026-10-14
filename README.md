@@ -1,8 +1,8 @@
-# Reproducibility package: interpretation-invariant BIM code checking
+# Reproducibility package: decision-stable automated code checking under conflicting BIM evidence
 
-This repository contains the code and derived records for the manuscript **Deciding code checks from conflicting building information model evidence: interpretation-invariant conclusions and stability-guided clarification**. The target is *Computer-Aided Civil and Infrastructure Engineering*; the manuscript is a local candidate and has not been submitted from this package.
+This repository contains the code and derived records for the manuscript **Decision-stable automated code checking under conflicting BIM evidence**. The target is *Computer-Aided Civil and Infrastructure Engineering*; the manuscript is a local candidate and has not been submitted from this package.
 
-The study represents conflicting IFC evidence by admissible readings, derives decision-stable code conclusions, and ranks clarification actions by stability value of information. The package contains the frozen code, pre-registration, evidence ledgers, compressed experiment records, aggregate tables and vector figures.
+The study represents conflicting IFC evidence by admissible readings, derives decision-stable code conclusions, and ranks clarification actions by stability-based value of information. The package contains the frozen code, pre-registration, evidence ledgers, compressed experiment records, aggregate tables and vector figures.
 
 The sole author is Lijian Ren (Inner Mongolia University of Technology; Inner Mongolia Autonomous Region Key Laboratory of Green Construction and Intelligent Operation and Maintenance of Civil Engineering; renlijian@imut.edu.cn).
 

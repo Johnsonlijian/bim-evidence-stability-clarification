@@ -8,7 +8,7 @@ VALUE(t)    reveal the certified code quantity for the groups in scope t (door/r
 
 Adaptive policies (all stop a check only when its conclusion is stable, except `conf`)
 ------------------------------------------------------------------------------------
-sv       stability value of information: expected number of checks made stable per unit effort; when no single
+sv       stability-based value of information: expected number of checks made stable per unit effort; when no single
          action can stabilise a check, the equivalence-class edge-cutting gain (EC2) is used as look-ahead surrogate
 ec2      EC2 gain per unit effort only (decision-ambiguity reduction)
 uncert   most ambiguous check first, then its cheapest action

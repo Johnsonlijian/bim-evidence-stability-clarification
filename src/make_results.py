@@ -406,7 +406,7 @@ lines += [r"\bottomrule", r"\end{tabular}"]
 (TAB / "tab_e1.tex").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 lines = [r"\begin{tabular}{@{}lrrrrrrr@{}}", r"\toprule",
-         r" & & \multicolumn{3}{c}{Interpretation-invariant conclusion} & \multicolumn{3}{c}{Face-value checker} \\",
+         r" & & \multicolumn{3}{c}{Decision-stable conclusion} & \multicolumn{3}{c}{Face-value checker} \\",
          r"\cmidrule(lr){3-5}\cmidrule(l){6-8}",
          r"Rule family & References & Concluded & Wrong & Wrong (95\% CI) & Decided & Wrong & Wrong (95\% CI) \\",
          r"\midrule"]
@@ -429,7 +429,7 @@ lines += [r"\bottomrule", r"\end{tabular}"]
 SHORT = {"naive": "Single-source (no requests)", "complete": "Completeness-first (IDS-style)",
          "conf0.9": r"Confidence-gated, $\tau=0.90$", "conf0.95": r"Confidence-gated, $\tau=0.95$",
          "value": "Value requests first", "random": "Random request", "fixed": "Model order, cheapest first",
-         "degree": "Residual degree", "ec2": "EC$^2$ ambiguity reduction", "sv": r"\textbf{Stability VOI (proposed)}",
+         "degree": "Residual degree", "ec2": "EC$^2$ ambiguity reduction", "sv": r"\textbf{Stability-based VOI (proposed)}",
          "oracle": "Hindsight reference (clairvoyant)"}
 for sk in ("H", "D", "A", "S"):
     if sk not in E2:
@@ -558,11 +558,11 @@ ROWS = [("P1", "Stable conclusions from the delivered evidence (\\%)", "p1s"),
         ("P2", "Checks with withheld explicit values (references)", "p2r"),
         ("", "Stable conclusions from the remaining evidence: wrong of concluded (95\\% upper bound, \\%)", "p2m"),
         ("", "Face-value checker on the same evidence: wrong of decided", "p2n"),
-        ("P3", "Effort saving of stability VOI over completeness-first (\\%; draws cheaper, \\%; $p$)", "p3c"),
+        ("P3", "Effort saving of stability-based VOI over completeness-first (\\%; draws cheaper, \\%; $p$)", "p3c"),
         ("", "\\quad over residual degree", "p3d"), ("", "\\quad over EC$^2$", "p3e"), ("", "\\quad over model order", "p3f"),
         ("", "Effort above the hindsight reference (\\%)", "p3o"),
-        ("", "Wrong conclusions of stability VOI (\\%)", "p3w"),
-        ("P4", "Wrong conclusions, truth from catalogue +50\\%: stability VOI / value first / completeness-first (\\%)", "p4a"),
+        ("", "Wrong conclusions of stability-based VOI (\\%)", "p3w"),
+        ("P4", "Wrong conclusions, truth from catalogue +50\\%: stability-based VOI / value first / completeness-first (\\%)", "p4a"),
         ("", "Wrong conclusions, truth from catalogue +100\\% (same policies, \\%)", "p4b"),
         ("", "Effort premium of the catalogue widened by 50\\% / 100\\% (\\%)", "p4p")]
 lines = [r"\begin{tabularx}{\textwidth}{@{}lXrr@{}}", r"\toprule",

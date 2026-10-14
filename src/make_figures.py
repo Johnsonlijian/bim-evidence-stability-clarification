@@ -322,7 +322,7 @@ def fig_e4():
         ax.set_xlabel("share of checks with a withheld explicit value (%)")
         ax.tick_params(axis="y", length=0, labelsize=6.6)
         ax.spines["left"].set_visible(False)
-    a1.set_title("(a) Interpretation-invariant conclusion", loc="left", pad=6)
+    a1.set_title("(a) Decision-stable conclusion", loc="left", pad=6)
     a2.set_title("(b) Face-value checker", loc="left", pad=6)
     a1.legend(handles=[Patch(color=BLUE, label="agrees with withheld value"), Patch(color=ORANGE, label="contradicts it"),
                        Patch(color=NEUTRAL, label="left open")], loc="upper left", bbox_to_anchor=(-0.5, -0.22),
@@ -339,7 +339,7 @@ POLS = [("naive", "Single-source (no requests)"), ("complete", "Completeness-fir
         ("conf0.8", r"Confidence-gated, $\tau$ = 0.80"), ("conf0.9", r"Confidence-gated, $\tau$ = 0.90"),
         ("conf0.95", r"Confidence-gated, $\tau$ = 0.95"), ("value", "Value requests first"),
         ("random", "Random request"), ("fixed", "Model order, cheapest first"), ("degree", "Residual degree"),
-        ("ec2", "EC$^2$ ambiguity reduction"), ("sv", "Stability VOI (proposed)"), ("oracle", "Hindsight reference")]
+        ("ec2", "EC$^2$ ambiguity reduction"), ("sv", "Stability-based VOI (proposed)"), ("oracle", "Hindsight reference")]
 
 
 def fig_e2_pareto(sk="H"):
@@ -403,7 +403,7 @@ def fig_e2_models():
     labels = [f"{NAMES[p]} ({'H' if p in HELDM else 'D'}, {g(p, 'sv')['checks']:,.0f})" for p in order]
     fig, (a1, a2) = plt.subplots(1, 2, figsize=(W2, 3.5), sharey=True, gridspec_kw={"width_ratios": [1.35, 1.0]})
     eff = [("oracle", "Hindsight reference", INK2, "o", "white"), ("value", "Value first", YELLOW, "^", None),
-           ("degree", "Residual degree", VIOLET, "v", None), ("sv", "Stability VOI (proposed)", BLUE, "D", None)]
+           ("degree", "Residual degree", VIOLET, "v", None), ("sv", "Stability-based VOI (proposed)", BLUE, "D", None)]
     lo_r, hi_r = 1.0, 1.0
     for i, p in enumerate(order):
         base = g(p, "complete")["cost"]
@@ -423,7 +423,7 @@ def fig_e2_models():
     a1.text(1.02, -1.0, "Compl.-first\n(units)", transform=a1.get_yaxis_transform(), va="bottom", ha="left",
             fontsize=5.8, color=INK2, linespacing=1.0)
     wr = [("complete", "Completeness-first", MUTED, "s"), ("naive", "Single-source", INK2, "o"),
-          ("sv", "Stability VOI (proposed)", BLUE, "D")]
+          ("sv", "Stability-based VOI (proposed)", BLUE, "D")]
     xmax = 0.0
     for i, p in enumerate(order):
         for pol, lab, col, mk in wr:
@@ -458,7 +458,7 @@ def fig_e2_anytime(sk="H"):
     # drawing order: lower layers first; EC2 and residual degree nearly coincide, so EC2 is drawn dotted on top
     series = [("random", "Random", MAGENTA, "P"), ("value", "Value first", YELLOW, "^"),
               ("fixed", "Model order", AQUA, "s"), ("degree", "Residual degree", VIOLET, "v"),
-              ("ec2", "EC$^2$", ORANGE, "o"), ("sv", "Stability VOI (proposed)", BLUE, "D")]
+              ("ec2", "EC$^2$", ORANGE, "o"), ("sv", "Stability-based VOI (proposed)", BLUE, "D")]
     style = {"degree": dict(ls="-", lw=1.9), "ec2": dict(ls=(0, (1.2, 1.2)), lw=1.2)}
     fig, axes = plt.subplots(1, 3, figsize=(W2, 2.45), sharey=True)
     for k, (ax, lv) in enumerate(zip(axes, ("min", "std", "full"))):
@@ -492,7 +492,7 @@ def fig_e3(sk="H"):
     lam = [0.0, 0.5, 1.0]
     src = {0.0: E2, 0.5: E3.get(f"{sk}|mis050", {}), 1.0: E3.get(f"{sk}|mis100", {})}
     for pol, lab, col, mk in [("naive", "Single-source", INK2, "s"), ("conf0.9", "Confidence 0.90", ORANGE, "^"),
-                              ("sv", "Stability VOI", BLUE, "D"), ("complete", "Completeness-first", MUTED, "s"),
+                              ("sv", "Stability-based VOI", BLUE, "D"), ("complete", "Completeness-first", MUTED, "s"),
                               ("value", "Value first", YELLOW, "v")]:
         ys = [src[l].get(f"full|{pol}", {}).get("wrong_pct", np.nan) for l in lam]
         es = [src[l].get(f"full|{pol}", {}).get("wrong_pct_ci", 0) for l in lam]
@@ -503,14 +503,14 @@ def fig_e3(sk="H"):
     cs = [cons[l].get("full|sv", {}).get("cost", np.nan) for l in lam]
     extra = ", ".join(f"+{100 * (c_ / cs[0] - 1):.0f}%" for c_ in cs[1:] if not np.isnan(c_))
     ax.plot(lam, ys, color=VIOLET, ls="--", marker="D", ms=4, lw=1.3, mec="white", mew=0.5,
-            label=f"Stability VOI, widened catalogue (effort {extra})")
+            label=f"Stability-based VOI, widened catalogue (effort {extra})")
     ax.set_xticks(lam, ["declared", "+50%", "+100%"])
     ax.set_xlim(-0.12, 1.12)
     ax.set_xlabel("width of the true interpretation intervals")
     ax.set_ylabel("wrong conclusions (% of checks)")
     ax.set_title("(a) Misspecified catalogue", loc="left")
     h, l = ax.get_legend_handles_labels()
-    order = sorted(range(len(l)), key=lambda i: 0 if l[i].startswith("Stability VOI, widened") else -1)
+    order = sorted(range(len(l)), key=lambda i: 0 if l[i].startswith("Stability-based VOI, widened") else -1)
     ax.legend([h[i] for i in order], [l[i] for i in order], **{**leg, "ncol": 1})
     ax.grid(color=GRID, lw=0.5)
     ax.set_axisbelow(True)
@@ -518,7 +518,7 @@ def fig_e3(sk="H"):
     ratios = [1.5, 3.0, 6.0]
     srcs = {1.5: E3.get(f"{sk}|cost1.5", {}), 3.0: E2, 6.0: E3.get(f"{sk}|cost6", {})}
     for pol, lab, col, mk in [("complete", "Completeness-first", MUTED, "s"), ("value", "Value first", YELLOW, "^"),
-                              ("degree", "Residual degree", VIOLET, "v"), ("sv", "Stability VOI", BLUE, "D"),
+                              ("degree", "Residual degree", VIOLET, "v"), ("sv", "Stability-based VOI", BLUE, "D"),
                               ("oracle", "Hindsight reference", INK, "*")]:
         ys = [srcs[r].get(f"full|{pol}", {}).get("cost", np.nan) for r in ratios]
         ax.plot(ratios, ys, color=col, marker=mk, ms=(6 if mk == "*" else 4), lw=1.3, mec="white", mew=0.5,

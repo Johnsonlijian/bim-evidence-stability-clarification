@@ -32,7 +32,7 @@ for sub in ("dev", "heldout"):
                      "diag_s": statistics.median(times), "max_shared_assignments": max_sh, "max_hypotheses": max_h})
         print(rows[-1], flush=True)
 
-# planner time from the Experiment 3 records (stability VOI, full level)
+# planner time from the Experiment 3 records (stability-based VOI, full level)
 plan = {}
 for sub in ("dev", "heldout"):
     fp = R10 / "outputs" / sub / "e2" / "e2_main.jsonl"
